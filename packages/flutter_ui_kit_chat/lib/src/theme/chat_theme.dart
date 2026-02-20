@@ -138,7 +138,7 @@ class ChatTheme extends ThemeExtension<ChatTheme> {
         ),
         borderColor: Color(0x337B8DB7),
         textStyle: TextStyle(
-          color: Color(0xFFF4F7FF),
+          color: Color(0xFFF8FAFF),
           letterSpacing: 0.15,
           height: 1.4,
           fontSize: 15,
@@ -183,13 +183,13 @@ class ChatTheme extends ThemeExtension<ChatTheme> {
       animationDurations: ChatDurations(),
       typography: ChatTypography(
         message: TextStyle(
-          color: Color(0xFFF7F8FF),
+          color: Color(0xFFF8FAFF),
           fontSize: 15,
           letterSpacing: 0.15,
           height: 1.4,
         ),
         timestamp: TextStyle(
-          color: Color(0xB3CAD4F2),
+          color: Color(0xFFB8C4E8),
           fontSize: 11,
           letterSpacing: 0.3,
           fontFamily: 'monospace',
@@ -229,12 +229,12 @@ class ChatTheme extends ThemeExtension<ChatTheme> {
           colors: <Color>[Color(0xD9FFFFFF), Color(0xB3EEF2FF)],
         ),
         textStyle: const TextStyle(color: Color(0xFF121826)),
-        hintStyle: const TextStyle(color: Color(0x992F3B57)),
+        hintStyle: const TextStyle(color: Color(0xFF4A5568)),
       ),
       typography: ChatTheme.dark().typography.copyWith(
-        message: const TextStyle(color: Color(0xFF101522), fontSize: 15),
+        message: const TextStyle(color: Color(0xFF0D1117), fontSize: 15),
         timestamp: const TextStyle(
-          color: Color(0x9929364F),
+          color: Color(0xFF3D4A5C),
           fontSize: 11,
           fontFamily: 'monospace',
         ),

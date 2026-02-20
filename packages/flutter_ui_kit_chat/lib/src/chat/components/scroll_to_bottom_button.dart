@@ -31,7 +31,10 @@ class ScrollToBottomButton extends StatelessWidget {
             padding: EdgeInsets.zero,
             child: IconButton(
               onPressed: onPressed,
-              icon: const Icon(Icons.keyboard_arrow_down_rounded),
+              icon: Icon(
+                Icons.keyboard_arrow_down_rounded,
+                color: theme.typography.timestamp.color,
+              ),
               tooltip: 'Scroll to newest message',
             ),
           ),

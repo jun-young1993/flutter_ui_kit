@@ -87,7 +87,10 @@ class ChatBubble extends StatelessWidget {
                             ),
                             const SizedBox(width: ChatSpacing.x1),
                             statusIndicator ??
-                                MessageStatusIndicator(status: message.status),
+                                MessageStatusIndicator(
+                                  status: message.status,
+                                  color: theme.typography.timestamp.color,
+                                ),
                           ],
                         ),
                       ],

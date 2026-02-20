@@ -13,7 +13,7 @@ class ShowcaseApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        extensions: <ThemeExtension<dynamic>>[ChatTheme.light()],
+        extensions: <ThemeExtension<dynamic>>[ChatTheme.dark()],
       ),
       home: const ShowcaseHome(),
     );

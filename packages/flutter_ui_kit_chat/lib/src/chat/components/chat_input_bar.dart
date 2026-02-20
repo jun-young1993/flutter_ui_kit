@@ -38,12 +38,18 @@ class ChatInputBar extends StatelessWidget {
                   try {
                     await onSendPressed(controller.text.trim());
                     controller.clear();
+                    controller.focus();
                   } finally {
                     controller.setSending(false);
                   }
                 }
               : null,
-          icon: const Icon(Icons.send_rounded),
+          icon: Icon(
+            Icons.send_rounded,
+            color: canSend
+                ? theme.inputBarStyle.textStyle.color
+                : theme.inputBarStyle.textStyle.color?.withValues(alpha: 0.45),
+          ),
           tooltip: 'Send message',
         );
 
@@ -55,12 +61,16 @@ class ChatInputBar extends StatelessWidget {
             opacity: 0.9,
             borderRadius: theme.inputBarStyle.radius,
             backgroundGradient: theme.inputBarStyle.backgroundGradient,
-            boxShadow: motion.enableInputFocusGlow && controller.focusNode.hasFocus
-                ? const <BoxShadow>[
+            boxShadow:
+                motion.enableInputFocusGlow && controller.focusNode.hasFocus
+                ? <BoxShadow>[
                     BoxShadow(
-                      color: Color(0x4D79A4FF),
+                      color:
+                          (theme.inputBarStyle.textStyle.color ??
+                                  const Color(0xFF79A4FF))
+                              .withValues(alpha: 0.35),
                       blurRadius: 20,
-                      offset: Offset(0, 0),
+                      offset: Offset.zero,
                     ),
                   ]
                 : theme.shadowStyle,
@@ -85,12 +95,23 @@ class ChatInputBar extends StatelessWidget {
                 if (trailing case final Widget value) value,
                 motion.enableSendButtonMicroInteraction
                     ? TweenAnimationBuilder<double>(
-                        tween: Tween<double>(begin: 1, end: canSend ? 1.0 : 0.92),
+                        tween: Tween<double>(
+                          begin: 1,
+                          end: canSend ? 1.0 : 0.92,
+                        ),
                         duration: theme.animationDurations.fast,
                         curve: Curves.easeOutCubic,
-                        builder: (BuildContext context, double scale, Widget? child) {
-                          return Transform.scale(scale: scale, child: child);
-                        },
+                        builder:
+                            (
+                              BuildContext context,
+                              double scale,
+                              Widget? child,
+                            ) {
+                              return Transform.scale(
+                                scale: scale,
+                                child: child,
+                              );
+                            },
                         child: sendButton,
                       )
                     : sendButton,

@@ -65,7 +65,9 @@ class _ChatScaffoldState extends State<ChatScaffold> {
 
   void _onScroll() {
     if (!_scrollController.hasClients) return;
-    final bool shouldShow = _scrollController.position.pixels <
+
+    final bool shouldShow =
+        _scrollController.position.pixels <
         _scrollController.position.maxScrollExtent - 280;
     if (_showScrollToBottom == shouldShow) return;
     setState(() => _showScrollToBottom = shouldShow);
@@ -98,70 +100,80 @@ class _ChatScaffoldState extends State<ChatScaffold> {
 
   @override
   Widget build(BuildContext context) {
-    final ChatTheme effectiveTheme = widget.chatTheme ?? ChatTheme.resolve(context);
+    final ChatTheme effectiveTheme =
+        widget.chatTheme ?? ChatTheme.resolve(context);
     return Theme(
-      data: Theme.of(context).copyWith(
-        extensions: <ThemeExtension<dynamic>>[effectiveTheme],
-      ),
+      data: Theme.of(
+        context,
+      ).copyWith(extensions: <ThemeExtension<dynamic>>[effectiveTheme]),
       child: Builder(
         builder: (BuildContext context) {
           return Material(
             color: Colors.transparent,
             child: DecoratedBox(
-              decoration: BoxDecoration(gradient: effectiveTheme.backgroundGradient),
-              child: SafeArea(
-              bottom: true,
-              child: Column(
-                children: <Widget>[
-                  Expanded(
-                    child: Stack(
-                      fit: StackFit.expand,
-                      alignment: Alignment.bottomCenter,
-                      children: <Widget>[
-                        ChatMessageList(
-                          messages: widget.messages,
-                          scrollController: _scrollController,
-                          bubbleBuilder: widget.bubbleBuilder,
-                          avatarBuilder: widget.avatarBuilder,
-                          dateSeparatorBuilder: widget.dateSeparatorBuilder,
-                          messageStatusBuilder: widget.messageStatusBuilder,
-                          reactionOverlayBuilder: widget.reactionOverlayBuilder,
-                          typingIndicatorBuilder: widget.typingIndicatorBuilder,
-                          longPressActionSheetBuilder:
-                              widget.longPressActionSheetBuilder,
-                          onSwipeToReply: widget.onSwipeToReply,
-                          groupingRule: MessageGroupingRule(
-                            enabled: widget.groupMessages,
-                          ),
-                          performanceMode: widget.performanceMode,
-                          motion: widget.motion,
-                          showTypingIndicator: widget.showTypingIndicator,
-                          padding: widget.listPadding,
-                        ),
-                        ScrollToBottomButton(
-                          visible: _showScrollToBottom,
-                          onPressed: _scrollToBottom,
-                        ),
-                      ],
-                    ),
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.fromLTRB(
-                      ChatSpacing.x2,
-                      ChatSpacing.x1,
-                      ChatSpacing.x2,
-                      ChatSpacing.x2,
-                    ),
-                    child: ChatInputBar(
-                      controller: widget.inputController,
-                      onSendPressed: widget.onSendPressed,
-                      motion: widget.motion,
-                      placeholder: widget.inputPlaceholder,
-                    ),
-                  ),
-                ],
+              decoration: BoxDecoration(
+                gradient: effectiveTheme.backgroundGradient,
               ),
-            ),
+              child: SafeArea(
+                bottom: true,
+                child: Column(
+                  children: <Widget>[
+                    Expanded(
+                      child: Stack(
+                        fit: StackFit.expand,
+                        alignment: Alignment.bottomCenter,
+                        children: <Widget>[
+                          ChatMessageList(
+                            messages: widget.messages,
+                            scrollController: _scrollController,
+                            bubbleBuilder: widget.bubbleBuilder,
+                            avatarBuilder: widget.avatarBuilder,
+                            dateSeparatorBuilder: widget.dateSeparatorBuilder,
+                            messageStatusBuilder: widget.messageStatusBuilder,
+                            reactionOverlayBuilder:
+                                widget.reactionOverlayBuilder,
+                            typingIndicatorBuilder:
+                                widget.typingIndicatorBuilder,
+                            longPressActionSheetBuilder:
+                                widget.longPressActionSheetBuilder,
+                            onSwipeToReply: widget.onSwipeToReply,
+                            groupingRule: MessageGroupingRule(
+                              enabled: widget.groupMessages,
+                            ),
+                            performanceMode: widget.performanceMode,
+                            motion: widget.motion,
+                            showTypingIndicator: widget.showTypingIndicator,
+                            padding: widget.listPadding,
+                          ),
+                          ScrollToBottomButton(
+                            visible: _showScrollToBottom,
+                            onPressed: _scrollToBottom,
+                          ),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.fromLTRB(
+                        ChatSpacing.x2,
+                        ChatSpacing.x1,
+                        ChatSpacing.x2,
+                        ChatSpacing.x2,
+                      ),
+                      child: ChatInputBar(
+                        controller: widget.inputController,
+                        onSendPressed: (String text) async {
+                          await widget.onSendPressed(
+                            widget.inputController.text,
+                          );
+                          _scrollToBottom();
+                        },
+                        motion: widget.motion,
+                        placeholder: widget.inputPlaceholder,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
             ),
           );
         },
