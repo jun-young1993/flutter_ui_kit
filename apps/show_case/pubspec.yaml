@@ -1,0 +1,21 @@
+name: show_case
+description: Showcase app for flutter_ui_kit_chat package.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_ui_kit_chat:
+    path: ../../packages/flutter_ui_kit_chat
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
