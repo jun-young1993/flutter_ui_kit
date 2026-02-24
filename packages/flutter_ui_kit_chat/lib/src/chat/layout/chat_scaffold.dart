@@ -33,6 +33,7 @@ class ChatScaffold extends StatefulWidget {
     this.showTypingIndicator = false,
     this.listPadding = const EdgeInsets.all(ChatSpacing.x2),
     this.inputPlaceholder = 'Type a message',
+    this.autoScrollToBottom = true,
   });
 
   final List<ChatMessage> messages;
@@ -53,6 +54,7 @@ class ChatScaffold extends StatefulWidget {
   final bool showTypingIndicator;
   final EdgeInsets listPadding;
   final String inputPlaceholder;
+  final bool autoScrollToBottom;
 
   @override
   State<ChatScaffold> createState() => _ChatScaffoldState();
@@ -62,6 +64,13 @@ class _ChatScaffoldState extends State<ChatScaffold> {
   late final ScrollController _scrollController = ScrollController()
     ..addListener(_onScroll);
   bool _showScrollToBottom = false;
+  int _lastMessageCount = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    _lastMessageCount = widget.messages.length;
+  }
 
   void _onScroll() {
     if (!_scrollController.hasClients) return;
@@ -85,8 +94,15 @@ class _ChatScaffoldState extends State<ChatScaffold> {
   @override
   void didUpdateWidget(covariant ChatScaffold oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.messages.length != widget.messages.length) {
-      WidgetsBinding.instance.addPostFrameCallback((_) => _scrollToBottom());
+    final int currentCount = widget.messages.length;
+    if (_lastMessageCount != currentCount) {
+      _lastMessageCount = currentCount;
+      if (widget.autoScrollToBottom) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (!mounted) return;
+          _scrollToBottom();
+        });
+      }
     }
   }
 
@@ -161,12 +177,7 @@ class _ChatScaffoldState extends State<ChatScaffold> {
                       ),
                       child: ChatInputBar(
                         controller: widget.inputController,
-                        onSendPressed: (String text) async {
-                          await widget.onSendPressed(
-                            widget.inputController.text,
-                          );
-                          _scrollToBottom();
-                        },
+                        onSendPressed: widget.onSendPressed,
                         motion: widget.motion,
                         placeholder: widget.inputPlaceholder,
                       ),

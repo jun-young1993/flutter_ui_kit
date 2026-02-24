@@ -18,24 +18,28 @@ class ScrollToBottomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final ChatTheme theme = ChatTheme.resolve(context);
-    return IgnorePointer(
-      ignoring: !visible,
-      child: AnimatedOpacity(
-        duration: theme.animationDurations.fast,
-        opacity: visible ? 1 : 0,
-        child: Padding(
-          padding: const EdgeInsets.only(bottom: ChatSpacing.x3),
-          child: GlassContainer(
-            blurSigma: theme.blurSigma * 0.8,
-            borderRadius: const BorderRadius.all(Radius.circular(ChatRadius.md)),
-            padding: EdgeInsets.zero,
-            child: IconButton(
-              onPressed: onPressed,
-              icon: Icon(
-                Icons.keyboard_arrow_down_rounded,
-                color: theme.typography.timestamp.color,
+    return Align(
+      alignment: Alignment.bottomCenter,
+      child: IgnorePointer(
+        ignoring: !visible,
+        child: AnimatedOpacity(
+          duration: theme.animationDurations.fast,
+          opacity: visible ? 1 : 0,
+          child: Padding(
+            padding: const EdgeInsets.only(bottom: ChatSpacing.x3),
+            child: GlassContainer(
+              blurSigma: theme.blurSigma * 0.8,
+              borderRadius:
+                  const BorderRadius.all(Radius.circular(ChatRadius.md)),
+              padding: EdgeInsets.zero,
+              child: IconButton(
+                onPressed: onPressed,
+                icon: Icon(
+                  Icons.keyboard_arrow_down_rounded,
+                  color: theme.typography.timestamp.color,
+                ),
+                tooltip: 'Scroll to newest message',
               ),
-              tooltip: 'Scroll to newest message',
             ),
           ),
         ),
