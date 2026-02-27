@@ -1,6 +1,2 @@
 name: flutter_ui_kit
 
-workspace:
-  packages:
-    - packages/**
-    - apps/**
