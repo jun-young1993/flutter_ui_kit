@@ -39,6 +39,10 @@ cd packages/flutter_ui_kit_chat && dart pub publish --dry-run
 
 `packages/` 하위에 패키지를 추가할 때 기존 패키지(`flutter_ui_kit_chat`)의 구조를 기준으로 따른다.
 
+```shell
+flutter create --template=package .
+```
+
 - `pubspec.yaml`에 `resolution: workspace` 설정 (workspace 연동)
 - 공개 API는 `lib/<package_name>.dart` barrel 하나로만 노출
 - `lib/src/` 내부는 외부 임포트 금지 원칙 유지
