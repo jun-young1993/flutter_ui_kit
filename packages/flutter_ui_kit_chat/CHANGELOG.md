@@ -1,3 +1,7 @@
+## 0.1.1
+
+ - **FEAT**: initial release of ad package.
+
 ## 0.1.0
 
 - Initial premium release of `flutter_ui_kit_chat`.
