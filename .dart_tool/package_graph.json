@@ -15,7 +15,7 @@
     },
     {
       "name": "flutter_ui_kit_google_mobile_ads",
-      "version": "0.0.3",
+      "version": "0.0.4",
       "dependencies": [
         "flutter",
         "google_mobile_ads"
