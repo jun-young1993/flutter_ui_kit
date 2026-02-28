@@ -1,3 +1,7 @@
+## 0.1.9
+
+ - **FEAT**: 광고 초기화 버그 수정.
+
 ## 0.1.7
 
  - **FEAT**: prepare for versioning.

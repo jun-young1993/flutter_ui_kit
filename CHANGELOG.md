@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_google_mobile_ads` - `v0.1.9`](#flutter_ui_kit_google_mobile_ads---v019)
+
+---
+
+#### `flutter_ui_kit_google_mobile_ads` - `v0.1.9`
+
+ - **FEAT**: 광고 초기화 버그 수정.
+
+
+## 2026-02-28
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_google_mobile_ads` - `v0.1.7`](#flutter_ui_kit_google_mobile_ads---v017)
 
 ---
