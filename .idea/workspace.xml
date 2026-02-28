@@ -4,6 +4,7 @@
     <list default="true" id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/src/utils/global_ad_config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/src/utils/global_ad_config.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

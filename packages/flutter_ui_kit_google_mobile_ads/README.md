@@ -77,3 +77,22 @@ WidgetsBinding.instance.addObserver(this);
 - 디버그 모드에서는 configure에 설정한 ID와 관계없이 Google 공식 테스트 ID가 자동으로 사용됩니다.
 - 광고는 로드 후 4시간이 지나면 만료 처리되어 자동으로 재로드됩니다.
 - 광고가 이미 표시 중이면 중복 노출되지 않습니다.
+
+
+
+## Global Ad Config
+
+```dart
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  GlobalAdConfig().initialize();
+
+  // 광고 끄기 (예: 프리미엄 결제 완료 시)
+  GlobalAdConfig().setAdVisibility(false);
+
+// 광고 다시 켜기
+   GlobalAdConfig().setAdVisibility(true);
+}
+```
+

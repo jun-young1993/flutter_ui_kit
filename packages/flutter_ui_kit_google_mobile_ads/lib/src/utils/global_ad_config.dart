@@ -15,7 +15,7 @@ class GlobalAdConfig {
     isShowAds.value = visible;
   }
 
-  void initialize() async {
-    await MobileAds.instance.initialize();
+  Future<InitializationStatus> initialize() async {
+    return await MobileAds.instance.initialize();
   }
 }
