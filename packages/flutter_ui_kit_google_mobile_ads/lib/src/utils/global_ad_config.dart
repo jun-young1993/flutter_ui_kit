@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 class GlobalAdConfig {
   // 싱글톤 패턴 적용
@@ -12,5 +13,9 @@ class GlobalAdConfig {
   // 전역적으로 광고 끄기/켜기 함수
   void setAdVisibility(bool visible) {
     isShowAds.value = visible;
+  }
+
+  void initialize() async {
+    await MobileAds.instance.initialize();
   }
 }

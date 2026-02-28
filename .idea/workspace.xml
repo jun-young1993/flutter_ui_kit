@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/src/ads/app_open_ad_manager.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/workspace_ref.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/pub/workspace_ref.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/melos_flutter_ui_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/melos_flutter_ui_kit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/.dart_tool/pub/workspace_ref.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/.dart_tool/pub/workspace_ref.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/flutter_ui_kit_google_mobile_ads.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/flutter_ui_kit_google_mobile_ads.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/src/utils/global_ad_config.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/lib/src/utils/global_ad_config.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jun-young1993"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jun-young1993/flutter_ui_kit.git",
+    "accountId": "9b5b718f-b0c8-42bd-bc13-51730b9fff3d"
+  }
+}]]></component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/README.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3AFw1ivkb1P02MJIGt1zO2srlNT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/junyoungkim/Desktop/junyoung/app/source/flutter_ui_kit",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Shell Script.Melos -&gt; Bootstrap Workspace" />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.31033.133" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="" />
+      <created>1772201413144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772201413144</updated>
+      <workItem from="1772201414192" duration="2674000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
