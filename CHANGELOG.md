@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-01
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_google_mobile_ads` - `v0.1.11`](#flutter_ui_kit_google_mobile_ads---v0111)
+
+---
+
+#### `flutter_ui_kit_google_mobile_ads` - `v0.1.11`
+
+ - **FEAT**: 이것만으로 콜드 스타트 광고 로드 + 포그라운드 복귀 시 자동 광고 표시가.
+
+
 ## 2026-02-28
 
 ### Changes
