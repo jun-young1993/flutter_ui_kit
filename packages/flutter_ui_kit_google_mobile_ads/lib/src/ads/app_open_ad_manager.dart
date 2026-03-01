@@ -1,26 +1,28 @@
 import 'dart:io';
 
 import 'package:flutter/foundation.dart';
+import 'package:flutter/widgets.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 /// App Open 광고 싱글턴 매니저.
 ///
-/// - 앱 콜드 스타트 및 포그라운드 복귀 시 광고를 표시한다.
+/// - [configure] 호출 시 광고 ID 설정 + 라이프사이클 감지가 자동으로 시작된다.
+/// - 앱 포그라운드 복귀 시 자동으로 광고를 표시한다.
 /// - 광고는 로드 후 4시간이 지나면 만료 처리되어 재로드된다.
 /// - 이미 광고가 표시 중이면 중복 노출하지 않는다.
-/// - [configure]를 호출하여 플랫폼별 광고 ID를 설정한다.
-class AppOpenAdManager {
+class AppOpenAdManager with WidgetsBindingObserver {
   AppOpenAdManager._();
   static final AppOpenAdManager instance = AppOpenAdManager._();
 
   AppOpenAd? _ad;
   bool _isShowingAd = false;
   DateTime? _loadTime;
+  bool _isConfigured = false;
 
   String? _androidAdUnitId;
   String? _iosAdUnitId;
 
-  /// 플랫폼별 광고 ID를 설정한다.
+  /// 플랫폼별 광고 ID를 설정하고 라이프사이클 감지를 시작한다.
   /// 앱 시작 시 한 번 호출해야 한다.
   void configure({
     required String androidId,
@@ -28,6 +30,18 @@ class AppOpenAdManager {
   }) {
     _androidAdUnitId = androidId;
     _iosAdUnitId = iosId;
+
+    if (!_isConfigured) {
+      _isConfigured = true;
+      WidgetsBinding.instance.addObserver(this);
+    }
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      showAdIfAvailable();
+    }
   }
 
   String get _adUnitId {
@@ -61,8 +75,9 @@ class AppOpenAdManager {
           _ad = ad;
           _loadTime = DateTime.now();
         },
-        onAdFailedToLoad: (_) {
+        onAdFailedToLoad: (e) {
           // 실패는 조용히 처리 — 다음 포그라운드 시 재시도
+          debugPrint('[flutter_ui_kit][app_open_ad_manager][FailedToLoad] $e');
         },
       ),
     );

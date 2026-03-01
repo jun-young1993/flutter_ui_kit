@@ -33,3 +33,8 @@ dependencies:
       ref: flutter_ui_kit_google_mobile_ads-v0.0.1 
       path: packages/flutter_ui_kit_google_mobile_ads
 ```
+
+
+```shell
+flutter pub upgrade flutter_ui_kit_google_mobile_ads
+```
