@@ -82,6 +82,7 @@ WidgetsBinding.instance.addObserver(this);
 
 ## Global Ad Config
 
+
 ```dart
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
