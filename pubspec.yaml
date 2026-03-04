@@ -7,3 +7,5 @@ dev_dependencies:
 workspace:
   - packages/flutter_ui_kit_google_mobile_ads
   - packages/flutter_ui_kit_chat
+  - packages/flutter_ui_kit_theme
+  # - apps/show_case_theme

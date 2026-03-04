@@ -2,7 +2,8 @@
   "roots": [
     "flutter_ui_kit",
     "flutter_ui_kit_chat",
-    "flutter_ui_kit_google_mobile_ads"
+    "flutter_ui_kit_google_mobile_ads",
+    "flutter_ui_kit_theme"
   ],
   "packages": [
     {
@@ -15,7 +16,7 @@
     },
     {
       "name": "flutter_ui_kit_google_mobile_ads",
-      "version": "0.0.4",
+      "version": "0.1.11",
       "dependencies": [
         "flutter",
         "google_mobile_ads"
@@ -28,6 +29,17 @@
     {
       "name": "flutter_ui_kit_chat",
       "version": "0.1.1",
+      "dependencies": [
+        "flutter"
+      ],
+      "devDependencies": [
+        "flutter_lints",
+        "flutter_test"
+      ]
+    },
+    {
+      "name": "flutter_ui_kit_theme",
+      "version": "0.1.0",
       "dependencies": [
         "flutter"
       ],
@@ -343,7 +355,7 @@
     },
     {
       "name": "matcher",
-      "version": "0.12.18",
+      "version": "0.12.17",
       "dependencies": [
         "async",
         "meta",
@@ -354,7 +366,7 @@
     },
     {
       "name": "test_api",
-      "version": "0.7.9",
+      "version": "0.7.7",
       "dependencies": [
         "async",
         "boolean_selector",
@@ -374,14 +386,14 @@
     },
     {
       "name": "material_color_utilities",
-      "version": "0.13.0",
+      "version": "0.11.1",
       "dependencies": [
         "collection"
       ]
     },
     {
       "name": "characters",
-      "version": "1.4.1",
+      "version": "1.4.0",
       "dependencies": []
     },
     {
