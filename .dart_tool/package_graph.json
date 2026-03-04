@@ -3,7 +3,8 @@
     "flutter_ui_kit",
     "flutter_ui_kit_chat",
     "flutter_ui_kit_google_mobile_ads",
-    "flutter_ui_kit_theme"
+    "flutter_ui_kit_theme",
+    "show_case_theme"
   ],
   "packages": [
     {
@@ -42,6 +43,19 @@
       "version": "0.1.0",
       "dependencies": [
         "flutter"
+      ],
+      "devDependencies": [
+        "flutter_lints",
+        "flutter_test"
+      ]
+    },
+    {
+      "name": "show_case_theme",
+      "version": "1.0.0+1",
+      "dependencies": [
+        "cupertino_icons",
+        "flutter",
+        "flutter_ui_kit_theme"
       ],
       "devDependencies": [
         "flutter_lints",
@@ -102,6 +116,11 @@
         "test_api",
         "vector_math"
       ]
+    },
+    {
+      "name": "cupertino_icons",
+      "version": "1.0.8",
+      "dependencies": []
     },
     {
       "name": "flutter",

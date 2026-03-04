@@ -94,6 +94,8 @@ class _ShowcasePage extends StatelessWidget {
           DsThemeToggle(
             themeMode: themeMode,
             onChanged: onThemeModeChanged,
+            sizedBoxDimension: 40,
+            iconSize: 18
           ),
           const SizedBox(width: AppSpacing.x2),
         ],

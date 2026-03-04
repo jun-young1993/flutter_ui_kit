@@ -62,6 +62,8 @@ class DsThemeToggle extends StatelessWidget {
     super.key,
     required this.themeMode,
     required this.onChanged,
+    this.sizedBoxDimension = 48,
+    this.iconSize = 22,
   });
 
   /// The currently active theme mode.
@@ -69,6 +71,12 @@ class DsThemeToggle extends StatelessWidget {
 
   /// Called with the next [ThemeMode] when the user taps the button.
   final ValueChanged<ThemeMode> onChanged;
+
+  /// The size of the square tap target. Defaults to 48.
+  final double sizedBoxDimension;
+
+  /// The size of the icon. Defaults to 22.
+  final double iconSize;
 
   // ─── Cycle order ──────────────────────────────────────────────────────────
 
@@ -89,15 +97,15 @@ class DsThemeToggle extends StatelessWidget {
   // ─── Accessibility labels ─────────────────────────────────────────────────
 
   String get _currentLabel => switch (themeMode) {
-        ThemeMode.light  => '라이트 모드',
-        ThemeMode.dark   => '다크 모드',
-        ThemeMode.system => '시스템 기본값',
+        ThemeMode.light  => 'light',
+        ThemeMode.dark   => 'dark',
+        ThemeMode.system => 'system',
       };
 
   String get _nextLabel => switch (_next) {
-        ThemeMode.light  => '라이트 모드',
-        ThemeMode.dark   => '다크 모드',
-        ThemeMode.system => '시스템 기본값',
+        ThemeMode.light  => 'light',
+        ThemeMode.dark   => 'dark',
+        ThemeMode.system => 'system',
       };
 
   // ─── Build ────────────────────────────────────────────────────────────────
@@ -108,7 +116,7 @@ class DsThemeToggle extends StatelessWidget {
 
     return Semantics(
       button: true,
-      label: '$_currentLabel 활성화됨. 탭하면 $_nextLabel(으)로 전환.',
+      label: '$_currentLabel is active. Tap to switch to $_nextLabel.',
       excludeSemantics: true,
       child: Tooltip(
         message: _currentLabel,
@@ -120,7 +128,7 @@ class DsThemeToggle extends StatelessWidget {
             onTap: () => onChanged(_next),
             customBorder: const StadiumBorder(),
             child: SizedBox.square(
-              dimension: 48,
+              dimension: sizedBoxDimension,
               child: AnimatedSwitcher(
                 duration: AppMotion.standard,
                 switchInCurve: AppMotion.emphasizedDecel,
@@ -132,7 +140,7 @@ class DsThemeToggle extends StatelessWidget {
                   // a distinct child, triggering the transition animation.
                   key: ValueKey(themeMode),
                   color: cs.primary,
-                  size: 22,
+                  size: iconSize,
                 ),
               ),
             ),
