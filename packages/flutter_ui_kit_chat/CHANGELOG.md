@@ -1,3 +1,7 @@
+## 0.1.2
+
+ - **FEAT**: add flutter_ui_theme initialize.
+
 ## 0.1.1
 
  - **FEAT**: initial release of ad package.

@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_chat` - `v0.1.2`](#flutter_ui_kit_chat---v012)
+ - [`flutter_ui_kit_google_mobile_ads` - `v0.1.12`](#flutter_ui_kit_google_mobile_ads---v0112)
+ - [`flutter_ui_kit_theme` - `v0.1.1`](#flutter_ui_kit_theme---v011)
+ - [`show_case_theme` - `v1.1.0`](#show_case_theme---v110)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.2`
+
+ - **FEAT**: add flutter_ui_theme initialize.
+
+#### `flutter_ui_kit_google_mobile_ads` - `v0.1.12`
+
+ - **FEAT**: 이것만으로 콜드 스타트 광고 로드 + 포그라운드 복귀 시 자동 광고 표시가.
+
+#### `flutter_ui_kit_theme` - `v0.1.1`
+
+ - **FEAT**: 테마 토글 버튼 사이즈 커스텀 기능 추가.
+ - **FEAT**: add flutter_ui_theme initialize.
+
+#### `show_case_theme` - `v1.1.0`
+
+ - **FEAT**: 테마 토글 버튼 사이즈 커스텀 기능 추가.
+ - **FEAT**: add flutter_ui_theme initialize.
+
+
 ## 2026-03-01
 
 ### Changes
