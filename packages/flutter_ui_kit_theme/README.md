@@ -59,3 +59,24 @@ DsCard(
   ]),
 )
 ```
+
+
+```dart
+// 기존 _Brand enum 코드를 이렇게 교체
+DsBrand _brand = DsBrand.violet;
+
+MaterialApp(
+  theme:     _brand.lightTheme(),
+  darkTheme: _brand.darkTheme(),
+  themeMode: _mode,
+  home: Scaffold(
+    appBar: AppBar(
+      actions: [
+        DsBrandToggle(
+          brand: _brand,
+          onChanged: (b) => setState(() => _brand = b),
+        ),
+      ],
+    ),
+  ),
+```
