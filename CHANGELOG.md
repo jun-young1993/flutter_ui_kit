@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_theme` - `v0.1.3`](#flutter_ui_kit_theme---v013)
+
+---
+
+#### `flutter_ui_kit_theme` - `v0.1.3`
+
+ - **FEAT**: DsBrand enum — _Brand을 대체하는 공개 enum:.
+
+
+## 2026-03-04
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.2`](#flutter_ui_kit_chat---v012)
  - [`flutter_ui_kit_google_mobile_ads` - `v0.1.12`](#flutter_ui_kit_google_mobile_ads---v0112)
  - [`flutter_ui_kit_theme` - `v0.1.1`](#flutter_ui_kit_theme---v011)
