@@ -32,6 +32,7 @@ export 'brand/brand_a_theme.dart';
 export 'brand/brand_b_theme.dart';
 
 // ── Widgets ──────────────────────────────────────────────────────────────────
+export 'widgets/ds_brand_toggle.dart';
 export 'widgets/ds_button.dart';
 export 'widgets/ds_card.dart';
 export 'widgets/ds_surface.dart';
