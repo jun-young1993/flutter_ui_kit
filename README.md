@@ -40,3 +40,7 @@ dependencies:
 ```shell
 flutter pub upgrade flutter_ui_kit_google_mobile_ads
 ```
+
+```shell
+flutter pub upgrade flutter_ui_kit_theme
+```
