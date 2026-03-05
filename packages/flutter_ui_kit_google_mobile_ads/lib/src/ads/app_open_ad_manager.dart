@@ -4,6 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
+import '../utils/global_ad_config.dart';
+
 /// App Open 광고 싱글턴 매니저.
 ///
 /// - [configure] 호출 시 광고 ID 설정 + 라이프사이클 감지가 자동으로 시작된다.
@@ -87,6 +89,7 @@ class AppOpenAdManager with WidgetsBindingObserver {
   /// 광고가 없거나 만료됐으면 새로 로드하고 이번 기회는 넘어간다.
   void showAdIfAvailable() {
     if (_isShowingAd) return;
+    if (!GlobalAdConfig().isShowAds.value) return;
 
     if (!_isAdAvailable) {
       loadAd();
