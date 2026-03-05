@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_setting` - `v0.1.5`](#flutter_ui_kit_setting---v015)
+
+---
+
+#### `flutter_ui_kit_setting` - `v0.1.5`
+
+ - **FEAT**: hosted변경.
+
+
+## 2026-03-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_setting` - `v0.1.4`](#flutter_ui_kit_setting---v014)
 
 ---
