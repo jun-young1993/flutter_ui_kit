@@ -15,6 +15,32 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.4`](#flutter_ui_kit_chat---v014)
+ - [`flutter_ui_kit_setting` - `v0.1.2`](#flutter_ui_kit_setting---v012)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.4`
+
+ - **FEAT**: 세팅 라이브러리에 브랜드 테마 추가.
+
+#### `flutter_ui_kit_setting` - `v0.1.2`
+
+ - **FEAT**: 세팅 라이브러리에 브랜드 테마 추가.
+
+
+## 2026-03-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.3`](#flutter_ui_kit_chat---v013)
  - [`flutter_ui_kit_setting` - `v0.1.1`](#flutter_ui_kit_setting---v011)
 
