@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_google_mobile_ads` - `v0.1.14`](#flutter_ui_kit_google_mobile_ads---v0114)
+
+---
+
+#### `flutter_ui_kit_google_mobile_ads` - `v0.1.14`
+
+ - **FEAT**: 광고 표시 여부 글로벌 세팅 오프닝 광고에도 적용되도록 수정.
+
+
 ## 2026-03-04
 
 ### Changes
