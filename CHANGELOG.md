@@ -15,6 +15,32 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.3`](#flutter_ui_kit_chat---v013)
+ - [`flutter_ui_kit_setting` - `v0.1.1`](#flutter_ui_kit_setting---v011)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.3`
+
+ - **FEAT**: setting initialize.
+
+#### `flutter_ui_kit_setting` - `v0.1.1`
+
+ - **FEAT**: setting initialize.
+
+
+## 2026-03-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_google_mobile_ads` - `v0.1.14`](#flutter_ui_kit_google_mobile_ads---v0114)
 
 ---

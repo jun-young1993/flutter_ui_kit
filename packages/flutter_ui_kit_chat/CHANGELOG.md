@@ -1,3 +1,7 @@
+## 0.1.3
+
+ - **FEAT**: setting initialize.
+
 ## 0.1.2
 
  - **FEAT**: add flutter_ui_theme initialize.
