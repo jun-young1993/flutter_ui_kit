@@ -2,6 +2,14 @@
 flutter_ui_kit
 
 
+# 패키지 생성 
+
+- packages/flutter_ui_kit_{패키지명} 폴더를 만들고 그 폴더 아래에서 명령어 실행
+
+```
+flutter create --template=package .
+```
+
 # 패키지 업로드 방법
 
 - bootstrap
