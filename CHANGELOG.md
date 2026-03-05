@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_setting` - `v0.1.4`](#flutter_ui_kit_setting---v014)
+
+---
+
+#### `flutter_ui_kit_setting` - `v0.1.4`
+
+ - **FEAT**: 의존성 제거.
+
+
+## 2026-03-05
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.4`](#flutter_ui_kit_chat---v014)
  - [`flutter_ui_kit_setting` - `v0.1.2`](#flutter_ui_kit_setting---v012)
 
