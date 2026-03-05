@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1772201413144</updated>
       <workItem from="1772201414192" duration="2996000" />
-      <workItem from="1772716020480" duration="2289000" />
+      <workItem from="1772716020480" duration="3036000" />
     </task>
     <servers />
   </component>

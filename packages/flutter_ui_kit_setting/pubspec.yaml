@@ -14,7 +14,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_theme: ">=0.1.0"
+  flutter_ui_kit_setting:
+    git:
+      url: https://github.com/jun-young1993/flutter_ui_kit.git
+      path: packages/flutter_ui_kit_setting
   package_info_plus: ^8.0.0
   url_launcher: ^6.3.0
 
