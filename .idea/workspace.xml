@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/pub/workspace_ref.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/pub/workspace_ref.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/version" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/show_case_setting/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/show_case_setting/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/show_case_setting/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/show_case_setting/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/show_case_setting/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/apps/show_case_setting/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/show_case_setting/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/show_case_setting/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/show_case_setting/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/apps/show_case_setting/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/show_case_setting/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/apps/show_case_setting/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/melos_flutter_ui_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/melos_flutter_ui_kit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/.dart_tool/pub/workspace_ref.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/.dart_tool/pub/workspace_ref.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_graph.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/.dart_tool/package_graph.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/example/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/lib/flutter_ui_kit_setting.dart" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/lib/flutter_ui_kit_setting.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1772201413144</updated>
       <workItem from="1772201414192" duration="2996000" />
+      <workItem from="1772716020480" duration="899000" />
     </task>
     <servers />
   </component>

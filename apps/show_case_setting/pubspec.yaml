@@ -29,6 +29,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_ui_kit_setting:
     path: ../../packages/flutter_ui_kit_setting
+  flutter_ui_kit_theme:
+    path: ../../packages/flutter_ui_kit_theme
 
 dev_dependencies:
   flutter_test:

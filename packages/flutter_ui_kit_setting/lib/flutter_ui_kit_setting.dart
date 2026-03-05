@@ -17,6 +17,7 @@ export 'src/tiles/custom_widget_tile.dart';
 export 'src/tiles/navigation_tile.dart';
 export 'src/tiles/setting_app_version_tile.dart';
 export 'src/tiles/setting_developer_email_tile.dart';
+export 'src/tiles/setting_brand_toggle_tile.dart';
 export 'src/tiles/setting_theme_toggle_tile.dart';
 export 'src/tiles/setting_tile.dart';
 export 'src/tiles/switch_tile.dart';

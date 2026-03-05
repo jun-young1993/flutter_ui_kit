@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_kit_setting/flutter_ui_kit_setting.dart';
+import 'package:flutter_ui_kit_theme/flutter_ui_kit_theme.dart';
 
 void main() {
   runApp(const ShowCaseApp());
@@ -14,27 +15,21 @@ class ShowCaseApp extends StatefulWidget {
 
 class _ShowCaseAppState extends State<ShowCaseApp> {
   ThemeMode _themeMode = ThemeMode.system;
+  DsBrand _brand = DsBrand.violet;
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'flutter_ui_kit_setting',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
-        useMaterial3: true,
-      ),
-      darkTheme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.indigo,
-          brightness: Brightness.dark,
-        ),
-        useMaterial3: true,
-      ),
+      theme: _brand.lightTheme(),
+      darkTheme: _brand.darkTheme(),
       themeMode: _themeMode,
       home: HomePage(
         themeMode: _themeMode,
         onThemeModeChanged: (mode) => setState(() => _themeMode = mode),
+        brand: _brand,
+        onBrandChanged: (b) => setState(() => _brand = b),
       ),
     );
   }
@@ -45,10 +40,14 @@ class HomePage extends StatelessWidget {
     super.key,
     required this.themeMode,
     required this.onThemeModeChanged,
+    required this.brand,
+    required this.onBrandChanged,
   });
 
   final ThemeMode themeMode;
   final ValueChanged<ThemeMode> onThemeModeChanged;
+  final DsBrand brand;
+  final ValueChanged<DsBrand> onBrandChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -108,6 +107,8 @@ class HomePage extends StatelessWidget {
         builder: (_) => _SampleSettingScreen(
           themeMode: themeMode,
           onThemeModeChanged: onThemeModeChanged,
+          brand: brand,
+          onBrandChanged: onBrandChanged,
         ),
       ),
     );
@@ -118,10 +119,14 @@ class _SampleSettingScreen extends StatefulWidget {
   const _SampleSettingScreen({
     required this.themeMode,
     required this.onThemeModeChanged,
+    required this.brand,
+    required this.onBrandChanged,
   });
 
   final ThemeMode themeMode;
   final ValueChanged<ThemeMode> onThemeModeChanged;
+  final DsBrand brand;
+  final ValueChanged<DsBrand> onBrandChanged;
 
   @override
   State<_SampleSettingScreen> createState() => _SampleSettingScreenState();
@@ -131,11 +136,13 @@ class _SampleSettingScreenState extends State<_SampleSettingScreen> {
   bool _notifications = true;
   bool _analytics = false;
   late ThemeMode _themeMode;
+  late DsBrand _brand;
 
   @override
   void initState() {
     super.initState();
     _themeMode = widget.themeMode;
+    _brand = widget.brand;
   }
 
   @override
@@ -196,6 +203,14 @@ class _SampleSettingScreenState extends State<_SampleSettingScreen> {
               onChanged: (mode) {
                 setState(() => _themeMode = mode);
                 widget.onThemeModeChanged(mode);
+              },
+            ),
+            SettingBrandToggleTile(
+              label: 'Brand',
+              brand: _brand,
+              onChanged: (b) {
+                setState(() => _brand = b);
+                widget.onBrandChanged(b);
               },
             ),
           ],
