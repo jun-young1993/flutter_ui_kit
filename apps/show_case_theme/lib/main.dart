@@ -1,59 +1,36 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_kit_theme/flutter_ui_kit_theme.dart';
 
-void main() => runApp(const ShowcaseApp());
-
-// ═══════════════════════════════════════════════════════════════════════════════
-// App root — holds ThemeMode + Brand state
-// ═══════════════════════════════════════════════════════════════════════════════
-
-class ShowcaseApp extends StatefulWidget {
-  const ShowcaseApp({super.key});
-
-  @override
-  State<ShowcaseApp> createState() => _ShowcaseAppState();
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final controller = DsThemeController();
+  await controller.init();
+  runApp(ShowcaseApp(controller: controller));
 }
 
-class _ShowcaseAppState extends State<ShowcaseApp> {
-  ThemeMode _mode = ThemeMode.system;
-  _Brand _brand = _Brand.a;
+// ═══════════════════════════════════════════════════════════════════════════════
+// App root — DsThemeController owns ThemeMode + Brand state with persistence
+// ═══════════════════════════════════════════════════════════════════════════════
+
+class ShowcaseApp extends StatelessWidget {
+  const ShowcaseApp({super.key, required this.controller});
+
+  final DsThemeController controller;
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Design System Showcase',
-      debugShowCheckedModeBanner: false,
-      theme: _brand.lightTheme,
-      darkTheme: _brand.darkTheme,
-      themeMode: _mode,
-      home: _ShowcasePage(
-        themeMode: _mode,
-        brand: _brand,
-        onThemeModeChanged: (m) => setState(() => _mode = m),
-        onBrandChanged: (b) => setState(() => _brand = b),
+    return DsThemeBuilder(
+      controller: controller,
+      builder: (light, dark, mode) => MaterialApp(
+        title: 'Design System Showcase',
+        debugShowCheckedModeBanner: false,
+        theme: light,
+        darkTheme: dark,
+        themeMode: mode,
+        home: _ShowcasePage(controller: controller),
       ),
     );
   }
-}
-
-// ─── Brand ────────────────────────────────────────────────────────────────────
-
-enum _Brand {
-  a('Brand A'),
-  b('Brand B');
-
-  const _Brand(this.label);
-  final String label;
-
-  ThemeData get lightTheme => switch (this) {
-        _Brand.a => BrandATheme.light(),
-        _Brand.b => BrandBTheme.light(),
-      };
-
-  ThemeData get darkTheme => switch (this) {
-        _Brand.a => BrandATheme.dark(),
-        _Brand.b => BrandBTheme.dark(),
-      };
 }
 
 // ═══════════════════════════════════════════════════════════════════════════════
@@ -61,17 +38,9 @@ enum _Brand {
 // ═══════════════════════════════════════════════════════════════════════════════
 
 class _ShowcasePage extends StatelessWidget {
-  const _ShowcasePage({
-    required this.themeMode,
-    required this.brand,
-    required this.onThemeModeChanged,
-    required this.onBrandChanged,
-  });
+  const _ShowcasePage({required this.controller});
 
-  final ThemeMode themeMode;
-  final _Brand brand;
-  final ValueChanged<ThemeMode> onThemeModeChanged;
-  final ValueChanged<_Brand> onBrandChanged;
+  final DsThemeController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -79,23 +48,16 @@ class _ShowcasePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Design System'),
         actions: [
-          SegmentedButton<_Brand>(
-            segments: _Brand.values
-                .map((b) => ButtonSegment(value: b, label: Text(b.label)))
-                .toList(),
-            selected: {brand},
-            onSelectionChanged: (s) => onBrandChanged(s.first),
-            style: const ButtonStyle(
-              visualDensity: VisualDensity.compact,
-              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
-            ),
+          DsBrandToggle(
+            brand: controller.brand,
+            onChanged: controller.setBrand,
           ),
           const SizedBox(width: AppSpacing.x1),
           DsThemeToggle(
-            themeMode: themeMode,
-            onChanged: onThemeModeChanged,
+            themeMode: controller.themeMode,
+            onChanged: controller.setThemeMode,
             sizedBoxDimension: 40,
-            iconSize: 18
+            iconSize: 18,
           ),
           const SizedBox(width: AppSpacing.x1),
         ],
@@ -106,7 +68,7 @@ class _ShowcasePage extends StatelessWidget {
           vertical: AppSpacing.x2,
         ),
         children: [
-          _ThemeModeIndicator(themeMode: themeMode),
+          _ThemeModeIndicator(themeMode: controller.themeMode),
           const SizedBox(height: AppSpacing.x3),
 
           const _SectionHeader(
