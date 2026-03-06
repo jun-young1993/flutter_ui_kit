@@ -21,7 +21,7 @@ class ShowcaseApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return DsThemeBuilder(
       controller: controller,
-      builder: (light, dark, mode) => MaterialApp(
+      builder: (light, dark, mode, _) => MaterialApp(
         title: 'Design System Showcase',
         debugShowCheckedModeBanner: false,
         theme: light,

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_kit_theme/widgets/ds_brand_toggle.dart';
 
 import '../controller/ds_theme_controller.dart';
 
@@ -33,6 +34,7 @@ class DsThemeBuilder extends StatelessWidget {
     ThemeData lightTheme,
     ThemeData darkTheme,
     ThemeMode themeMode,
+    DsBrand brand
   ) builder;
 
   @override
@@ -43,6 +45,7 @@ class DsThemeBuilder extends StatelessWidget {
         controller.lightTheme,
         controller.darkTheme,
         controller.themeMode,
+        controller.brand
       ),
     );
   }
