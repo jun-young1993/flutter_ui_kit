@@ -95,7 +95,7 @@ class _AnimatedGearButtonState extends State<_AnimatedGearButton>
   }
 
   void _onTap() {
-    Future.delayed(const Duration(milliseconds: 400), (){
+    Future.delayed(const Duration(milliseconds: 300), (){
       _controller.forward(from: 0.0);
       widget.onPressed();
     });

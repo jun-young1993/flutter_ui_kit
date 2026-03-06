@@ -47,11 +47,18 @@ class SettingDeveloperEmailTile extends StatelessWidget {
         size: 16,
         color: theme.colorScheme.onSurfaceVariant,
       ),
-      onTap: () => EmailService.openEmailComposer(
-        email: email,
-        subject: subject,
-        body: body,
-      ),
+      onTap: () async {
+        final success = await EmailService.openEmailComposer(
+          email: email,
+          subject: subject,
+          body: body,
+        );
+        if (!success && context.mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(content: Text('이메일 앱을 찾을 수 없습니다: $email')),
+          );
+        }
+      },
     );
   }
 }

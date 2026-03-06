@@ -2,7 +2,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 /// 이메일 작성기를 여는 서비스.
 abstract final class EmailService {
-  static Future<void> openEmailComposer({
+  static Future<bool> openEmailComposer({
     required String email,
     String subject = '',
     String body = '',
@@ -19,6 +19,8 @@ abstract final class EmailService {
 
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri);
+      return true;
     }
+    return false;
   }
 }

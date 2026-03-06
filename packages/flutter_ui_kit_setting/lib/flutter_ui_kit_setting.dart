@@ -6,6 +6,9 @@ library;
 // models
 export 'src/models/setting_section.dart';
 
+// templates
+export 'src/templates/default_setting_sections.dart';
+
 // screens
 export 'src/screens/setting_screen.dart';
 
@@ -14,6 +17,9 @@ export 'src/sections/setting_section_widget.dart';
 
 // tiles
 export 'src/tiles/custom_widget_tile.dart';
+export 'src/tiles/setting_app_homepage_tile.dart';
+export 'src/tiles/setting_app_share_tile.dart';
+export 'src/tiles/setting_app_store_tile.dart';
 export 'src/tiles/navigation_tile.dart';
 export 'src/tiles/setting_app_version_tile.dart';
 export 'src/tiles/setting_developer_email_tile.dart';
