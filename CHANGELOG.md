@@ -15,6 +15,32 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.5`](#flutter_ui_kit_chat---v015)
+ - [`flutter_ui_kit_setting` - `v0.1.9`](#flutter_ui_kit_setting---v019)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.5`
+
+ - **FEAT**: settings 위젯 추가.
+
+#### `flutter_ui_kit_setting` - `v0.1.9`
+
+ - **FEAT**: settings 위젯 추가.
+
+
+## 2026-03-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_setting` - `v0.1.8`](#flutter_ui_kit_setting---v018)
 
 ---
