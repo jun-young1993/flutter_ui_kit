@@ -1,3 +1,7 @@
+## 0.1.6
+
+ - **FEAT**: dsBuilder brand 추가.
+
 ## 0.1.5
 
  - **FEAT**: theme 저장 기능.
