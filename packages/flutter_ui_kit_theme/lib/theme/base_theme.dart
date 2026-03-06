@@ -109,8 +109,8 @@ abstract final class BaseTheme {
           foregroundColor: scheme.primary,
           minimumSize: const Size(48, 40),
           padding: const EdgeInsets.symmetric(
-            horizontal: AppSpacing.x4,
-            vertical: AppSpacing.x2,
+            horizontal: AppSpacing.x2,
+            vertical: AppSpacing.x1,
           ),
           shape: const RoundedRectangleBorder(borderRadius: AppRadius.button),
           textStyle: tt.labelLarge,
@@ -171,8 +171,8 @@ abstract final class BaseTheme {
         side: BorderSide.none,
         shape: const StadiumBorder(),
         padding: const EdgeInsets.symmetric(
-          horizontal: AppSpacing.x3,
-          vertical: AppSpacing.x1,
+          horizontal: AppSpacing.x1_5,
+          vertical: AppSpacing.x0_5,
         ),
       ),
 
@@ -255,8 +255,8 @@ abstract final class BaseTheme {
           color: scheme.onSurfaceVariant,
         ),
         contentPadding: const EdgeInsets.symmetric(
-          horizontal: AppSpacing.x4,
-          vertical: AppSpacing.x1,
+          horizontal: AppSpacing.x2,
+          vertical: AppSpacing.x0_5,
         ),
         shape: const RoundedRectangleBorder(borderRadius: AppRadius.allMd),
         minLeadingWidth: 0,
@@ -321,8 +321,8 @@ abstract final class BaseTheme {
         ),
         textStyle: tt.bodySmall?.copyWith(color: scheme.onInverseSurface),
         padding: const EdgeInsets.symmetric(
-          horizontal: AppSpacing.x3,
-          vertical: AppSpacing.x1,
+          horizontal: AppSpacing.x1_5,
+          vertical: AppSpacing.x0_5,
         ),
         waitDuration: AppMotion.slow,
       ),

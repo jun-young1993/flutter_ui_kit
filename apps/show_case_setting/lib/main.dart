@@ -206,7 +206,7 @@ class _SampleSettingScreenState extends State<_SampleSettingScreen> {
             widget.onBrandChanged(b);
           },
           developerEmail: 'dev@example.com',
-          emailSubject: '[flutter_ui_kit_setting] 문의',
+          emailSubject: '[flutter_ui_kit_setting] Questions',
           shareText: 'https://pub.dev/packages/flutter_ui_kit_setting',
           appStoreUrl: 'https://apps.apple.com/app/id000000000',
           playStoreUrl:

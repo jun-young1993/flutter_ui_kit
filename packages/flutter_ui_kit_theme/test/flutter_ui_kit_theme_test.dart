@@ -6,11 +6,11 @@ void main() {
   // ── Token sanity checks ─────────────────────────────────────────────────
 
   group('AppSpacing', () {
-    test('values are multiples of 4', () {
-      expect(AppSpacing.x1, 4);
-      expect(AppSpacing.x2, 8);
-      expect(AppSpacing.x4, 16);
-      expect(AppSpacing.x8, 32);
+    test('values follow 8pt grid', () {
+      expect(AppSpacing.x0_5, 4);
+      expect(AppSpacing.x1, 8);
+      expect(AppSpacing.x2, 16);
+      expect(AppSpacing.x4, 32);
     });
   });
 

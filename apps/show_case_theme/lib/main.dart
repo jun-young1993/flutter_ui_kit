@@ -90,64 +90,64 @@ class _ShowcasePage extends StatelessWidget {
               tapTargetSize: MaterialTapTargetSize.shrinkWrap,
             ),
           ),
-          const SizedBox(width: AppSpacing.x2),
+          const SizedBox(width: AppSpacing.x1),
           DsThemeToggle(
             themeMode: themeMode,
             onChanged: onThemeModeChanged,
             sizedBoxDimension: 40,
             iconSize: 18
           ),
-          const SizedBox(width: AppSpacing.x2),
+          const SizedBox(width: AppSpacing.x1),
         ],
       ),
       body: ListView(
         padding: const EdgeInsets.symmetric(
-          horizontal: AppSpacing.x4,
-          vertical: AppSpacing.x4,
+          horizontal: AppSpacing.x2,
+          vertical: AppSpacing.x2,
         ),
         children: [
           _ThemeModeIndicator(themeMode: themeMode),
-          const SizedBox(height: AppSpacing.x6),
+          const SizedBox(height: AppSpacing.x3),
 
           const _SectionHeader(
             title: 'Surface Levels',
             subtitle: 'M3 layered surface container hierarchy',
           ),
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.x1_5),
           const _SurfaceSection(),
-          const SizedBox(height: AppSpacing.x8),
+          const SizedBox(height: AppSpacing.x4),
 
           const _SectionHeader(
             title: 'Buttons',
             subtitle: 'filled · outlined · ghost + loading state',
           ),
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.x1_5),
           const _ButtonSection(),
-          const SizedBox(height: AppSpacing.x8),
+          const SizedBox(height: AppSpacing.x4),
 
           const _SectionHeader(
             title: 'Cards',
             subtitle: 'DsCard — surface-aware, tap ripple',
           ),
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.x1_5),
           const _CardSection(),
-          const SizedBox(height: AppSpacing.x8),
+          const SizedBox(height: AppSpacing.x4),
 
           const _SectionHeader(
             title: 'Typography',
             subtitle: 'Material 3 type scale — 12 styles',
           ),
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.x1_5),
           const _TypographySection(),
-          const SizedBox(height: AppSpacing.x8),
+          const SizedBox(height: AppSpacing.x4),
 
           const _SectionHeader(
             title: 'Color Scheme',
             subtitle: 'All ColorScheme roles from the active brand',
           ),
-          const SizedBox(height: AppSpacing.x3),
+          const SizedBox(height: AppSpacing.x1_5),
           const _ColorSchemeSection(),
-          const SizedBox(height: AppSpacing.x12),
+          const SizedBox(height: AppSpacing.x6),
         ],
       ),
     );
@@ -174,13 +174,13 @@ class _SectionHeader extends StatelessWidget {
       children: [
         Text(title, style: tt.titleMedium),
         if (subtitle != null) ...[
-          const SizedBox(height: AppSpacing.x1),
+          const SizedBox(height: AppSpacing.x0_5),
           Text(
             subtitle!,
             style: tt.bodySmall?.copyWith(color: cs.onSurfaceVariant),
           ),
         ],
-        const SizedBox(height: AppSpacing.x2),
+        const SizedBox(height: AppSpacing.x1),
         Divider(color: cs.outlineVariant, height: 1, thickness: 1),
       ],
     );
@@ -220,7 +220,7 @@ class _ThemeModeIndicator extends StatelessWidget {
 
     return DsSurface(
       level: SurfaceLevel.low,
-      padding: const EdgeInsets.all(AppSpacing.x4),
+      padding: const EdgeInsets.all(AppSpacing.x2),
       child: Row(
         children: [
           Container(
@@ -233,7 +233,7 @@ class _ThemeModeIndicator extends StatelessWidget {
             ),
             child: Icon(icon, color: cs.onPrimaryContainer, size: 20),
           ),
-          const SizedBox(width: AppSpacing.x3),
+          const SizedBox(width: AppSpacing.x1_5),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -282,12 +282,12 @@ class _SurfaceSection extends StatelessWidget {
         final (level, name, color, desc) = row;
 
         return Padding(
-          padding: const EdgeInsets.only(bottom: AppSpacing.x2),
+          padding: const EdgeInsets.only(bottom: AppSpacing.x1),
           child: DsSurface(
             level: level,
             padding: const EdgeInsets.symmetric(
-              horizontal: AppSpacing.x4,
-              vertical: AppSpacing.x3,
+              horizontal: AppSpacing.x2,
+              vertical: AppSpacing.x1_5,
             ),
             child: Row(
               children: [
@@ -304,7 +304,7 @@ class _SurfaceSection extends StatelessWidget {
                     style: tt.labelSmall?.copyWith(color: cs.primary),
                   ),
                 ),
-                const SizedBox(width: AppSpacing.x3),
+                const SizedBox(width: AppSpacing.x1_5),
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -367,8 +367,8 @@ class _ButtonSectionState extends State<_ButtonSection> {
       children: [
         // Variants
         Wrap(
-          spacing: AppSpacing.x3,
-          runSpacing: AppSpacing.x3,
+          spacing: AppSpacing.x1_5,
+          runSpacing: AppSpacing.x1_5,
           children: [
             DsButton(label: 'Filled', onPressed: () {}),
             DsButton(
@@ -383,12 +383,12 @@ class _ButtonSectionState extends State<_ButtonSection> {
             ),
           ],
         ),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.x1_5),
 
         // With icons
         Wrap(
-          spacing: AppSpacing.x3,
-          runSpacing: AppSpacing.x3,
+          spacing: AppSpacing.x1_5,
+          runSpacing: AppSpacing.x1_5,
           children: [
             DsButton(
               label: 'Save',
@@ -403,11 +403,11 @@ class _ButtonSectionState extends State<_ButtonSection> {
             ),
           ],
         ),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.x1_5),
 
         // Disabled
         Wrap(
-          spacing: AppSpacing.x3,
+          spacing: AppSpacing.x1_5,
           children: [
             DsButton(label: 'Disabled', onPressed: null),
             DsButton(
@@ -417,7 +417,7 @@ class _ButtonSectionState extends State<_ButtonSection> {
             ),
           ],
         ),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.x1_5),
 
         // Loading (expanded)
         DsButton(
@@ -426,7 +426,7 @@ class _ButtonSectionState extends State<_ButtonSection> {
           isLoading: _loading,
           isExpanded: true,
         ),
-        const SizedBox(height: AppSpacing.x2),
+        const SizedBox(height: AppSpacing.x1),
         DsButton(
           label: '탭해서 로딩 테스트 (2초)',
           variant: DsButtonVariant.outlined,
@@ -464,7 +464,7 @@ class _CardSection extends StatelessWidget {
                 backgroundColor: cs.primaryContainer,
                 child: Icon(Icons.person_rounded, color: cs.onPrimaryContainer),
               ),
-              const SizedBox(width: AppSpacing.x3),
+              const SizedBox(width: AppSpacing.x1_5),
               Expanded(
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -481,7 +481,7 @@ class _CardSection extends StatelessWidget {
             ],
           ),
         ),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.x1_5),
 
         // Stat cards row
         Row(
@@ -492,14 +492,14 @@ class _CardSection extends StatelessWidget {
               value: '2,481',
               label: 'Views',
             ),
-            const SizedBox(width: AppSpacing.x3),
+            const SizedBox(width: AppSpacing.x1_5),
             _StatCard(
               icon: Icons.favorite_rounded,
               iconColor: cs.error,
               value: '348',
               label: 'Likes',
             ),
-            const SizedBox(width: AppSpacing.x3),
+            const SizedBox(width: AppSpacing.x1_5),
             _StatCard(
               icon: Icons.star_rounded,
               iconColor: cs.tertiary,
@@ -508,7 +508,7 @@ class _CardSection extends StatelessWidget {
             ),
           ],
         ),
-        const SizedBox(height: AppSpacing.x3),
+        const SizedBox(height: AppSpacing.x1_5),
 
         // Action card
         DsCard(
@@ -525,7 +525,7 @@ class _CardSection extends StatelessWidget {
                     label: const Text('New'),
                     padding: EdgeInsets.zero,
                     labelPadding: const EdgeInsets.symmetric(
-                      horizontal: AppSpacing.x2,
+                      horizontal: AppSpacing.x1,
                     ),
                     visualDensity: VisualDensity.compact,
                     backgroundColor: cs.primaryContainer,
@@ -536,12 +536,12 @@ class _CardSection extends StatelessWidget {
                   ),
                 ],
               ),
-              const SizedBox(height: AppSpacing.x2),
+              const SizedBox(height: AppSpacing.x1),
               Text(
                 'SurfaceLevel.base는 내비게이션 바, 사이드 패널에 어울립니다. DsCard는 InkWell + DsSurface를 조합합니다.',
                 style: tt.bodySmall?.copyWith(color: cs.onSurfaceVariant),
               ),
-              const SizedBox(height: AppSpacing.x3),
+              const SizedBox(height: AppSpacing.x1_5),
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
@@ -550,7 +550,7 @@ class _CardSection extends StatelessWidget {
                     variant: DsButtonVariant.ghost,
                     onPressed: () {},
                   ),
-                  const SizedBox(width: AppSpacing.x2),
+                  const SizedBox(width: AppSpacing.x1),
                   DsButton(label: '적용', onPressed: () {}),
                 ],
               ),
@@ -583,12 +583,12 @@ class _StatCard extends StatelessWidget {
     return Expanded(
       child: DsCard(
         level: SurfaceLevel.high,
-        padding: const EdgeInsets.all(AppSpacing.x4),
+        padding: const EdgeInsets.all(AppSpacing.x2),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Icon(icon, color: iconColor, size: 22),
-            const SizedBox(height: AppSpacing.x2),
+            const SizedBox(height: AppSpacing.x1),
             Text(value, style: tt.headlineSmall),
             Text(
               label,
@@ -630,7 +630,7 @@ class _TypographySection extends StatelessWidget {
 
     return DsSurface(
       level: SurfaceLevel.low,
-      padding: const EdgeInsets.all(AppSpacing.x4),
+      padding: const EdgeInsets.all(AppSpacing.x2),
       child: Column(
         children: styles.indexed.map((entry) {
           final (i, row) = entry;
@@ -640,7 +640,7 @@ class _TypographySection extends StatelessWidget {
             children: [
               if (i != 0)
                 Divider(
-                  height: AppSpacing.x4,
+                  height: AppSpacing.x2,
                   color: cs.outlineVariant.withValues(alpha: 0.5),
                 ),
               Row(
@@ -652,7 +652,7 @@ class _TypographySection extends StatelessWidget {
                       style: style?.copyWith(color: cs.onSurface),
                     ),
                   ),
-                  const SizedBox(width: AppSpacing.x3),
+                  const SizedBox(width: AppSpacing.x1_5),
                   Text(
                     meta,
                     style: tt.labelSmall?.copyWith(
@@ -709,8 +709,8 @@ class _ColorSchemeSection extends StatelessWidget {
           crossAxisCount: 2,
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
-          mainAxisSpacing: AppSpacing.x2,
-          crossAxisSpacing: AppSpacing.x2,
+          mainAxisSpacing: AppSpacing.x1,
+          crossAxisSpacing: AppSpacing.x1,
           childAspectRatio: 2.8,
           children: roles
               .map((r) => _ColorSwatch(
@@ -720,11 +720,11 @@ class _ColorSchemeSection extends StatelessWidget {
                   ))
               .toList(),
         ),
-        const SizedBox(height: AppSpacing.x4),
+        const SizedBox(height: AppSpacing.x2),
         ...surfaces.map((s) {
           final (name, color, textColor) = s;
           return Padding(
-            padding: const EdgeInsets.only(bottom: AppSpacing.x2),
+            padding: const EdgeInsets.only(bottom: AppSpacing.x1),
             child: Container(
               height: 44,
               decoration: BoxDecoration(
@@ -735,7 +735,7 @@ class _ColorSchemeSection extends StatelessWidget {
                 ),
               ),
               alignment: Alignment.centerLeft,
-              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.x3),
+              padding: const EdgeInsets.symmetric(horizontal: AppSpacing.x1_5),
               child: Text(
                 name,
                 style: Theme.of(context).textTheme.labelMedium?.copyWith(
@@ -772,8 +772,8 @@ class _ColorSwatch extends StatelessWidget {
         borderRadius: AppRadius.allSm,
       ),
       padding: const EdgeInsets.symmetric(
-        horizontal: AppSpacing.x3,
-        vertical: AppSpacing.x2,
+        horizontal: AppSpacing.x1_5,
+        vertical: AppSpacing.x1,
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
