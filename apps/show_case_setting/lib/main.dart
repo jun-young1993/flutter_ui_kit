@@ -193,55 +193,28 @@ class _SampleSettingScreenState extends State<_SampleSettingScreen> {
           ],
         ),
 
-        // ── 테마 ───────────────────────────────────────────────
-        SettingSection(
-          title: 'Appearance',
-          items: [
-            SettingThemeToggleTile(
-              label: 'Theme',
-              themeMode: _themeMode,
-              onChanged: (mode) {
-                setState(() => _themeMode = mode);
-                widget.onThemeModeChanged(mode);
-              },
-            ),
-            SettingBrandToggleTile(
-              label: 'Brand',
-              brand: _brand,
-              onChanged: (b) {
-                setState(() => _brand = b);
-                widget.onBrandChanged(b);
-              },
-            ),
-          ],
-        ),
-
-        // ── 개발자 ─────────────────────────────────────────────
-        SettingSection(
-          title: 'Developer',
-          items: [
-            SettingDeveloperEmailTile(
-              email: 'dev@example.com',
-              label: 'Contact Developer',
-              subject: '[flutter_ui_kit_setting] 문의',
-            ),
-          ],
-        ),
-
-        // ── 앱 정보 ────────────────────────────────────────────
-        SettingSection(
-          title: 'About',
-          items: [
-            SettingAppVersionTile(
-              label: 'App Version',
-              showBuildNumber: true,
-            ),
-            SettingTile(
-              label: 'flutter_ui_kit_setting',
-              subtitle: 'pub.dev 배포 설정 UI 패키지',
-              leading: const Icon(Icons.widgets_outlined),
-            ),
-          ],
+        // ── 기본 템플릿 섹션 (Appearance / Developer / App / About)
+        ...buildDefaultSettingSections(
+          themeMode: _themeMode,
+          onThemeModeChanged: (mode) {
+            setState(() => _themeMode = mode);
+            widget.onThemeModeChanged(mode);
+          },
+          brand: _brand,
+          onBrandChanged: (b) {
+            setState(() => _brand = b);
+            widget.onBrandChanged(b);
+          },
+          developerEmail: 'dev@example.com',
+          emailSubject: '[flutter_ui_kit_setting] 문의',
+          shareText: 'https://pub.dev/packages/flutter_ui_kit_setting',
+          appStoreUrl: 'https://apps.apple.com/app/id000000000',
+          playStoreUrl:
+              'https://play.google.com/store/apps/details?id=com.example.app',
+          homepageUrl: 'https://juny.blog',
+          showBuildNumber: true,
+          appName: 'flutter_ui_kit_setting',
+          appDescription: 'pub.dev 배포 설정 UI 패키지',
         ),
       ],
     );
