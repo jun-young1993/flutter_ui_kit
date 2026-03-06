@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-06
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_setting` - `v0.1.8`](#flutter_ui_kit_setting---v018)
+
+---
+
+#### `flutter_ui_kit_setting` - `v0.1.8`
+
+ - **FEAT**: 기어 에니메이션 추가.
+
+
 ## 2026-03-05
 
 ### Changes

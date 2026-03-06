@@ -1,6 +1,6 @@
 name: flutter_ui_kit_setting
 description: "A reusable Flutter UI kit for application settings screens."
-version: 0.1.7
+version: 0.1.8
 homepage: https://github.com/junyoung/flutter_ui_kit
 repository: https://github.com/junyoung/flutter_ui_kit
 issue_tracker: https://github.com/junyoung/flutter_ui_kit/issues
@@ -19,7 +19,9 @@ dependencies:
       url: https://github.com/jun-young1993/flutter_ui_kit.git
       path: packages/flutter_ui_kit_theme
   package_info_plus: ^8.0.0
-  url_launcher: ^6.3.0
+  share_plus: ^12.0.1
+  url_launcher: ^6.3.2
+
 
 dev_dependencies:
   flutter_test:
