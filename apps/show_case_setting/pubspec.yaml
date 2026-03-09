@@ -31,6 +31,8 @@ dependencies:
     path: ../../packages/flutter_ui_kit_setting
   flutter_ui_kit_theme:
     path: ../../packages/flutter_ui_kit_theme
+  flutter_ui_kit_l10n:
+    path: ../../packages/flutter_ui_kit_l10n
 
 dev_dependencies:
   flutter_test:
