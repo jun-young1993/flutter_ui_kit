@@ -1,0 +1,14 @@
+# Flutter localization configuration for flutter_ui_kit_l10n package.
+# Run: flutter gen-l10n (or via melos: melos l10n:gen)
+#
+# Namespace ARB sources live in l10n/namespaces/.
+# Before running gen-l10n, merge them with: melos l10n:merge
+
+arb-dir: l10n
+template-arb-file: ui_kit_en.arb
+output-localization-file: ui_kit_localizations.dart
+output-class: UiKitLocalizations
+output-dir: lib/src/generated
+preferred-supported-locales: [en, ko, ja]
+synthetic-package: false
+nullable-getter: false

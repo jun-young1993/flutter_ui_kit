@@ -1,2 +1,50 @@
 name: flutter_ui_kit
 
+packages:
+  - apps/**
+  - packages/**
+
+command:
+  bootstrap:
+    usePubspecOverrides: true
+
+scripts:
+  # ---------------------------------------------------------------------------
+  # flutter_ui_kit_l10n — localization workflow
+  # ---------------------------------------------------------------------------
+
+  # Step 1: merge namespace ARBs into per-locale template files
+  l10n:merge:
+    run: dart run tool/merge_arb.dart
+    packageFilters:
+      scope: flutter_ui_kit_l10n
+    description: >
+      Merge namespace ARB files (l10n/namespaces/*) into unified
+      per-locale ARB files (l10n/ui_kit_*.arb).
+
+  # Step 2: generate Dart localization code from merged ARBs
+  l10n:gen:
+    run: flutter gen-l10n
+    packageFilters:
+      scope: flutter_ui_kit_l10n
+    description: >
+      Run flutter gen-l10n to generate lib/src/generated/*.dart
+      from the merged ARB files.
+
+  # Convenience: merge + generate in one command
+  l10n:
+    run: melos l10n:merge && melos l10n:gen
+    description: >
+      Full l10n pipeline: merge namespace ARBs then run flutter gen-l10n.
+
+  # ---------------------------------------------------------------------------
+  # Common commands (all packages)
+  # ---------------------------------------------------------------------------
+
+  analyze:
+    run: flutter analyze
+    description: Run flutter analyze for all packages.
+
+  test:
+    run: flutter test
+    description: Run all tests for all packages.

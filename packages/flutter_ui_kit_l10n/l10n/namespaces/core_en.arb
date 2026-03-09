@@ -1,0 +1,450 @@
+{
+  "@@locale": "en",
+  "@@description": "Core UI strings shared across all apps",
+
+  "ok": "OK",
+  "@ok": { "description": "Generic OK/Confirm button label" },
+
+  "cancel": "Cancel",
+  "@cancel": { "description": "Generic Cancel button label" },
+
+  "confirm": "Confirm",
+  "@confirm": { "description": "Generic Confirm action label" },
+
+  "save": "Save",
+  "@save": { "description": "Generic Save action label" },
+
+  "delete": "Delete",
+  "@delete": { "description": "Generic Delete action label" },
+
+  "edit": "Edit",
+  "@edit": { "description": "Generic Edit action label" },
+
+  "close": "Close",
+  "@close": { "description": "Generic Close action label" },
+
+  "back": "Back",
+  "@back": { "description": "Generic Back navigation label" },
+
+  "next": "Next",
+  "@next": { "description": "Generic Next navigation label" },
+
+  "done": "Done",
+  "@done": { "description": "Generic Done action label" },
+
+  "loading": "Loading...",
+  "@loading": { "description": "Loading state indicator text" },
+
+  "error": "An error occurred",
+  "@error": { "description": "Generic error message" },
+
+  "errorWithContext": "{context} error occurred",
+  "@errorWithContext": {
+    "description": "Error message with context prefix",
+    "placeholders": {
+      "context": { "type": "String", "example": "Server" }
+    }
+  },
+
+  "retry": "Retry",
+  "@retry": { "description": "Retry action label" },
+
+  "search": "Search",
+  "@search": { "description": "Search action/placeholder label" },
+
+  "addItem": "Add Item",
+  "@addItem": { "description": "Generic add item action label" },
+
+  "yes": "Yes",
+  "@yes": { "description": "Affirmative response" },
+
+  "no": "No",
+  "@no": { "description": "Negative response" },
+
+  "submit": "Submit",
+  "@submit": { "description": "Submit action label" },
+
+  "apply": "Apply",
+  "@apply": { "description": "Apply changes action label" },
+
+  "reset": "Reset",
+  "@reset": { "description": "Reset to default action label" },
+
+  "refresh": "Refresh",
+  "@refresh": { "description": "Refresh content action label" },
+
+  "share": "Share",
+  "@share": { "description": "Share content action label" },
+
+  "copy": "Copy",
+  "@copy": { "description": "Copy action label" },
+
+  "paste": "Paste",
+  "@paste": { "description": "Paste action label" },
+
+  "undo": "Undo",
+  "@undo": { "description": "Undo action label" },
+
+  "redo": "Redo",
+  "@redo": { "description": "Redo action label" },
+
+  "selectAll": "Select All",
+  "@selectAll": { "description": "Select all items action label" },
+
+  "select": "Select",
+  "@select": { "description": "Select action label" },
+
+  "deselect": "Deselect",
+  "@deselect": { "description": "Deselect action label" },
+
+  "add": "Add",
+  "@add": { "description": "Add action label" },
+
+  "remove": "Remove",
+  "@remove": { "description": "Remove action label" },
+
+  "create": "Create",
+  "@create": { "description": "Create action label" },
+
+  "update": "Update",
+  "@update": { "description": "Update action label" },
+
+  "send": "Send",
+  "@send": { "description": "Send action label" },
+
+  "upload": "Upload",
+  "@upload": { "description": "Upload file action label" },
+
+  "download": "Download",
+  "@download": { "description": "Download file action label" },
+
+  "open": "Open",
+  "@open": { "description": "Open action label" },
+
+  "preview": "Preview",
+  "@preview": { "description": "Preview action label" },
+
+  "filter": "Filter",
+  "@filter": { "description": "Filter action label" },
+
+  "sort": "Sort",
+  "@sort": { "description": "Sort action label" },
+
+  "more": "More",
+  "@more": { "description": "More options label" },
+
+  "showMore": "Show More",
+  "@showMore": { "description": "Show more content action" },
+
+  "showLess": "Show Less",
+  "@showLess": { "description": "Show less content action" },
+
+  "seeAll": "See All",
+  "@seeAll": { "description": "See all items action" },
+
+  "viewDetails": "View Details",
+  "@viewDetails": { "description": "View details action" },
+
+  "previous": "Previous",
+  "@previous": { "description": "Previous navigation label" },
+
+  "skip": "Skip",
+  "@skip": { "description": "Skip action label" },
+
+  "finish": "Finish",
+  "@finish": { "description": "Finish action label" },
+
+  "continueAction": "Continue",
+  "@continueAction": { "description": "Continue action label" },
+
+  "start": "Start",
+  "@start": { "description": "Start action label" },
+
+  "stop": "Stop",
+  "@stop": { "description": "Stop action label" },
+
+  "pause": "Pause",
+  "@pause": { "description": "Pause action label" },
+
+  "resume": "Resume",
+  "@resume": { "description": "Resume action label" },
+
+  "enable": "Enable",
+  "@enable": { "description": "Enable toggle label" },
+
+  "disable": "Disable",
+  "@disable": { "description": "Disable toggle label" },
+
+  "on": "On",
+  "@on": { "description": "On state label" },
+
+  "off": "Off",
+  "@off": { "description": "Off state label" },
+
+  "all": "All",
+  "@all": { "description": "All items label" },
+
+  "none": "None",
+  "@none": { "description": "None label" },
+
+  "selected": "Selected",
+  "@selected": { "description": "Selected state label" },
+
+  "required": "Required",
+  "@required": { "description": "Required field label" },
+
+  "optional": "Optional",
+  "@optional": { "description": "Optional field label" },
+
+  "details": "Details",
+  "@details": { "description": "Details label" },
+
+  "description": "Description",
+  "@description": { "description": "Description field label" },
+
+  "title": "Title",
+  "@title": { "description": "Title field label" },
+
+  "name": "Name",
+  "@name": { "description": "Name field label" },
+
+  "date": "Date",
+  "@date": { "description": "Date field label" },
+
+  "time": "Time",
+  "@time": { "description": "Time field label" },
+
+  "status": "Status",
+  "@status": { "description": "Status field label" },
+
+  "category": "Category",
+  "@category": { "description": "Category field label" },
+
+  "tags": "Tags",
+  "@tags": { "description": "Tags label" },
+
+  "favorite": "Favorite",
+  "@favorite": { "description": "Favorite action label" },
+
+  "favorites": "Favorites",
+  "@favorites": { "description": "Favorites list label" },
+
+  "bookmark": "Bookmark",
+  "@bookmark": { "description": "Bookmark action label" },
+
+  "like": "Like",
+  "@like": { "description": "Like action label" },
+
+  "comment": "Comment",
+  "@comment": { "description": "Comment label" },
+
+  "comments": "Comments",
+  "@comments": { "description": "Comments label" },
+
+  "reply": "Reply",
+  "@reply": { "description": "Reply action label" },
+
+  "report": "Report",
+  "@report": { "description": "Report action label" },
+
+  "block": "Block",
+  "@block": { "description": "Block action label" },
+
+  "unblock": "Unblock",
+  "@unblock": { "description": "Unblock action label" },
+
+  "mute": "Mute",
+  "@mute": { "description": "Mute action label" },
+
+  "unmute": "Unmute",
+  "@unmute": { "description": "Unmute action label" },
+
+  "pin": "Pin",
+  "@pin": { "description": "Pin action label" },
+
+  "unpin": "Unpin",
+  "@unpin": { "description": "Unpin action label" },
+
+  "archive": "Archive",
+  "@archive": { "description": "Archive action label" },
+
+  "hide": "Hide",
+  "@hide": { "description": "Hide action label" },
+
+  "show": "Show",
+  "@show": { "description": "Show action label" },
+
+  "expand": "Expand",
+  "@expand": { "description": "Expand action label" },
+
+  "collapse": "Collapse",
+  "@collapse": { "description": "Collapse action label" },
+
+  "attach": "Attach",
+  "@attach": { "description": "Attach file action label" },
+
+  "accept": "Accept",
+  "@accept": { "description": "Accept action label" },
+
+  "decline": "Decline",
+  "@decline": { "description": "Decline action label" },
+
+  "approve": "Approve",
+  "@approve": { "description": "Approve action label" },
+
+  "reject": "Reject",
+  "@reject": { "description": "Reject action label" },
+
+  "pending": "Pending",
+  "@pending": { "description": "Pending status label" },
+
+  "active": "Active",
+  "@active": { "description": "Active status label" },
+
+  "inactive": "Inactive",
+  "@inactive": { "description": "Inactive status label" },
+
+  "completed": "Completed",
+  "@completed": { "description": "Completed status label" },
+
+  "inProgress": "In Progress",
+  "@inProgress": { "description": "In progress status label" },
+
+  "draft": "Draft",
+  "@draft": { "description": "Draft status label" },
+
+  "public": "Public",
+  "@public": { "description": "Public visibility label" },
+
+  "private": "Private",
+  "@private": { "description": "Private visibility label" },
+
+  "itemCount": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+  "@itemCount": {
+    "description": "Item count with pluralization",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "selectedCount": "{count} selected",
+  "@selectedCount": {
+    "description": "Number of selected items",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "searchHint": "Search...",
+  "@searchHint": { "description": "Search input hint text" },
+
+  "noResults": "No results found",
+  "@noResults": { "description": "Empty search results message" },
+
+  "noData": "No data available",
+  "@noData": { "description": "Empty data message" },
+
+  "empty": "Empty",
+  "@empty": { "description": "Empty state label" },
+
+  "success": "Success",
+  "@success": { "description": "Success status label" },
+
+  "warning": "Warning",
+  "@warning": { "description": "Warning status label" },
+
+  "info": "Info",
+  "@info": { "description": "Info status label" },
+
+  "help": "Help",
+  "@help": { "description": "Help label" },
+
+  "about": "About",
+  "@about": { "description": "About label" },
+
+  "version": "Version",
+  "@version": { "description": "Version label" },
+
+  "home": "Home",
+  "@home": { "description": "Home navigation label" },
+
+  "notifications": "Notifications",
+  "@notifications": { "description": "Notifications label" },
+
+  "messages": "Messages",
+  "@messages": { "description": "Messages label" },
+
+  "profile": "Profile",
+  "@profile": { "description": "Profile label" },
+
+  "camera": "Camera",
+  "@camera": { "description": "Camera label" },
+
+  "gallery": "Gallery",
+  "@gallery": { "description": "Gallery label" },
+
+  "photo": "Photo",
+  "@photo": { "description": "Photo label" },
+
+  "video": "Video",
+  "@video": { "description": "Video label" },
+
+  "file": "File",
+  "@file": { "description": "File label" },
+
+  "location": "Location",
+  "@location": { "description": "Location label" },
+
+  "contacts": "Contacts",
+  "@contacts": { "description": "Contacts label" },
+
+  "invite": "Invite",
+  "@invite": { "description": "Invite action label" },
+
+  "join": "Join",
+  "@join": { "description": "Join action label" },
+
+  "leave": "Leave",
+  "@leave": { "description": "Leave action label" },
+
+  "follow": "Follow",
+  "@follow": { "description": "Follow action label" },
+
+  "unfollow": "Unfollow",
+  "@unfollow": { "description": "Unfollow action label" },
+
+  "followers": "Followers",
+  "@followers": { "description": "Followers label" },
+
+  "following": "Following",
+  "@following": { "description": "Following label" },
+
+  "recent": "Recent",
+  "@recent": { "description": "Recent items label" },
+
+  "popular": "Popular",
+  "@popular": { "description": "Popular items label" },
+
+  "trending": "Trending",
+  "@trending": { "description": "Trending items label" },
+
+  "recommended": "Recommended",
+  "@recommended": { "description": "Recommended items label" },
+
+  "free": "Free",
+  "@free": { "description": "Free price label" },
+
+  "premium": "Premium",
+  "@premium": { "description": "Premium label" },
+
+  "upgrade": "Upgrade",
+  "@upgrade": { "description": "Upgrade action label" },
+
+  "learnMore": "Learn More",
+  "@learnMore": { "description": "Learn more link label" },
+
+  "getStarted": "Get Started",
+  "@getStarted": { "description": "Get started action label" },
+
+  "tryAgain": "Try Again",
+  "@tryAgain": { "description": "Try again action label" },
+
+  "goBack": "Go Back",
+  "@goBack": { "description": "Go back navigation label" }
+}

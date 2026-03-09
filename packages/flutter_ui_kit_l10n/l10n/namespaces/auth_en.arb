@@ -1,0 +1,160 @@
+{
+  "@@locale": "en",
+  "@@description": "Authentication and user account strings",
+
+  "login": "Log In",
+  "@login": { "description": "Login action label" },
+
+  "logout": "Log Out",
+  "@logout": { "description": "Logout action label" },
+
+  "signUp": "Sign Up",
+  "@signUp": { "description": "Sign up action label" },
+
+  "signIn": "Sign In",
+  "@signIn": { "description": "Sign in action label" },
+
+  "signOut": "Sign Out",
+  "@signOut": { "description": "Sign out action label" },
+
+  "register": "Register",
+  "@register": { "description": "Register action label" },
+
+  "email": "Email",
+  "@email": { "description": "Email field label" },
+
+  "password": "Password",
+  "@password": { "description": "Password field label" },
+
+  "confirmPassword": "Confirm Password",
+  "@confirmPassword": { "description": "Confirm password field label" },
+
+  "currentPassword": "Current Password",
+  "@currentPassword": { "description": "Current password field label" },
+
+  "newPassword": "New Password",
+  "@newPassword": { "description": "New password field label" },
+
+  "username": "Username",
+  "@username": { "description": "Username field label" },
+
+  "phoneNumber": "Phone Number",
+  "@phoneNumber": { "description": "Phone number field label" },
+
+  "forgotPassword": "Forgot Password?",
+  "@forgotPassword": { "description": "Forgot password link label" },
+
+  "resetPassword": "Reset Password",
+  "@resetPassword": { "description": "Reset password action label" },
+
+  "changePassword": "Change Password",
+  "@changePassword": { "description": "Change password action label" },
+
+  "rememberMe": "Remember Me",
+  "@rememberMe": { "description": "Remember me checkbox label" },
+
+  "staySignedIn": "Stay Signed In",
+  "@staySignedIn": { "description": "Stay signed in checkbox label" },
+
+  "orContinueWith": "Or continue with",
+  "@orContinueWith": { "description": "Social login separator text" },
+
+  "signInWithGoogle": "Sign in with Google",
+  "@signInWithGoogle": { "description": "Google sign in button label" },
+
+  "signInWithApple": "Sign in with Apple",
+  "@signInWithApple": { "description": "Apple sign in button label" },
+
+  "signInWithFacebook": "Sign in with Facebook",
+  "@signInWithFacebook": { "description": "Facebook sign in button label" },
+
+  "createAccount": "Create Account",
+  "@createAccount": { "description": "Create account action label" },
+
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": { "description": "Already have account text" },
+
+  "dontHaveAccount": "Don't have an account?",
+  "@dontHaveAccount": { "description": "Don't have account text" },
+
+  "verificationCode": "Verification Code",
+  "@verificationCode": { "description": "Verification code field label" },
+
+  "sendCode": "Send Code",
+  "@sendCode": { "description": "Send verification code action" },
+
+  "resendCode": "Resend Code",
+  "@resendCode": { "description": "Resend verification code action" },
+
+  "verifyEmail": "Verify Email",
+  "@verifyEmail": { "description": "Verify email action label" },
+
+  "verifyPhone": "Verify Phone",
+  "@verifyPhone": { "description": "Verify phone action label" },
+
+  "resetPasswordSent": "Password reset email sent",
+  "@resetPasswordSent": { "description": "Password reset email sent message" },
+
+  "resetPasswordInstruction": "Enter your email and we'll send you a link to reset your password.",
+  "@resetPasswordInstruction": { "description": "Password reset instruction text" },
+
+  "accountCreated": "Account created successfully",
+  "@accountCreated": { "description": "Account creation success message" },
+
+  "loginFailed": "Login failed",
+  "@loginFailed": { "description": "Login failure message" },
+
+  "invalidCredentials": "Invalid email or password",
+  "@invalidCredentials": { "description": "Invalid credentials message" },
+
+  "accountLocked": "Account locked",
+  "@accountLocked": { "description": "Account locked message" },
+
+  "accountDeactivated": "Account deactivated",
+  "@accountDeactivated": { "description": "Account deactivated message" },
+
+  "passwordChanged": "Password changed successfully",
+  "@passwordChanged": { "description": "Password change success message" },
+
+  "profileUpdated": "Profile updated",
+  "@profileUpdated": { "description": "Profile update success message" },
+
+  "firstName": "First Name",
+  "@firstName": { "description": "First name field label" },
+
+  "lastName": "Last Name",
+  "@lastName": { "description": "Last name field label" },
+
+  "displayName": "Display Name",
+  "@displayName": { "description": "Display name field label" },
+
+  "bio": "Bio",
+  "@bio": { "description": "Bio/about me field label" },
+
+  "birthday": "Birthday",
+  "@birthday": { "description": "Birthday field label" },
+
+  "gender": "Gender",
+  "@gender": { "description": "Gender field label" },
+
+  "male": "Male",
+  "@male": { "description": "Male gender option" },
+
+  "female": "Female",
+  "@female": { "description": "Female gender option" },
+
+  "other": "Other",
+  "@other": { "description": "Other gender option" },
+
+  "preferNotToSay": "Prefer not to say",
+  "@preferNotToSay": { "description": "Prefer not to say option" },
+
+  "editProfile": "Edit Profile",
+  "@editProfile": { "description": "Edit profile action label" },
+
+  "changeProfilePhoto": "Change Profile Photo",
+  "@changeProfilePhoto": { "description": "Change profile photo action" },
+
+  "deleteAccount": "Delete Account",
+  "@deleteAccount": { "description": "Delete account action label" }
+}

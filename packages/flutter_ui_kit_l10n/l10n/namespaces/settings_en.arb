@@ -1,0 +1,136 @@
+{
+  "@@locale": "en",
+  "@@description": "Settings-related UI strings",
+
+  "settings": "Settings",
+  "@settings": { "description": "Settings screen title" },
+
+  "settingsLanguage": "Language",
+  "@settingsLanguage": { "description": "Language setting option label" },
+
+  "settingsTheme": "Theme",
+  "@settingsTheme": { "description": "Theme setting option label" },
+
+  "settingsAccount": "Account",
+  "@settingsAccount": { "description": "Account setting option label" },
+
+  "settingsNotifications": "Notifications",
+  "@settingsNotifications": { "description": "Notifications setting option label" },
+
+  "settingsProfile": "Profile",
+  "@settingsProfile": { "description": "Profile setting option label" },
+
+  "settingsLogout": "Logout",
+  "@settingsLogout": { "description": "Logout action label" },
+
+  "settingsGeneral": "General",
+  "@settingsGeneral": { "description": "General settings section" },
+
+  "settingsAppearance": "Appearance",
+  "@settingsAppearance": { "description": "Appearance settings section" },
+
+  "settingsDarkMode": "Dark Mode",
+  "@settingsDarkMode": { "description": "Dark mode toggle label" },
+
+  "settingsLightMode": "Light Mode",
+  "@settingsLightMode": { "description": "Light mode toggle label" },
+
+  "settingsSystemDefault": "System Default",
+  "@settingsSystemDefault": { "description": "Follow system theme label" },
+
+  "settingsPrivacy": "Privacy",
+  "@settingsPrivacy": { "description": "Privacy settings section" },
+
+  "settingsSecurity": "Security",
+  "@settingsSecurity": { "description": "Security settings section" },
+
+  "settingsHelp": "Help",
+  "@settingsHelp": { "description": "Help settings option" },
+
+  "settingsAbout": "About",
+  "@settingsAbout": { "description": "About app option" },
+
+  "settingsVersion": "Version",
+  "@settingsVersion": { "description": "App version label" },
+
+  "settingsSound": "Sound",
+  "@settingsSound": { "description": "Sound settings option" },
+
+  "settingsVibration": "Vibration",
+  "@settingsVibration": { "description": "Vibration settings option" },
+
+  "settingsStorage": "Storage",
+  "@settingsStorage": { "description": "Storage settings option" },
+
+  "settingsCache": "Cache",
+  "@settingsCache": { "description": "Cache settings option" },
+
+  "settingsClearCache": "Clear Cache",
+  "@settingsClearCache": { "description": "Clear cache action label" },
+
+  "settingsDeleteAccount": "Delete Account",
+  "@settingsDeleteAccount": { "description": "Delete account action label" },
+
+  "settingsFeedback": "Feedback",
+  "@settingsFeedback": { "description": "Feedback option label" },
+
+  "settingsRateApp": "Rate App",
+  "@settingsRateApp": { "description": "Rate app action label" },
+
+  "settingsTermsOfService": "Terms of Service",
+  "@settingsTermsOfService": { "description": "Terms of service link label" },
+
+  "settingsPrivacyPolicy": "Privacy Policy",
+  "@settingsPrivacyPolicy": { "description": "Privacy policy link label" },
+
+  "settingsContactUs": "Contact Us",
+  "@settingsContactUs": { "description": "Contact us option label" },
+
+  "settingsDisplay": "Display",
+  "@settingsDisplay": { "description": "Display settings section" },
+
+  "settingsFontSize": "Font Size",
+  "@settingsFontSize": { "description": "Font size setting option" },
+
+  "settingsAutoUpdate": "Auto Update",
+  "@settingsAutoUpdate": { "description": "Auto update toggle label" },
+
+  "settingsDataUsage": "Data Usage",
+  "@settingsDataUsage": { "description": "Data usage settings option" },
+
+  "settingsBackup": "Backup",
+  "@settingsBackup": { "description": "Backup settings option" },
+
+  "settingsRestore": "Restore",
+  "@settingsRestore": { "description": "Restore settings option" },
+
+  "settingsResetAll": "Reset All Settings",
+  "@settingsResetAll": { "description": "Reset all settings action" },
+
+  "settingsAccessibility": "Accessibility",
+  "@settingsAccessibility": { "description": "Accessibility settings section" },
+
+  "settingsDoNotDisturb": "Do Not Disturb",
+  "@settingsDoNotDisturb": { "description": "Do not disturb toggle label" },
+
+  "settingsLocationServices": "Location Services",
+  "@settingsLocationServices": { "description": "Location services toggle label" },
+
+  "settingsPermissions": "Permissions",
+  "@settingsPermissions": { "description": "App permissions option" },
+
+  "settingsLicenses": "Licenses",
+  "@settingsLicenses": { "description": "Open source licenses option" },
+
+  "settingsChangePassword": "Change Password",
+  "@settingsChangePassword": { "description": "Change password option" },
+
+  "settingsTwoFactor": "Two-Factor Authentication",
+  "@settingsTwoFactor": { "description": "2FA setting option" },
+
+  "settingsBiometrics": "Biometric Login",
+  "@settingsBiometrics": { "description": "Biometric login toggle" },
+
+  "settingsAutoLock": "Auto Lock",
+  "@settingsAutoLock": { "description": "Auto lock setting" }
+}

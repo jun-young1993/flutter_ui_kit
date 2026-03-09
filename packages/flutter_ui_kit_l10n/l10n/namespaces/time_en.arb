@@ -1,0 +1,202 @@
+{
+  "@@locale": "en",
+  "@@description": "Time and date related strings",
+
+  "today": "Today",
+  "@today": { "description": "Today label" },
+
+  "yesterday": "Yesterday",
+  "@yesterday": { "description": "Yesterday label" },
+
+  "tomorrow": "Tomorrow",
+  "@tomorrow": { "description": "Tomorrow label" },
+
+  "now": "Now",
+  "@now": { "description": "Now/current time label" },
+
+  "justNow": "Just now",
+  "@justNow": { "description": "Just now relative time" },
+
+  "minutesAgo": "{count, plural, =1{1 minute ago} other{{count} minutes ago}}",
+  "@minutesAgo": {
+    "description": "Minutes ago relative time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "hoursAgo": "{count, plural, =1{1 hour ago} other{{count} hours ago}}",
+  "@hoursAgo": {
+    "description": "Hours ago relative time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "daysAgo": "{count, plural, =1{1 day ago} other{{count} days ago}}",
+  "@daysAgo": {
+    "description": "Days ago relative time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "weeksAgo": "{count, plural, =1{1 week ago} other{{count} weeks ago}}",
+  "@weeksAgo": {
+    "description": "Weeks ago relative time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "monthsAgo": "{count, plural, =1{1 month ago} other{{count} months ago}}",
+  "@monthsAgo": {
+    "description": "Months ago relative time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "yearsAgo": "{count, plural, =1{1 year ago} other{{count} years ago}}",
+  "@yearsAgo": {
+    "description": "Years ago relative time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "inMinutes": "{count, plural, =1{In 1 minute} other{In {count} minutes}}",
+  "@inMinutes": {
+    "description": "In X minutes future time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "inHours": "{count, plural, =1{In 1 hour} other{In {count} hours}}",
+  "@inHours": {
+    "description": "In X hours future time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "inDays": "{count, plural, =1{In 1 day} other{In {count} days}}",
+  "@inDays": {
+    "description": "In X days future time",
+    "placeholders": { "count": { "type": "int" } }
+  },
+
+  "seconds": "Seconds",
+  "@seconds": { "description": "Seconds unit label" },
+
+  "minutes": "Minutes",
+  "@minutes": { "description": "Minutes unit label" },
+
+  "hours": "Hours",
+  "@hours": { "description": "Hours unit label" },
+
+  "days": "Days",
+  "@days": { "description": "Days unit label" },
+
+  "weeks": "Weeks",
+  "@weeks": { "description": "Weeks unit label" },
+
+  "months": "Months",
+  "@months": { "description": "Months unit label" },
+
+  "years": "Years",
+  "@years": { "description": "Years unit label" },
+
+  "monday": "Monday",
+  "@monday": { "description": "Monday" },
+
+  "tuesday": "Tuesday",
+  "@tuesday": { "description": "Tuesday" },
+
+  "wednesday": "Wednesday",
+  "@wednesday": { "description": "Wednesday" },
+
+  "thursday": "Thursday",
+  "@thursday": { "description": "Thursday" },
+
+  "friday": "Friday",
+  "@friday": { "description": "Friday" },
+
+  "saturday": "Saturday",
+  "@saturday": { "description": "Saturday" },
+
+  "sunday": "Sunday",
+  "@sunday": { "description": "Sunday" },
+
+  "monShort": "Mon",
+  "@monShort": { "description": "Monday abbreviation" },
+
+  "tueShort": "Tue",
+  "@tueShort": { "description": "Tuesday abbreviation" },
+
+  "wedShort": "Wed",
+  "@wedShort": { "description": "Wednesday abbreviation" },
+
+  "thuShort": "Thu",
+  "@thuShort": { "description": "Thursday abbreviation" },
+
+  "friShort": "Fri",
+  "@friShort": { "description": "Friday abbreviation" },
+
+  "satShort": "Sat",
+  "@satShort": { "description": "Saturday abbreviation" },
+
+  "sunShort": "Sun",
+  "@sunShort": { "description": "Sunday abbreviation" },
+
+  "am": "AM",
+  "@am": { "description": "AM time label" },
+
+  "pm": "PM",
+  "@pm": { "description": "PM time label" },
+
+  "startDate": "Start Date",
+  "@startDate": { "description": "Start date field label" },
+
+  "endDate": "End Date",
+  "@endDate": { "description": "End date field label" },
+
+  "startTime": "Start Time",
+  "@startTime": { "description": "Start time field label" },
+
+  "endTime": "End Time",
+  "@endTime": { "description": "End time field label" },
+
+  "duration": "Duration",
+  "@duration": { "description": "Duration label" },
+
+  "allDay": "All Day",
+  "@allDay": { "description": "All day event label" },
+
+  "fromDate": "From",
+  "@fromDate": { "description": "From date label" },
+
+  "toDate": "To",
+  "@toDate": { "description": "To date label" },
+
+  "selectDate": "Select Date",
+  "@selectDate": { "description": "Select date action" },
+
+  "selectTime": "Select Time",
+  "@selectTime": { "description": "Select time action" },
+
+  "pickDate": "Pick a date",
+  "@pickDate": { "description": "Date picker prompt" },
+
+  "pickTime": "Pick a time",
+  "@pickTime": { "description": "Time picker prompt" },
+
+  "noDateSelected": "No date selected",
+  "@noDateSelected": { "description": "No date selected placeholder" },
+
+  "noTimeSelected": "No time selected",
+  "@noTimeSelected": { "description": "No time selected placeholder" },
+
+  "deadline": "Deadline",
+  "@deadline": { "description": "Deadline label" },
+
+  "reminder": "Reminder",
+  "@reminder": { "description": "Reminder label" },
+
+  "schedule": "Schedule",
+  "@schedule": { "description": "Schedule label" },
+
+  "calendar": "Calendar",
+  "@calendar": { "description": "Calendar label" },
+
+  "event": "Event",
+  "@event": { "description": "Event label" },
+
+  "events": "Events",
+  "@events": { "description": "Events label" }
+}

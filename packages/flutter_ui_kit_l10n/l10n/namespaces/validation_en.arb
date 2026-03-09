@@ -1,0 +1,133 @@
+{
+  "@@locale": "en",
+  "@@description": "Form validation error messages",
+
+  "fieldRequired": "This field is required",
+  "@fieldRequired": { "description": "Required field validation error" },
+
+  "fieldRequiredNamed": "{field} is required",
+  "@fieldRequiredNamed": {
+    "description": "Named required field validation error",
+    "placeholders": { "field": { "type": "String" } }
+  },
+
+  "invalidEmail": "Please enter a valid email address",
+  "@invalidEmail": { "description": "Invalid email validation error" },
+
+  "invalidPhone": "Please enter a valid phone number",
+  "@invalidPhone": { "description": "Invalid phone validation error" },
+
+  "invalidUrl": "Please enter a valid URL",
+  "@invalidUrl": { "description": "Invalid URL validation error" },
+
+  "passwordTooShort": "Password must be at least {min} characters",
+  "@passwordTooShort": {
+    "description": "Password too short validation error",
+    "placeholders": { "min": { "type": "int" } }
+  },
+
+  "passwordTooWeak": "Password is too weak",
+  "@passwordTooWeak": { "description": "Weak password validation error" },
+
+  "passwordRequirements": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+  "@passwordRequirements": { "description": "Password requirements text" },
+
+  "passwordsDoNotMatch": "Passwords do not match",
+  "@passwordsDoNotMatch": { "description": "Password mismatch validation error" },
+
+  "invalidInput": "Invalid input",
+  "@invalidInput": { "description": "Generic invalid input error" },
+
+  "tooShort": "Must be at least {min} characters",
+  "@tooShort": {
+    "description": "Minimum length validation error",
+    "placeholders": { "min": { "type": "int" } }
+  },
+
+  "tooLong": "Must be at most {max} characters",
+  "@tooLong": {
+    "description": "Maximum length validation error",
+    "placeholders": { "max": { "type": "int" } }
+  },
+
+  "characterCount": "{current}/{max}",
+  "@characterCount": {
+    "description": "Character count display",
+    "placeholders": {
+      "current": { "type": "int" },
+      "max": { "type": "int" }
+    }
+  },
+
+  "minValue": "Must be at least {min}",
+  "@minValue": {
+    "description": "Minimum value validation error",
+    "placeholders": { "min": { "type": "String" } }
+  },
+
+  "maxValue": "Must be at most {max}",
+  "@maxValue": {
+    "description": "Maximum value validation error",
+    "placeholders": { "max": { "type": "String" } }
+  },
+
+  "invalidFormat": "Invalid format",
+  "@invalidFormat": { "description": "Invalid format validation error" },
+
+  "onlyNumbers": "Only numbers are allowed",
+  "@onlyNumbers": { "description": "Numbers only validation error" },
+
+  "onlyLetters": "Only letters are allowed",
+  "@onlyLetters": { "description": "Letters only validation error" },
+
+  "noSpecialCharacters": "Special characters are not allowed",
+  "@noSpecialCharacters": { "description": "No special characters validation error" },
+
+  "alreadyExists": "{field} already exists",
+  "@alreadyExists": {
+    "description": "Already exists validation error",
+    "placeholders": { "field": { "type": "String" } }
+  },
+
+  "notAvailable": "{field} is not available",
+  "@notAvailable": {
+    "description": "Not available validation error",
+    "placeholders": { "field": { "type": "String" } }
+  },
+
+  "invalidDate": "Please enter a valid date",
+  "@invalidDate": { "description": "Invalid date validation error" },
+
+  "dateTooEarly": "Date must be after {date}",
+  "@dateTooEarly": {
+    "description": "Date too early validation error",
+    "placeholders": { "date": { "type": "String" } }
+  },
+
+  "dateTooLate": "Date must be before {date}",
+  "@dateTooLate": {
+    "description": "Date too late validation error",
+    "placeholders": { "date": { "type": "String" } }
+  },
+
+  "fileTooLarge": "File size must be less than {size}",
+  "@fileTooLarge": {
+    "description": "File too large validation error",
+    "placeholders": { "size": { "type": "String" } }
+  },
+
+  "unsupportedFileType": "This file type is not supported",
+  "@unsupportedFileType": { "description": "Unsupported file type error" },
+
+  "maxItemsReached": "Maximum of {max} items allowed",
+  "@maxItemsReached": {
+    "description": "Maximum items reached error",
+    "placeholders": { "max": { "type": "int" } }
+  },
+
+  "pleaseFixErrors": "Please fix the errors above",
+  "@pleaseFixErrors": { "description": "Fix form errors message" },
+
+  "allFieldsRequired": "All fields are required",
+  "@allFieldsRequired": { "description": "All fields required message" }
+}

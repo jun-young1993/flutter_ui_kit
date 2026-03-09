@@ -52,24 +52,31 @@ class DsThemeController extends ChangeNotifier {
   DsThemeController({
     ThemeMode defaultThemeMode = ThemeMode.system,
     DsBrand defaultBrand = DsBrand.violet,
+    Locale defaultLocale = const Locale('en'),
   })  : _themeMode = defaultThemeMode,
-        _brand = defaultBrand;
+        _brand = defaultBrand,
+        _locale = defaultLocale;
 
   // ─── Storage keys ──────────────────────────────────────────────────────────
 
   static const _kThemeModeKey = 'ds_theme_mode';
   static const _kBrandKey = 'ds_brand';
+  static const _kLocaleKey = 'ds_locale';
 
   // ─── State ─────────────────────────────────────────────────────────────────
 
   ThemeMode _themeMode;
   DsBrand _brand;
+  Locale _locale;
 
   /// The currently active [ThemeMode].
   ThemeMode get themeMode => _themeMode;
 
   /// The currently active [DsBrand].
   DsBrand get brand => _brand;
+
+  /// The currently active [Locale].
+  Locale get locale => _locale;
 
   /// Convenience getter — the light [ThemeData] for the active brand.
   ThemeData get lightTheme => _brand.lightTheme();
@@ -96,6 +103,11 @@ class DsThemeController extends ChangeNotifier {
       _brand = DsBrand.values[brandIndex];
     }
 
+    final localeCode = prefs.getString(_kLocaleKey);
+    if (localeCode != null && localeCode.isNotEmpty) {
+      _locale = Locale(localeCode);
+    }
+
     notifyListeners();
   }
 
@@ -117,6 +129,14 @@ class DsThemeController extends ChangeNotifier {
     _persist();
   }
 
+  /// Updates the [Locale] and persists the choice.
+  void setLocale(Locale locale) {
+    if (_locale == locale) return;
+    _locale = locale;
+    notifyListeners();
+    _persist();
+  }
+
   // ─── Persistence ───────────────────────────────────────────────────────────
 
   Future<void> _persist() async {
@@ -124,6 +144,7 @@ class DsThemeController extends ChangeNotifier {
     await Future.wait([
       prefs.setInt(_kThemeModeKey, _themeMode.index),
       prefs.setInt(_kBrandKey, _brand.index),
+      prefs.setString(_kLocaleKey, _locale.languageCode),
     ]);
   }
 }

@@ -3,6 +3,7 @@
     "flutter_ui_kit",
     "flutter_ui_kit_chat",
     "flutter_ui_kit_google_mobile_ads",
+    "flutter_ui_kit_l10n",
     "flutter_ui_kit_setting",
     "flutter_ui_kit_theme",
     "show_case_setting",
@@ -31,7 +32,7 @@
     },
     {
       "name": "flutter_ui_kit_chat",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "dependencies": [
         "flutter"
       ],
@@ -42,7 +43,7 @@
     },
     {
       "name": "flutter_ui_kit_theme",
-      "version": "0.1.4",
+      "version": "0.1.6",
       "dependencies": [
         "flutter",
         "shared_preferences"
@@ -54,13 +55,26 @@
     },
     {
       "name": "flutter_ui_kit_setting",
-      "version": "0.1.10",
+      "version": "0.1.10+2",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_theme",
         "package_info_plus",
         "share_plus",
         "url_launcher"
+      ],
+      "devDependencies": [
+        "flutter_lints",
+        "flutter_test"
+      ]
+    },
+    {
+      "name": "flutter_ui_kit_l10n",
+      "version": "0.0.1",
+      "dependencies": [
+        "flutter",
+        "flutter_localizations",
+        "intl"
       ],
       "devDependencies": [
         "flutter_lints",
@@ -86,6 +100,7 @@
       "dependencies": [
         "cupertino_icons",
         "flutter",
+        "flutter_ui_kit_l10n",
         "flutter_ui_kit_setting",
         "flutter_ui_kit_theme"
       ],
@@ -164,6 +179,24 @@
         "meta",
         "sky_engine",
         "vector_math"
+      ]
+    },
+    {
+      "name": "intl",
+      "version": "0.20.2",
+      "dependencies": [
+        "clock",
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "flutter_localizations",
+      "version": "0.0.0",
+      "dependencies": [
+        "flutter",
+        "intl",
+        "path"
       ]
     },
     {

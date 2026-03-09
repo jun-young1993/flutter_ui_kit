@@ -84,6 +84,10 @@ List<SettingSection> buildDefaultSettingSections({
         onChanged: onBrandChanged,
       ),
   ];
+
+  
+
+
   if (appearanceItems.isNotEmpty) {
     sections.add(SettingSection(title: 'Appearance', items: appearanceItems));
   }

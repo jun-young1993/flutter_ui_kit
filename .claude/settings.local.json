@@ -3,7 +3,13 @@
     "allow": [
       "Bash(flutter pub get)",
       "Bash(flutter analyze:*)",
-      "mcp__ide__getDiagnostics"
+      "mcp__ide__getDiagnostics",
+      "Bash(dart pub:*)",
+      "Bash(for lang in en ko ja)",
+      "Bash(do echo \"=== $lang ===\")",
+      "Read(//c/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_l10n/lib/src/generated/**)",
+      "Bash(done)",
+      "Bash(dart analyze:*)"
     ]
   }
 }
