@@ -4,6 +4,7 @@
     <modules>
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml"/>
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/melos_flutter_ui_kit_google_mobile_ads.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_google_mobile_ads/melos_flutter_ui_kit_google_mobile_ads.iml"/>
+<module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_l10n/melos_flutter_ui_kit_l10n.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_l10n/melos_flutter_ui_kit_l10n.iml"/>
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_setting/melos_flutter_ui_kit_setting.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/melos_flutter_ui_kit_setting.iml"/>
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_theme/melos_flutter_ui_kit_theme.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_theme/melos_flutter_ui_kit_theme.iml"/>
 <module fileurl="file://$PROJECT_DIR$/apps/show_case_setting/melos_show_case_setting.iml" filepath="$PROJECT_DIR$/apps/show_case_setting/melos_show_case_setting.iml"/>
