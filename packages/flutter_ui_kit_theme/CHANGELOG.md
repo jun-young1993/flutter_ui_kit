@@ -1,3 +1,7 @@
+## 0.1.7
+
+ - **FEAT**: flutter_ui_kit initial release.
+
 ## 0.1.6
 
  - **FEAT**: dsBuilder brand 추가.

@@ -1,3 +1,7 @@
+## 0.1.8
+
+ - **FEAT**: flutter_ui_kit initial release.
+
 ## 0.1.7
 
  - **FEAT**: theme 저장 기능.

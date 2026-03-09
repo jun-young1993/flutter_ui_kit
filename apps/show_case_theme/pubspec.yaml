@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_ui_kit_theme: ^0.1.6
+  flutter_ui_kit_theme: ^0.1.7
 
 dev_dependencies:
   flutter_test:
