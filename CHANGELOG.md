@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_l10n` - `v0.0.4`](#flutter_ui_kit_l10n---v004)
+
+---
+
+#### `flutter_ui_kit_l10n` - `v0.0.4`
+
+ - **FEAT**: locale.custom 기능 추가.
+
+
+## 2026-03-09
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.9`](#flutter_ui_kit_chat---v019)
  - [`flutter_ui_kit_l10n` - `v0.0.3`](#flutter_ui_kit_l10n---v003)
 

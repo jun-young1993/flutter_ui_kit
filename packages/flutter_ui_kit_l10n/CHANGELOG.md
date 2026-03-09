@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - **FEAT**: locale.custom 기능 추가.
+
 ## 0.0.3
 
  - **FEAT**: flutter_ui_kit_l10n initialize release.
