@@ -15,6 +15,32 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.9`](#flutter_ui_kit_chat---v019)
+ - [`flutter_ui_kit_l10n` - `v0.0.3`](#flutter_ui_kit_l10n---v003)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.9`
+
+ - **FEAT**: flutter_ui_kit_l10n initialize release.
+
+#### `flutter_ui_kit_l10n` - `v0.0.3`
+
+ - **FEAT**: flutter_ui_kit_l10n initialize release.
+
+
+## 2026-03-09
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.8`](#flutter_ui_kit_chat---v018)
  - [`flutter_ui_kit_l10n` - `v0.0.2`](#flutter_ui_kit_l10n---v002)
  - [`flutter_ui_kit_setting` - `v0.1.11`](#flutter_ui_kit_setting---v0111)

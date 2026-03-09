@@ -1,3 +1,7 @@
+## 0.1.9
+
+ - **FEAT**: flutter_ui_kit_l10n initialize release.
+
 ## 0.1.8
 
  - **FEAT**: flutter_ui_kit initial release.
