@@ -1,3 +1,7 @@
+## 0.1.10
+
+ - **FEAT**: * TODO: Describe initial release.
+
 ## 0.1.9
 
  - **FEAT**: flutter_ui_kit_l10n initialize release.

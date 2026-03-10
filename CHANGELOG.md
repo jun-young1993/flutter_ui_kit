@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-10
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_chat` - `v0.1.10`](#flutter_ui_kit_chat---v0110)
+ - [`flutter_ui_kit_l10n` - `v0.0.5`](#flutter_ui_kit_l10n---v005)
+ - [`flutter_ui_kit_notice` - `v0.0.2`](#flutter_ui_kit_notice---v002)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.10`
+
+ - **FEAT**: * TODO: Describe initial release.
+
+#### `flutter_ui_kit_l10n` - `v0.0.5`
+
+ - **FEAT**: * TODO: Describe initial release.
+
+#### `flutter_ui_kit_notice` - `v0.0.2`
+
+ - **FEAT**: * TODO: Describe initial release.
+
+
 ## 2026-03-09
 
 ### Changes
