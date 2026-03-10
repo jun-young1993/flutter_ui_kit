@@ -666,6 +666,12 @@
       "rootUri": "../apps/show_case_setting",
       "packageUri": "lib/",
       "languageVersion": "3.10"
+    },
+    {
+      "name": "flutter_ui_kit_notice",
+      "rootUri": "../packages/flutter_ui_kit_notice",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
     }
   ],
   "generator": "pub",

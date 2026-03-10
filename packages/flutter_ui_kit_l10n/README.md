@@ -150,3 +150,18 @@ MaterialApp(
 | `en` | English  |
 | `ko` | Korean   |
 | `ja` | Japanese |
+
+
+# Custom
+
+```dart
+  final l10n = UiKitLocalizations.of(context);
+
+  Text(
+    l10n.custom((locale) => switch (locale.languageCode) {
+      'en' => 'This alarm is important',
+      'ko' => '이 알람은 중요합니다',
+      _ => 'Unknown',
+    }),
+  )
+```

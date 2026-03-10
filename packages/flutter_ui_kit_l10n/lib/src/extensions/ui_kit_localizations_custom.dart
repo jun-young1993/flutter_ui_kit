@@ -22,6 +22,17 @@ extension UiKitLocalizationsCustom on UiKitLocalizations {
   ///
   /// [resolver]는 [Locale]을 받아 해당 언어의 문자열을 반환해야 합니다.
   /// `switch` expression의 와일드카드(`_`)로 폴백 언어를 지정하세요.
+  /// ```dart
+  /// final l10n = UiKitLocalizations.of(context);
+  ///
+  /// Text(
+  ///   l10n.custom((locale) => switch (locale.languageCode) {
+  ///     'en' => 'This alarm is important',
+  ///     'ko' => '이 알람은 중요합니다',
+  ///     _ => 'Unknown',
+  ///   }),
+  /// )
+  /// ```
   String custom(String Function(Locale locale) resolver) {
     return resolver(Locale(localeName));
   }

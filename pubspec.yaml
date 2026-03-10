@@ -12,3 +12,4 @@ workspace:
   - packages/flutter_ui_kit_l10n
   - apps/show_case_theme
   - apps/show_case_setting
+  - packages/flutter_ui_kit_notice
