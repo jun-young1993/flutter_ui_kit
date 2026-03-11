@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-11
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_notice` - `v0.0.3`](#flutter_ui_kit_notice---v003)
+
+---
+
+#### `flutter_ui_kit_notice` - `v0.0.3`
+
+ - **FEAT**: Describe initial release.
+
+
 ## 2026-03-10
 
 ### Changes
