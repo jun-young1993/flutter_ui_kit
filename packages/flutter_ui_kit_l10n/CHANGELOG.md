@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - **FEAT**: notice l10n.
+
 ## 0.0.5
 
  - **FEAT**: * TODO: Describe initial release.
