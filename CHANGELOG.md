@@ -15,6 +15,41 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.14`](#flutter_ui_kit_chat---v0114)
+ - [`flutter_ui_kit_theme` - `v0.1.10`](#flutter_ui_kit_theme---v0110)
+ - [`flutter_ui_kit_setting` - `v0.1.11+3`](#flutter_ui_kit_setting---v01113)
+ - [`flutter_ui_kit_notice` - `v0.0.4+2`](#flutter_ui_kit_notice---v0042)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flutter_ui_kit_setting` - `v0.1.11+3`
+ - `flutter_ui_kit_notice` - `v0.0.4+2`
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.14`
+
+ - **FEAT**: 다크모드 가시성.
+
+#### `flutter_ui_kit_theme` - `v0.1.10`
+
+ - **FEAT**: 다크모드 가시성.
+
+
+## 2026-03-11
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_theme` - `v0.1.9`](#flutter_ui_kit_theme---v019)
  - [`flutter_ui_kit_setting` - `v0.1.11+2`](#flutter_ui_kit_setting---v01112)
  - [`flutter_ui_kit_notice` - `v0.0.4+1`](#flutter_ui_kit_notice---v0041)
