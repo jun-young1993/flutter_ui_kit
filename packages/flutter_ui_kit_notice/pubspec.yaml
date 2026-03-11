@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_theme: any
+  flutter_ui_kit_theme:
+    git:
+      url: https://github.com/jun-young1993/flutter_ui_kit.git
+      path: packages/flutter_ui_kit_theme
 
 dev_dependencies:
   flutter_test:

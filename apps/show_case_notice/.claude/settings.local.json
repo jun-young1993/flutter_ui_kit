@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"C:\\\\Users\\\\junyoung\\\\junyoung\\\\source\\\\flutter_ui_kit\\\\apps\\\\show_case_notice\" -type f -name \"*.dart\" -o -name \"*.yaml\" -o -name \"*.yml\" | grep -E \"\\\\.\\(dart|yaml|yml\\)$\" | sort)",
+      "Bash(grep -E \"\\\\.\\(dart|yaml|yml\\)$\")"
+    ]
+  }
+}
