@@ -119,10 +119,10 @@ packages:
     description:
       path: "packages/flutter_ui_kit_theme"
       ref: HEAD
-      resolved-ref: bce665e63467dc4456cbcba0383e9c216d005aa8
+      resolved-ref: c7ee2cadd3fbc45ef43f0a66625449feb79f675e
       url: "https://github.com/jun-young1993/flutter_ui_kit.git"
     source: git
-    version: "0.1.8"
+    version: "0.1.9"
   flutter_ui_kit_widget:
     dependency: transitive
     description:
