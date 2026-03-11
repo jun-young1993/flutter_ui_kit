@@ -1,3 +1,7 @@
+## 0.0.4
+
+ - **FEAT**: 테마 컬러 포인트 라이트와 다크모드에 최적화.
+
 ## 0.0.3
 
  - **FEAT**: Describe initial release.

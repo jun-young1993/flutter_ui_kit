@@ -1,3 +1,7 @@
+## 0.1.11+1
+
+ - Update a dependency to the latest release.
+
 ## 0.1.11
 
  - **FEAT**: flutter_ui_kit initial release.

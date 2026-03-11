@@ -1,3 +1,7 @@
+## 0.1.8
+
+ - **FEAT**: 테마 컬러 포인트 라이트와 다크모드에 최적화.
+
 ## 0.1.7
 
  - **FEAT**: flutter_ui_kit initial release.
