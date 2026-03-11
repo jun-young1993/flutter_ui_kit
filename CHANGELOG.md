@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.13`](#flutter_ui_kit_chat---v0113)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.13`
+
+ - **FEAT**: 다크 및 라이트 최적화.
+
+
+## 2026-03-11
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.12`](#flutter_ui_kit_chat---v0112)
  - [`flutter_ui_kit_l10n` - `v0.0.8`](#flutter_ui_kit_l10n---v008)
  - [`flutter_ui_kit_notice` - `v0.0.4`](#flutter_ui_kit_notice---v004)
