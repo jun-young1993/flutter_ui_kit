@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../theme/app_color_schemes.dart';
 import '../theme/base_theme.dart';
 import '../tokens/app_colors.dart';
 import '../tokens/app_radius.dart';
@@ -8,43 +9,18 @@ import '../tokens/app_typography.dart';
 
 /// Color schemes for Brand B — an emerald / green identity.
 ///
-/// Demonstrates how a second product line can share [BaseTheme] infrastructure
-/// while presenting a completely different visual personality. Only the seed
-/// color changes; the surface stack uses the same neutral navy palette.
+/// Only the seed color differs from [AppColorSchemes]; the entire surface stack
+/// is shared via [AppSurfaceOverrides], so surface visibility improvements
+/// propagate here automatically without any manual syncing.
 abstract final class BrandBColorSchemes {
   BrandBColorSchemes._();
 
-  static final ColorScheme dark = ColorScheme.fromSeed(
-    seedColor: AppColors.emerald500,
-    brightness: Brightness.dark,
-  ).copyWith(
-    // Brand B uses the same premium dark surface stack.
-    surface:                 AppColors.ink900,
-    surfaceContainerLowest:  AppColors.ink950,
-    surfaceContainerLow:     const Color(0xFF090D18),
-    surfaceContainer:        const Color(0xFF0B1220),
-    surfaceContainerHigh:    AppColors.ink800,
-    surfaceContainerHighest: const Color(0xFF162540),
-    onSurface:               AppColors.ink100,
-    onSurfaceVariant:        AppColors.ink300,
-    outline:                 AppColors.ink600,
-    outlineVariant:          AppColors.ink700,
+  static final ColorScheme dark = AppSurfaceOverrides.applyDark(
+    ColorScheme.fromSeed(seedColor: AppColors.emerald500, brightness: Brightness.dark),
   );
 
-  static final ColorScheme light = ColorScheme.fromSeed(
-    seedColor: AppColors.emerald500,
-    brightness: Brightness.light,
-  ).copyWith(
-    surface:                 AppColors.ink0,
-    surfaceContainerLowest:  AppColors.ink0,
-    surfaceContainerLow:     AppColors.ink50,
-    surfaceContainer:        AppColors.ink100,
-    surfaceContainerHigh:    AppColors.ink200,
-    surfaceContainerHighest: AppColors.ink300,
-    onSurface:               AppColors.ink900,
-    onSurfaceVariant:        AppColors.ink600,
-    outline:                 AppColors.ink500,
-    outlineVariant:          AppColors.ink300,
+  static final ColorScheme light = AppSurfaceOverrides.applyLight(
+    ColorScheme.fromSeed(seedColor: AppColors.emerald500, brightness: Brightness.light),
   );
 }
 
