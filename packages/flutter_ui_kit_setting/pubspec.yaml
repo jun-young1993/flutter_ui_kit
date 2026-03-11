@@ -1,9 +1,10 @@
 name: flutter_ui_kit_setting
 description: "A reusable Flutter UI kit for application settings screens."
 version: 0.1.12+1
-homepage: https://github.com/junyoung/flutter_ui_kit
-repository: https://github.com/junyoung/flutter_ui_kit
-issue_tracker: https://github.com/junyoung/flutter_ui_kit/issues
+publish_to: none
+homepage: https://github.com/jun-young1993/flutter_ui_kit
+repository: https://github.com/jun-young1993/flutter_ui_kit
+issue_tracker: https://github.com/jun-young1993/flutter_ui_kit/issues
 
 resolution: workspace
 

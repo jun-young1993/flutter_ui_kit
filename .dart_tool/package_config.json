@@ -656,18 +656,6 @@
       "languageVersion": "3.10"
     },
     {
-      "name": "show_case_theme",
-      "rootUri": "../apps/show_case_theme",
-      "packageUri": "lib/",
-      "languageVersion": "3.10"
-    },
-    {
-      "name": "show_case_setting",
-      "rootUri": "../apps/show_case_setting",
-      "packageUri": "lib/",
-      "languageVersion": "3.10"
-    },
-    {
       "name": "flutter_ui_kit_notice",
       "rootUri": "../packages/flutter_ui_kit_notice",
       "packageUri": "lib/",
@@ -678,6 +666,30 @@
       "rootUri": "../packages/flutter_ui_kit_widget",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "show_case_chat",
+      "rootUri": "../apps/show_case_chat",
+      "packageUri": "lib/",
+      "languageVersion": "3.10"
+    },
+    {
+      "name": "show_case_notice",
+      "rootUri": "../apps/show_case_notice",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
+    },
+    {
+      "name": "show_case_setting",
+      "rootUri": "../apps/show_case_setting",
+      "packageUri": "lib/",
+      "languageVersion": "3.10"
+    },
+    {
+      "name": "show_case_theme",
+      "rootUri": "../apps/show_case_theme",
+      "packageUri": "lib/",
+      "languageVersion": "3.10"
     }
   ],
   "generator": "pub",

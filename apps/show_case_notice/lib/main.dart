@@ -13,32 +13,51 @@ void main() async {
   runApp(MyApp(themeController: controller));
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key, required this.themeController});
 
   final DsThemeController themeController;
 
   @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  Locale _locale = UiKitLocalizations.supportedLocales.first;
+
+  @override
   Widget build(BuildContext context) {
     return ListenableBuilder(
-      listenable: themeController,
+      listenable: widget.themeController,
       builder: (_, __) => MaterialApp(
         title: 'Notice UI Kit',
-        theme: themeController.lightTheme,
-        darkTheme: themeController.darkTheme,
-        themeMode: themeController.themeMode,
+        theme: widget.themeController.lightTheme,
+        darkTheme: widget.themeController.darkTheme,
+        themeMode: widget.themeController.themeMode,
+        locale: _locale,
         localizationsDelegates: UiKitLocalizations.localizationsDelegates,
         supportedLocales: UiKitLocalizations.supportedLocales,
-        home: BoardScreen(themeController: themeController),
+        home: BoardScreen(
+          themeController: widget.themeController,
+          currentLocale: _locale,
+          onLocaleChanged: (locale) => setState(() => _locale = locale),
+        ),
       ),
     );
   }
 }
 
 class BoardScreen extends StatelessWidget {
-  const BoardScreen({super.key, required this.themeController});
+  const BoardScreen({
+    super.key,
+    required this.themeController,
+    required this.currentLocale,
+    required this.onLocaleChanged,
+  });
 
   final DsThemeController themeController;
+  final Locale currentLocale;
+  final ValueChanged<Locale> onLocaleChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -53,6 +72,10 @@ class BoardScreen extends StatelessWidget {
           DsThemeToggle(
             themeMode: themeController.themeMode,
             onChanged: themeController.setThemeMode,
+          ),
+          DsLocaleToggle(
+            currentLocale: currentLocale,
+            onChanged: onLocaleChanged,
           ),
           const SizedBox(width: 8),
         ],

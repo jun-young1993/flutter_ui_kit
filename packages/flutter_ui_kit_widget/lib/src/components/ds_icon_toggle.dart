@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ds_toggle_button.dart';
+
 /// 아이콘 하나를 표시하고, 탭하면 상태를 전환하는 범용 토글 버튼.
 ///
 /// [DsThemeToggle], [DsBrandToggle] 등 아이콘 스왑 토글의 공통 뼈대로 활용한다.
@@ -57,65 +59,23 @@ class DsIconToggle extends StatelessWidget {
   /// 아이콘 크기. 기본값 22.
   final double iconSize;
 
-  // ─── Duration & Curve 상수 ────────────────────────────────────────────────
-
-  static const Duration _kDuration = Duration(milliseconds: 300);
-  static const Curve _kSwitchInCurve = Curves.easeOutCubic;
-  static const Curve _kSwitchOutCurve = Curves.easeInCubic;
-
   // ─── Build ────────────────────────────────────────────────────────────────
 
   @override
   Widget build(BuildContext context) {
     final cs = Theme.of(context).colorScheme;
 
-    return Semantics(
-      button: true,
-      label: semanticLabel,
-      excludeSemantics: true,
-      child: Tooltip(
-        message: tooltipMessage,
-        child: Material(
-          color: backgroundColor ?? cs.surfaceContainerHigh,
-          shape: const StadiumBorder(),
-          clipBehavior: Clip.antiAlias,
-          child: InkWell(
-            onTap: onTap,
-            customBorder: const StadiumBorder(),
-            child: SizedBox.square(
-              dimension: sizedBoxDimension,
-              child: AnimatedSwitcher(
-                duration: _kDuration,
-                switchInCurve: _kSwitchInCurve,
-                switchOutCurve: _kSwitchOutCurve,
-                transitionBuilder: _buildTransition,
-                child: Icon(
-                  icon,
-                  key: iconKey ?? ValueKey(icon),
-                  color: iconColor ?? cs.primary,
-                  size: iconSize,
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  // ─── Transition ───────────────────────────────────────────────────────────
-
-  /// Incoming icon: fades in + scales up + rotates from 90° to 0°.
-  /// Outgoing icon: fades out + scales down + rotates from 0° to 90°.
-  static Widget _buildTransition(Widget child, Animation<double> animation) {
-    return ScaleTransition(
-      scale: Tween<double>(begin: 0.5, end: 1.0).animate(animation),
-      child: RotationTransition(
-        turns: Tween<double>(begin: 0.25, end: 0.0).animate(animation),
-        child: FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
+    return DsToggleButton(
+      onTap: onTap,
+      semanticLabel: semanticLabel,
+      tooltipMessage: tooltipMessage,
+      backgroundColor: backgroundColor,
+      sizedBoxDimension: sizedBoxDimension,
+      child: Icon(
+        icon,
+        key: iconKey ?? ValueKey(icon),
+        color: iconColor ?? cs.primary,
+        size: iconSize,
       ),
     );
   }

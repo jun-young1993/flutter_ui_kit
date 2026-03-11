@@ -10,7 +10,9 @@ workspace:
   - packages/flutter_ui_kit_theme
   - packages/flutter_ui_kit_setting
   - packages/flutter_ui_kit_l10n
-  - apps/show_case_theme
-  - apps/show_case_setting
   - packages/flutter_ui_kit_notice
   - packages/flutter_ui_kit_widget
+  - apps/show_case_chat
+  - apps/show_case_notice
+  - apps/show_case_setting
+  - apps/show_case_theme

@@ -6,11 +6,12 @@ version: 0.1.0+1
 environment:
   sdk: ^3.10.7
 
+resolution: workspace
+
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_chat:
-    path: ../../packages/flutter_ui_kit_chat
+  flutter_ui_kit_chat: ^0.1.17
 
 dev_dependencies:
   flutter_test:

@@ -17,7 +17,12 @@
       "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_theme && flutter analyze lib/widgets/ds_brand_toggle.dart lib/widgets/ds_theme_toggle.dart 2>&1)",
       "Bash(cd /c/Users/junyoung/junyoung/source/flutter_ui_kit && melos bootstrap 2>&1)",
       "Bash(cd /c/Users/junyoung/junyoung/source/flutter_ui_kit && dart run melos bootstrap 2>&1 || dart pub global run melos bootstrap 2>&1)",
-      "Bash(cd \"C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_theme\" && flutter analyze --no-fatal-infos 2>&1)"
+      "Bash(cd \"C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_theme\" && flutter analyze --no-fatal-infos 2>&1)",
+      "Bash(xargs grep:*)",
+      "Bash(while read:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/junyoung/junyoung/source/flutter_ui_kit/apps/show_case_notice/**)",
+      "Bash(done)"
     ]
   }
 }
