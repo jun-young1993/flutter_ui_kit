@@ -30,8 +30,8 @@ abstract final class AppColorSchemes {
     surfaceContainerHighest:   const Color(0xFF162540),
     onSurface:                 AppColors.ink100,
     onSurfaceVariant:          AppColors.ink300,
-    outline:                   AppColors.ink600,
-    outlineVariant:            AppColors.ink700,
+    outline:                   AppColors.ink400,
+    outlineVariant:            AppColors.ink600,
     scrim:                     AppColors.scrim,
   );
 
@@ -47,7 +47,7 @@ abstract final class AppColorSchemes {
     surfaceContainerLow:       AppColors.ink50,         // #F8F9FB
     surfaceContainer:          AppColors.ink100,        // #EEF0F4
     surfaceContainerHigh:      AppColors.ink200,        // #D8DCE6
-    surfaceContainerHighest:   AppColors.ink300,        // #B4BAC8
+    surfaceContainerHighest:   AppColors.ink200,        // #D8DCE6
     onSurface:                 AppColors.ink900,
     onSurfaceVariant:          AppColors.ink600,
     outline:                   AppColors.ink500,

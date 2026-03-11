@@ -1,37 +1,22 @@
-name: flutter_ui_kit_notice
-description: "Premium Glassmorphism Notice Board UI Kit for Flutter. Reusable forum and community components."
-version: 0.0.3
+name: flutter_ui_kit_widget
+description: "Reusable UI widget components for the flutter_ui_kit ecosystem."
+version: 0.0.1
 homepage:
-
-resolution: workspace
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
   flutter: ">=3.22.0"
 
+resolution: workspace
+
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_theme:
-    git:
-      url: https://github.com/jun-young1993/flutter_ui_kit.git
-      path: packages/flutter_ui_kit_theme
-  flutter_ui_kit_l10n:
-    git:
-      url: https://github.com/jun-young1993/flutter_ui_kit.git
-      path: packages/flutter_ui_kit_l10n
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
-
-topics:
-  - notice
-  - board
-  - ui
-  - glassmorphism
-  - widgets
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

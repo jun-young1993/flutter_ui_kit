@@ -9,6 +9,339 @@ class UiKitLocalizationsJa extends UiKitLocalizations {
   UiKitLocalizationsJa([String locale = 'ja']) : super(locale);
 
   @override
+  String get login => 'ログイン';
+
+  @override
+  String get logout => 'ログアウト';
+
+  @override
+  String get signUp => '新規登録';
+
+  @override
+  String get signIn => 'サインイン';
+
+  @override
+  String get signOut => 'サインアウト';
+
+  @override
+  String get register => '登録';
+
+  @override
+  String get email => 'メールアドレス';
+
+  @override
+  String get password => 'パスワード';
+
+  @override
+  String get confirmPassword => 'パスワード確認';
+
+  @override
+  String get currentPassword => '現在のパスワード';
+
+  @override
+  String get newPassword => '新しいパスワード';
+
+  @override
+  String get username => 'ユーザー名';
+
+  @override
+  String get phoneNumber => '電話番号';
+
+  @override
+  String get forgotPassword => 'パスワードをお忘れですか？';
+
+  @override
+  String get resetPassword => 'パスワードをリセット';
+
+  @override
+  String get changePassword => 'パスワードを変更';
+
+  @override
+  String get rememberMe => 'ログイン状態を保持';
+
+  @override
+  String get staySignedIn => 'サインイン状態を保持';
+
+  @override
+  String get orContinueWith => 'または次の方法で続ける';
+
+  @override
+  String get signInWithGoogle => 'Googleでサインイン';
+
+  @override
+  String get signInWithApple => 'Appleでサインイン';
+
+  @override
+  String get signInWithFacebook => 'Facebookでサインイン';
+
+  @override
+  String get createAccount => 'アカウントを作成';
+
+  @override
+  String get alreadyHaveAccount => 'すでにアカウントをお持ちですか？';
+
+  @override
+  String get dontHaveAccount => 'アカウントをお持ちでないですか？';
+
+  @override
+  String get verificationCode => '認証コード';
+
+  @override
+  String get sendCode => 'コードを送信';
+
+  @override
+  String get resendCode => 'コードを再送信';
+
+  @override
+  String get verifyEmail => 'メールを認証';
+
+  @override
+  String get verifyPhone => '電話番号を認証';
+
+  @override
+  String get resetPasswordSent => 'パスワードリセットメールを送信しました';
+
+  @override
+  String get resetPasswordInstruction =>
+      'メールアドレスを入力してください。パスワードリセットリンクをお送りします。';
+
+  @override
+  String get accountCreated => 'アカウントが作成されました';
+
+  @override
+  String get loginFailed => 'ログインに失敗しました';
+
+  @override
+  String get invalidCredentials => 'メールアドレスまたはパスワードが正しくありません';
+
+  @override
+  String get accountLocked => 'アカウントがロックされました';
+
+  @override
+  String get accountDeactivated => 'アカウントが無効化されました';
+
+  @override
+  String get passwordChanged => 'パスワードが変更されました';
+
+  @override
+  String get profileUpdated => 'プロフィールが更新されました';
+
+  @override
+  String get firstName => '名';
+
+  @override
+  String get lastName => '姓';
+
+  @override
+  String get displayName => '表示名';
+
+  @override
+  String get bio => '自己紹介';
+
+  @override
+  String get birthday => '誕生日';
+
+  @override
+  String get gender => '性別';
+
+  @override
+  String get male => '男性';
+
+  @override
+  String get female => '女性';
+
+  @override
+  String get other => 'その他';
+
+  @override
+  String get preferNotToSay => '回答しない';
+
+  @override
+  String get editProfile => 'プロフィールを編集';
+
+  @override
+  String get changeProfilePhoto => 'プロフィール写真を変更';
+
+  @override
+  String get deleteAccount => 'アカウントを削除';
+
+  @override
+  String get areYouSure => 'よろしいですか？';
+
+  @override
+  String get deleteConfirmTitle => '削除';
+
+  @override
+  String get deleteConfirmMessage => '本当に削除しますか？この操作は元に戻せません。';
+
+  @override
+  String get unsavedChanges => '保存されていない変更があります';
+
+  @override
+  String get unsavedChangesMessage => '移動する前に変更を保存しますか？';
+
+  @override
+  String get discardChanges => '変更を破棄';
+
+  @override
+  String get saveChanges => '変更を保存';
+
+  @override
+  String get copiedToClipboard => 'クリップボードにコピーしました';
+
+  @override
+  String get noInternetConnection => 'インターネット接続がありません';
+
+  @override
+  String get checkConnection => 'インターネット接続を確認して再試行してください。';
+
+  @override
+  String get tryAgainLater => '後でもう一度お試しください';
+
+  @override
+  String get somethingWentWrong => '問題が発生しました';
+
+  @override
+  String get permissionDenied => '権限が拒否されました';
+
+  @override
+  String get accessDenied => 'アクセスが拒否されました';
+
+  @override
+  String get notFound => '見つかりません';
+
+  @override
+  String get pageNotFound => 'ページが見つかりません';
+
+  @override
+  String get comingSoon => '近日公開';
+
+  @override
+  String get underMaintenance => 'メンテナンス中';
+
+  @override
+  String get updateAvailable => 'アップデートがあります';
+
+  @override
+  String get updateNow => '今すぐアップデート';
+
+  @override
+  String get later => '後で';
+
+  @override
+  String get welcomeBack => 'おかえりなさい';
+
+  @override
+  String get welcome => 'ようこそ';
+
+  @override
+  String get goodbye => 'さようなら';
+
+  @override
+  String get thankYou => 'ありがとうございます';
+
+  @override
+  String get congratulations => 'おめでとうございます！';
+
+  @override
+  String get savedSuccessfully => '保存しました';
+
+  @override
+  String get deletedSuccessfully => '削除しました';
+
+  @override
+  String get updatedSuccessfully => '更新しました';
+
+  @override
+  String get sentSuccessfully => '送信しました';
+
+  @override
+  String get uploadedSuccessfully => 'アップロードしました';
+
+  @override
+  String get downloadComplete => 'ダウンロード完了';
+
+  @override
+  String get operationFailed => '操作に失敗しました';
+
+  @override
+  String get sessionExpired => 'セッションが切れました';
+
+  @override
+  String get sessionExpiredMessage => 'セッションが切れました。再度ログインしてください。';
+
+  @override
+  String get timeout => 'リクエストがタイムアウトしました';
+
+  @override
+  String get serverError => 'サーバーエラー';
+
+  @override
+  String get networkError => 'ネットワークエラー';
+
+  @override
+  String get unknownError => '不明なエラー';
+
+  @override
+  String get pullToRefresh => '引っ張って更新';
+
+  @override
+  String get releaseToRefresh => '離して更新';
+
+  @override
+  String get loadingMore => '読み込み中...';
+
+  @override
+  String get noMoreItems => 'これ以上アイテムはありません';
+
+  @override
+  String get emptyHere => 'ここは空です';
+
+  @override
+  String get nothingToShow => '表示するものがありません';
+
+  @override
+  String get getStartedMessage => '最初のアイテムを追加して始めましょう';
+
+  @override
+  String get tapToRetry => 'タップして再試行';
+
+  @override
+  String get swipeToDelete => 'スワイプして削除';
+
+  @override
+  String get logoutConfirmTitle => 'ログアウト';
+
+  @override
+  String get logoutConfirmMessage => '本当にログアウトしますか？';
+
+  @override
+  String get deleteAccountConfirmMessage => '本当にアカウントを削除しますか？この操作は永久的で元に戻せません。';
+
+  @override
+  String get termsAgreement => '続行することで、利用規約とプライバシーポリシーに同意したものとみなされます。';
+
+  @override
+  String poweredBy(String name) {
+    return 'Powered by $name';
+  }
+
+  @override
+  String version_info(String version) {
+    return 'バージョン $version';
+  }
+
+  @override
+  String lastUpdated(String date) {
+    return '最終更新: $date';
+  }
+
+  @override
+  String createdBy(String name) {
+    return '$name 作成';
+  }
+
+  @override
   String get ok => 'OK';
 
   @override
@@ -456,6 +789,14 @@ class UiKitLocalizationsJa extends UiKitLocalizations {
   String get goBack => '戻る';
 
   @override
+  String get noticePinned => 'お知らせ';
+
+  @override
+  String noticeCommentsCount(int count) {
+    return 'コメント $count件';
+  }
+
+  @override
   String get settings => '設定';
 
   @override
@@ -586,452 +927,6 @@ class UiKitLocalizationsJa extends UiKitLocalizations {
 
   @override
   String get settingsAutoLock => '自動ロック';
-
-  @override
-  String get areYouSure => 'よろしいですか？';
-
-  @override
-  String get deleteConfirmTitle => '削除';
-
-  @override
-  String get deleteConfirmMessage => '本当に削除しますか？この操作は元に戻せません。';
-
-  @override
-  String get unsavedChanges => '保存されていない変更があります';
-
-  @override
-  String get unsavedChangesMessage => '移動する前に変更を保存しますか？';
-
-  @override
-  String get discardChanges => '変更を破棄';
-
-  @override
-  String get saveChanges => '変更を保存';
-
-  @override
-  String get copiedToClipboard => 'クリップボードにコピーしました';
-
-  @override
-  String get noInternetConnection => 'インターネット接続がありません';
-
-  @override
-  String get checkConnection => 'インターネット接続を確認して再試行してください。';
-
-  @override
-  String get tryAgainLater => '後でもう一度お試しください';
-
-  @override
-  String get somethingWentWrong => '問題が発生しました';
-
-  @override
-  String get permissionDenied => '権限が拒否されました';
-
-  @override
-  String get accessDenied => 'アクセスが拒否されました';
-
-  @override
-  String get notFound => '見つかりません';
-
-  @override
-  String get pageNotFound => 'ページが見つかりません';
-
-  @override
-  String get comingSoon => '近日公開';
-
-  @override
-  String get underMaintenance => 'メンテナンス中';
-
-  @override
-  String get updateAvailable => 'アップデートがあります';
-
-  @override
-  String get updateNow => '今すぐアップデート';
-
-  @override
-  String get later => '後で';
-
-  @override
-  String get welcomeBack => 'おかえりなさい';
-
-  @override
-  String get welcome => 'ようこそ';
-
-  @override
-  String get goodbye => 'さようなら';
-
-  @override
-  String get thankYou => 'ありがとうございます';
-
-  @override
-  String get congratulations => 'おめでとうございます！';
-
-  @override
-  String get savedSuccessfully => '保存しました';
-
-  @override
-  String get deletedSuccessfully => '削除しました';
-
-  @override
-  String get updatedSuccessfully => '更新しました';
-
-  @override
-  String get sentSuccessfully => '送信しました';
-
-  @override
-  String get uploadedSuccessfully => 'アップロードしました';
-
-  @override
-  String get downloadComplete => 'ダウンロード完了';
-
-  @override
-  String get operationFailed => '操作に失敗しました';
-
-  @override
-  String get sessionExpired => 'セッションが切れました';
-
-  @override
-  String get sessionExpiredMessage => 'セッションが切れました。再度ログインしてください。';
-
-  @override
-  String get timeout => 'リクエストがタイムアウトしました';
-
-  @override
-  String get serverError => 'サーバーエラー';
-
-  @override
-  String get networkError => 'ネットワークエラー';
-
-  @override
-  String get unknownError => '不明なエラー';
-
-  @override
-  String get pullToRefresh => '引っ張って更新';
-
-  @override
-  String get releaseToRefresh => '離して更新';
-
-  @override
-  String get loadingMore => '読み込み中...';
-
-  @override
-  String get noMoreItems => 'これ以上アイテムはありません';
-
-  @override
-  String get emptyHere => 'ここは空です';
-
-  @override
-  String get nothingToShow => '表示するものがありません';
-
-  @override
-  String get getStartedMessage => '最初のアイテムを追加して始めましょう';
-
-  @override
-  String get tapToRetry => 'タップして再試行';
-
-  @override
-  String get swipeToDelete => 'スワイプして削除';
-
-  @override
-  String get logoutConfirmTitle => 'ログアウト';
-
-  @override
-  String get logoutConfirmMessage => '本当にログアウトしますか？';
-
-  @override
-  String get deleteAccountConfirmMessage => '本当にアカウントを削除しますか？この操作は永久的で元に戻せません。';
-
-  @override
-  String get termsAgreement => '続行することで、利用規約とプライバシーポリシーに同意したものとみなされます。';
-
-  @override
-  String poweredBy(String name) {
-    return 'Powered by $name';
-  }
-
-  @override
-  String version_info(String version) {
-    return 'バージョン $version';
-  }
-
-  @override
-  String lastUpdated(String date) {
-    return '最終更新: $date';
-  }
-
-  @override
-  String createdBy(String name) {
-    return '$name 作成';
-  }
-
-  @override
-  String get login => 'ログイン';
-
-  @override
-  String get logout => 'ログアウト';
-
-  @override
-  String get signUp => '新規登録';
-
-  @override
-  String get signIn => 'サインイン';
-
-  @override
-  String get signOut => 'サインアウト';
-
-  @override
-  String get register => '登録';
-
-  @override
-  String get email => 'メールアドレス';
-
-  @override
-  String get password => 'パスワード';
-
-  @override
-  String get confirmPassword => 'パスワード確認';
-
-  @override
-  String get currentPassword => '現在のパスワード';
-
-  @override
-  String get newPassword => '新しいパスワード';
-
-  @override
-  String get username => 'ユーザー名';
-
-  @override
-  String get phoneNumber => '電話番号';
-
-  @override
-  String get forgotPassword => 'パスワードをお忘れですか？';
-
-  @override
-  String get resetPassword => 'パスワードをリセット';
-
-  @override
-  String get changePassword => 'パスワードを変更';
-
-  @override
-  String get rememberMe => 'ログイン状態を保持';
-
-  @override
-  String get staySignedIn => 'サインイン状態を保持';
-
-  @override
-  String get orContinueWith => 'または次の方法で続ける';
-
-  @override
-  String get signInWithGoogle => 'Googleでサインイン';
-
-  @override
-  String get signInWithApple => 'Appleでサインイン';
-
-  @override
-  String get signInWithFacebook => 'Facebookでサインイン';
-
-  @override
-  String get createAccount => 'アカウントを作成';
-
-  @override
-  String get alreadyHaveAccount => 'すでにアカウントをお持ちですか？';
-
-  @override
-  String get dontHaveAccount => 'アカウントをお持ちでないですか？';
-
-  @override
-  String get verificationCode => '認証コード';
-
-  @override
-  String get sendCode => 'コードを送信';
-
-  @override
-  String get resendCode => 'コードを再送信';
-
-  @override
-  String get verifyEmail => 'メールを認証';
-
-  @override
-  String get verifyPhone => '電話番号を認証';
-
-  @override
-  String get resetPasswordSent => 'パスワードリセットメールを送信しました';
-
-  @override
-  String get resetPasswordInstruction =>
-      'メールアドレスを入力してください。パスワードリセットリンクをお送りします。';
-
-  @override
-  String get accountCreated => 'アカウントが作成されました';
-
-  @override
-  String get loginFailed => 'ログインに失敗しました';
-
-  @override
-  String get invalidCredentials => 'メールアドレスまたはパスワードが正しくありません';
-
-  @override
-  String get accountLocked => 'アカウントがロックされました';
-
-  @override
-  String get accountDeactivated => 'アカウントが無効化されました';
-
-  @override
-  String get passwordChanged => 'パスワードが変更されました';
-
-  @override
-  String get profileUpdated => 'プロフィールが更新されました';
-
-  @override
-  String get firstName => '名';
-
-  @override
-  String get lastName => '姓';
-
-  @override
-  String get displayName => '表示名';
-
-  @override
-  String get bio => '自己紹介';
-
-  @override
-  String get birthday => '誕生日';
-
-  @override
-  String get gender => '性別';
-
-  @override
-  String get male => '男性';
-
-  @override
-  String get female => '女性';
-
-  @override
-  String get other => 'その他';
-
-  @override
-  String get preferNotToSay => '回答しない';
-
-  @override
-  String get editProfile => 'プロフィールを編集';
-
-  @override
-  String get changeProfilePhoto => 'プロフィール写真を変更';
-
-  @override
-  String get deleteAccount => 'アカウントを削除';
-
-  @override
-  String get fieldRequired => 'この項目は必須です';
-
-  @override
-  String fieldRequiredNamed(String field) {
-    return '$fieldは必須です';
-  }
-
-  @override
-  String get invalidEmail => '有効なメールアドレスを入力してください';
-
-  @override
-  String get invalidPhone => '有効な電話番号を入力してください';
-
-  @override
-  String get invalidUrl => '有効なURLを入力してください';
-
-  @override
-  String passwordTooShort(int min) {
-    return 'パスワードは$min文字以上必要です';
-  }
-
-  @override
-  String get passwordTooWeak => 'パスワードが弱すぎます';
-
-  @override
-  String get passwordRequirements => 'パスワードには大文字、小文字、数字をそれぞれ1つ以上含める必要があります';
-
-  @override
-  String get passwordsDoNotMatch => 'パスワードが一致しません';
-
-  @override
-  String get invalidInput => '無効な入力です';
-
-  @override
-  String tooShort(int min) {
-    return '$min文字以上で入力してください';
-  }
-
-  @override
-  String tooLong(int max) {
-    return '$max文字以内で入力してください';
-  }
-
-  @override
-  String characterCount(int current, int max) {
-    return '$current/$max';
-  }
-
-  @override
-  String minValue(String min) {
-    return '最小値は$minです';
-  }
-
-  @override
-  String maxValue(String max) {
-    return '最大値は$maxです';
-  }
-
-  @override
-  String get invalidFormat => '形式が正しくありません';
-
-  @override
-  String get onlyNumbers => '数字のみ入力できます';
-
-  @override
-  String get onlyLetters => '文字のみ入力できます';
-
-  @override
-  String get noSpecialCharacters => '特殊文字は使用できません';
-
-  @override
-  String alreadyExists(String field) {
-    return '$fieldはすでに存在します';
-  }
-
-  @override
-  String notAvailable(String field) {
-    return '$fieldは使用できません';
-  }
-
-  @override
-  String get invalidDate => '有効な日付を入力してください';
-
-  @override
-  String dateTooEarly(String date) {
-    return '$dateより後の日付を入力してください';
-  }
-
-  @override
-  String dateTooLate(String date) {
-    return '$dateより前の日付を入力してください';
-  }
-
-  @override
-  String fileTooLarge(String size) {
-    return 'ファイルサイズは$size未満にしてください';
-  }
-
-  @override
-  String get unsupportedFileType => 'このファイル形式はサポートされていません';
-
-  @override
-  String maxItemsReached(int max) {
-    return '最大$max個まで追加できます';
-  }
-
-  @override
-  String get pleaseFixErrors => '上記のエラーを修正してください';
-
-  @override
-  String get allFieldsRequired => 'すべての項目は必須です';
 
   @override
   String get today => '今日';
@@ -1266,4 +1161,117 @@ class UiKitLocalizationsJa extends UiKitLocalizations {
 
   @override
   String get events => 'イベント';
+
+  @override
+  String get fieldRequired => 'この項目は必須です';
+
+  @override
+  String fieldRequiredNamed(String field) {
+    return '$fieldは必須です';
+  }
+
+  @override
+  String get invalidEmail => '有効なメールアドレスを入力してください';
+
+  @override
+  String get invalidPhone => '有効な電話番号を入力してください';
+
+  @override
+  String get invalidUrl => '有効なURLを入力してください';
+
+  @override
+  String passwordTooShort(int min) {
+    return 'パスワードは$min文字以上必要です';
+  }
+
+  @override
+  String get passwordTooWeak => 'パスワードが弱すぎます';
+
+  @override
+  String get passwordRequirements => 'パスワードには大文字、小文字、数字をそれぞれ1つ以上含める必要があります';
+
+  @override
+  String get passwordsDoNotMatch => 'パスワードが一致しません';
+
+  @override
+  String get invalidInput => '無効な入力です';
+
+  @override
+  String tooShort(int min) {
+    return '$min文字以上で入力してください';
+  }
+
+  @override
+  String tooLong(int max) {
+    return '$max文字以内で入力してください';
+  }
+
+  @override
+  String characterCount(int current, int max) {
+    return '$current/$max';
+  }
+
+  @override
+  String minValue(String min) {
+    return '最小値は$minです';
+  }
+
+  @override
+  String maxValue(String max) {
+    return '最大値は$maxです';
+  }
+
+  @override
+  String get invalidFormat => '形式が正しくありません';
+
+  @override
+  String get onlyNumbers => '数字のみ入力できます';
+
+  @override
+  String get onlyLetters => '文字のみ入力できます';
+
+  @override
+  String get noSpecialCharacters => '特殊文字は使用できません';
+
+  @override
+  String alreadyExists(String field) {
+    return '$fieldはすでに存在します';
+  }
+
+  @override
+  String notAvailable(String field) {
+    return '$fieldは使用できません';
+  }
+
+  @override
+  String get invalidDate => '有効な日付を入力してください';
+
+  @override
+  String dateTooEarly(String date) {
+    return '$dateより後の日付を入力してください';
+  }
+
+  @override
+  String dateTooLate(String date) {
+    return '$dateより前の日付を入力してください';
+  }
+
+  @override
+  String fileTooLarge(String size) {
+    return 'ファイルサイズは$size未満にしてください';
+  }
+
+  @override
+  String get unsupportedFileType => 'このファイル形式はサポートされていません';
+
+  @override
+  String maxItemsReached(int max) {
+    return '最大$max個まで追加できます';
+  }
+
+  @override
+  String get pleaseFixErrors => '上記のエラーを修正してください';
+
+  @override
+  String get allFieldsRequired => 'すべての項目は必須です';
 }

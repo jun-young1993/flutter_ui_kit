@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_kit_l10n/flutter_ui_kit_l10n.dart';
 import 'package:flutter_ui_kit_theme/flutter_ui_kit_theme.dart';
 
 import '../../models/notice_post.dart';
@@ -65,10 +66,11 @@ class _TagRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = Localizations.of<UiKitLocalizations>(context, UiKitLocalizations) ?? UiKitLocalizationsEn();
     final tags = <Widget>[];
 
     if (post.isPinned) {
-      tags.addAll([GlassTag(label: '공지', color: cs.primary), AppSpacing.gapH1]);
+      tags.addAll([GlassTag(label: l10n.noticePinned, color: cs.primary), AppSpacing.gapH1]);
     }
     if (post.category != null) {
       tags.addAll([GlassTag(label: post.category!), AppSpacing.gapH1]);
@@ -105,7 +107,7 @@ class _MetaRow extends StatelessWidget {
         AppSpacing.gapH1,
         Text('·', style: muted),
         AppSpacing.gapH1,
-        Text(_formatDate(post.createdAt), style: secondary),
+        Text(_formatDate(context, post.createdAt), style: secondary),
         const Spacer(),
         Icon(Icons.visibility_outlined, size: 14, color: cs.outlineVariant),
         AppSpacing.gapH0_5,
@@ -118,10 +120,11 @@ class _MetaRow extends StatelessWidget {
     );
   }
 
-  String _formatDate(DateTime date) {
+  String _formatDate(BuildContext context, DateTime date) {
+    final l10n = Localizations.of<UiKitLocalizations>(context, UiKitLocalizations) ?? UiKitLocalizationsEn();
     final diff = DateTime.now().difference(date);
-    if (diff.inMinutes < 60) return '${diff.inMinutes}분 전';
-    if (diff.inHours < 24) return '${diff.inHours}시간 전';
+    if (diff.inMinutes < 60) return l10n.minutesAgo(diff.inMinutes);
+    if (diff.inHours < 24) return l10n.hoursAgo(diff.inHours);
     return '${date.year}.${_pad(date.month)}.${_pad(date.day)}';
   }
 

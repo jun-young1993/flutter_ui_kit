@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../tokens/app_motion.dart';
+import 'package:flutter_ui_kit_widget/flutter_ui_kit_widget.dart';
 
 /// A single-button theme toggle that cycles through Light → Dark → System.
 ///
@@ -10,7 +9,7 @@ import '../tokens/app_motion.dart';
 /// ```
 ///
 /// The icon swaps with a **rotate + scale + fade** animation so the
-/// transition feels smooth ("스르륵"). All colors come from
+/// transition feels smooth (\"스르륵\"). All colors come from
 /// [Theme.of(context).colorScheme] — nothing is hardcoded.
 ///
 /// ─────────────────────────────────────────────
@@ -112,61 +111,14 @@ class DsThemeToggle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Semantics(
-      button: true,
-      label: '$_currentLabel is active. Tap to switch to $_nextLabel.',
-      excludeSemantics: true,
-      child: Tooltip(
-        message: _currentLabel,
-        child: Material(
-          color: cs.surfaceContainerHigh,
-          shape: const StadiumBorder(),
-          clipBehavior: Clip.antiAlias,
-          child: InkWell(
-            onTap: () => onChanged(_next),
-            customBorder: const StadiumBorder(),
-            child: SizedBox.square(
-              dimension: sizedBoxDimension,
-              child: AnimatedSwitcher(
-                duration: AppMotion.standard,
-                switchInCurve: AppMotion.emphasizedDecel,
-                switchOutCurve: AppMotion.emphasizedAccel,
-                transitionBuilder: _buildTransition,
-                child: Icon(
-                  _icon,
-                  // ValueKey forces AnimatedSwitcher to treat each mode as
-                  // a distinct child, triggering the transition animation.
-                  key: ValueKey(themeMode),
-                  color: cs.primary,
-                  size: iconSize,
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  // ─── Transition ───────────────────────────────────────────────────────────
-
-  /// Incoming icon: fades in + scales up + rotates from 90° to 0°.
-  /// Outgoing icon: fades out + scales down + rotates from 0° to 90°.
-  ///
-  /// Static reference ensures [AnimatedSwitcher] never sees a changed
-  /// [transitionBuilder] and avoids unnecessary rebuilds.
-  static Widget _buildTransition(Widget child, Animation<double> animation) {
-    return ScaleTransition(
-      scale: Tween<double>(begin: 0.5, end: 1.0).animate(animation),
-      child: RotationTransition(
-        turns: Tween<double>(begin: 0.25, end: 0.0).animate(animation),
-        child: FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
-      ),
+    return DsIconToggle(
+      icon: _icon,
+      iconKey: ValueKey(themeMode),
+      onTap: () => onChanged(_next),
+      semanticLabel: '$_currentLabel is active. Tap to switch to $_nextLabel.',
+      tooltipMessage: _currentLabel,
+      sizedBoxDimension: sizedBoxDimension,
+      iconSize: iconSize,
     );
   }
 }

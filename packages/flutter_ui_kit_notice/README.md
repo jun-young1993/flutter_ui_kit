@@ -27,7 +27,8 @@ Premium **Glassmorphism Notice Board UI Kit** for Flutter.
 ```yaml
 dependencies:
   flutter_ui_kit_notice: any
-  flutter_ui_kit_theme: any   # 디자인 토큰 필수
+  flutter_ui_kit_theme: any    # 디자인 토큰 필수
+  flutter_ui_kit_l10n: any     # 다국어 지원 시 추가 (없으면 영어로 동작)
 ```
 
 ---
@@ -186,6 +187,49 @@ BoardList(
   emptyWidget: const Center(child: Text('작성된 게시글이 없습니다.')),
 )
 ```
+
+---
+
+## 다국어 지원 (l10n)
+
+`flutter_ui_kit_l10n` 패키지와 연동하여 `BoardItem`, `PostView`의 UI 문자열을 다국어로 표시합니다.
+
+지원 언어: `en` / `ko` / `ja`
+
+### 기본 동작 (설정 없음 → 영어)
+
+별도 설정 없이 사용하면 자동으로 영어가 적용됩니다.
+
+```dart
+// l10n 설정 없이 그냥 사용 — 영어로 표시됨
+MaterialApp(
+  home: BoardList(posts: posts),
+)
+```
+
+### 앱 언어 전환 연동
+
+`UiKitLocalizations.delegate`를 등록하면 앱 locale 변경 시 notice 위젯도 자동으로 반영됩니다.
+
+```dart
+import 'package:flutter_ui_kit_l10n/flutter_ui_kit_l10n.dart';
+
+MaterialApp(
+  localizationsDelegates: UiKitLocalizations.localizationsDelegates,
+  supportedLocales: UiKitLocalizations.supportedLocales,
+  locale: _currentLocale,   // 언어 스위처로 변경하면 notice 위젯도 자동 반영
+  home: BoardList(posts: posts),
+)
+```
+
+### 다국어 적용 문자열
+
+| 위젯 | 문자열 | en | ko | ja |
+|---|---|---|---|---|
+| `BoardItem`, `PostView` | 고정 게시글 태그 | `Notice` | `공지` | `お知らせ` |
+| `PostView` | 댓글 수 | `N Comments` | `댓글 N` | `コメント N件` |
+| `BoardItem` | 상대 시간 (분) | `N minutes ago` | `N분 전` | `N分前` |
+| `BoardItem` | 상대 시간 (시간) | `N hours ago` | `N시간 전` | `N時間前` |
 
 ---
 

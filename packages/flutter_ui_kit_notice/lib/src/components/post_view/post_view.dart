@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_kit_l10n/flutter_ui_kit_l10n.dart';
 import 'package:flutter_ui_kit_theme/flutter_ui_kit_theme.dart';
 
 import '../../models/notice_comment.dart';
@@ -52,9 +53,14 @@ class PostView extends StatelessWidget {
           _PostBody(post: post, cs: cs, tt: tt),
           if (comments.isNotEmpty) ...[
             AppSpacing.gapV3,
-            Text(
-              '댓글 ${comments.length}',
-              style: tt.titleSmall?.copyWith(color: cs.onSurface),
+            Builder(
+              builder: (context) {
+                final l10n = Localizations.of<UiKitLocalizations>(context, UiKitLocalizations) ?? UiKitLocalizationsEn();
+                return Text(
+                  l10n.noticeCommentsCount(comments.length),
+                  style: tt.titleSmall?.copyWith(color: cs.onSurface),
+                );
+              },
             ),
             AppSpacing.gapV1,
             ...comments.map(
@@ -155,10 +161,11 @@ class _TagRow extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final l10n = Localizations.of<UiKitLocalizations>(context, UiKitLocalizations) ?? UiKitLocalizationsEn();
     final tags = <Widget>[];
 
     if (post.isPinned) {
-      tags.addAll([GlassTag(label: '공지', color: cs.primary), AppSpacing.gapH1]);
+      tags.addAll([GlassTag(label: l10n.noticePinned, color: cs.primary), AppSpacing.gapH1]);
     }
     if (post.category != null) {
       tags.addAll([GlassTag(label: post.category!), AppSpacing.gapH1]);

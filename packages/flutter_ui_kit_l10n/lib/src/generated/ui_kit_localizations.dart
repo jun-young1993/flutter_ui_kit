@@ -100,6 +100,654 @@ abstract class UiKitLocalizations {
     Locale('ja'),
   ];
 
+  /// Login action label
+  ///
+  /// In en, this message translates to:
+  /// **'Log In'**
+  String get login;
+
+  /// Logout action label
+  ///
+  /// In en, this message translates to:
+  /// **'Log Out'**
+  String get logout;
+
+  /// Sign up action label
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Up'**
+  String get signUp;
+
+  /// Sign in action label
+  ///
+  /// In en, this message translates to:
+  /// **'Sign In'**
+  String get signIn;
+
+  /// Sign out action label
+  ///
+  /// In en, this message translates to:
+  /// **'Sign Out'**
+  String get signOut;
+
+  /// Register action label
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get register;
+
+  /// Email field label
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// Password field label
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// Confirm password field label
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm Password'**
+  String get confirmPassword;
+
+  /// Current password field label
+  ///
+  /// In en, this message translates to:
+  /// **'Current Password'**
+  String get currentPassword;
+
+  /// New password field label
+  ///
+  /// In en, this message translates to:
+  /// **'New Password'**
+  String get newPassword;
+
+  /// Username field label
+  ///
+  /// In en, this message translates to:
+  /// **'Username'**
+  String get username;
+
+  /// Phone number field label
+  ///
+  /// In en, this message translates to:
+  /// **'Phone Number'**
+  String get phoneNumber;
+
+  /// Forgot password link label
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot Password?'**
+  String get forgotPassword;
+
+  /// Reset password action label
+  ///
+  /// In en, this message translates to:
+  /// **'Reset Password'**
+  String get resetPassword;
+
+  /// Change password action label
+  ///
+  /// In en, this message translates to:
+  /// **'Change Password'**
+  String get changePassword;
+
+  /// Remember me checkbox label
+  ///
+  /// In en, this message translates to:
+  /// **'Remember Me'**
+  String get rememberMe;
+
+  /// Stay signed in checkbox label
+  ///
+  /// In en, this message translates to:
+  /// **'Stay Signed In'**
+  String get staySignedIn;
+
+  /// Social login separator text
+  ///
+  /// In en, this message translates to:
+  /// **'Or continue with'**
+  String get orContinueWith;
+
+  /// Google sign in button label
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with Google'**
+  String get signInWithGoogle;
+
+  /// Apple sign in button label
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with Apple'**
+  String get signInWithApple;
+
+  /// Facebook sign in button label
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with Facebook'**
+  String get signInWithFacebook;
+
+  /// Create account action label
+  ///
+  /// In en, this message translates to:
+  /// **'Create Account'**
+  String get createAccount;
+
+  /// Already have account text
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account?'**
+  String get alreadyHaveAccount;
+
+  /// Don't have account text
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an account?'**
+  String get dontHaveAccount;
+
+  /// Verification code field label
+  ///
+  /// In en, this message translates to:
+  /// **'Verification Code'**
+  String get verificationCode;
+
+  /// Send verification code action
+  ///
+  /// In en, this message translates to:
+  /// **'Send Code'**
+  String get sendCode;
+
+  /// Resend verification code action
+  ///
+  /// In en, this message translates to:
+  /// **'Resend Code'**
+  String get resendCode;
+
+  /// Verify email action label
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Email'**
+  String get verifyEmail;
+
+  /// Verify phone action label
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Phone'**
+  String get verifyPhone;
+
+  /// Password reset email sent message
+  ///
+  /// In en, this message translates to:
+  /// **'Password reset email sent'**
+  String get resetPasswordSent;
+
+  /// Password reset instruction text
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email and we\'ll send you a link to reset your password.'**
+  String get resetPasswordInstruction;
+
+  /// Account creation success message
+  ///
+  /// In en, this message translates to:
+  /// **'Account created successfully'**
+  String get accountCreated;
+
+  /// Login failure message
+  ///
+  /// In en, this message translates to:
+  /// **'Login failed'**
+  String get loginFailed;
+
+  /// Invalid credentials message
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid email or password'**
+  String get invalidCredentials;
+
+  /// Account locked message
+  ///
+  /// In en, this message translates to:
+  /// **'Account locked'**
+  String get accountLocked;
+
+  /// Account deactivated message
+  ///
+  /// In en, this message translates to:
+  /// **'Account deactivated'**
+  String get accountDeactivated;
+
+  /// Password change success message
+  ///
+  /// In en, this message translates to:
+  /// **'Password changed successfully'**
+  String get passwordChanged;
+
+  /// Profile update success message
+  ///
+  /// In en, this message translates to:
+  /// **'Profile updated'**
+  String get profileUpdated;
+
+  /// First name field label
+  ///
+  /// In en, this message translates to:
+  /// **'First Name'**
+  String get firstName;
+
+  /// Last name field label
+  ///
+  /// In en, this message translates to:
+  /// **'Last Name'**
+  String get lastName;
+
+  /// Display name field label
+  ///
+  /// In en, this message translates to:
+  /// **'Display Name'**
+  String get displayName;
+
+  /// Bio/about me field label
+  ///
+  /// In en, this message translates to:
+  /// **'Bio'**
+  String get bio;
+
+  /// Birthday field label
+  ///
+  /// In en, this message translates to:
+  /// **'Birthday'**
+  String get birthday;
+
+  /// Gender field label
+  ///
+  /// In en, this message translates to:
+  /// **'Gender'**
+  String get gender;
+
+  /// Male gender option
+  ///
+  /// In en, this message translates to:
+  /// **'Male'**
+  String get male;
+
+  /// Female gender option
+  ///
+  /// In en, this message translates to:
+  /// **'Female'**
+  String get female;
+
+  /// Other gender option
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get other;
+
+  /// Prefer not to say option
+  ///
+  /// In en, this message translates to:
+  /// **'Prefer not to say'**
+  String get preferNotToSay;
+
+  /// Edit profile action label
+  ///
+  /// In en, this message translates to:
+  /// **'Edit Profile'**
+  String get editProfile;
+
+  /// Change profile photo action
+  ///
+  /// In en, this message translates to:
+  /// **'Change Profile Photo'**
+  String get changeProfilePhoto;
+
+  /// Delete account action label
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Account'**
+  String get deleteAccount;
+
+  /// Generic confirmation question
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure?'**
+  String get areYouSure;
+
+  /// Delete confirmation dialog title
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get deleteConfirmTitle;
+
+  /// Delete confirmation dialog message
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this? This action cannot be undone.'**
+  String get deleteConfirmMessage;
+
+  /// Unsaved changes warning title
+  ///
+  /// In en, this message translates to:
+  /// **'You have unsaved changes'**
+  String get unsavedChanges;
+
+  /// Unsaved changes warning message
+  ///
+  /// In en, this message translates to:
+  /// **'Do you want to save your changes before leaving?'**
+  String get unsavedChangesMessage;
+
+  /// Discard changes action label
+  ///
+  /// In en, this message translates to:
+  /// **'Discard Changes'**
+  String get discardChanges;
+
+  /// Save changes action label
+  ///
+  /// In en, this message translates to:
+  /// **'Save Changes'**
+  String get saveChanges;
+
+  /// Clipboard copy success message
+  ///
+  /// In en, this message translates to:
+  /// **'Copied to clipboard'**
+  String get copiedToClipboard;
+
+  /// No internet connection message
+  ///
+  /// In en, this message translates to:
+  /// **'No internet connection'**
+  String get noInternetConnection;
+
+  /// Check connection suggestion message
+  ///
+  /// In en, this message translates to:
+  /// **'Please check your internet connection and try again.'**
+  String get checkConnection;
+
+  /// Try again later message
+  ///
+  /// In en, this message translates to:
+  /// **'Please try again later'**
+  String get tryAgainLater;
+
+  /// Generic error message
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong'**
+  String get somethingWentWrong;
+
+  /// Permission denied message
+  ///
+  /// In en, this message translates to:
+  /// **'Permission denied'**
+  String get permissionDenied;
+
+  /// Access denied message
+  ///
+  /// In en, this message translates to:
+  /// **'Access denied'**
+  String get accessDenied;
+
+  /// Not found message
+  ///
+  /// In en, this message translates to:
+  /// **'Not found'**
+  String get notFound;
+
+  /// 404 page not found message
+  ///
+  /// In en, this message translates to:
+  /// **'Page not found'**
+  String get pageNotFound;
+
+  /// Coming soon placeholder
+  ///
+  /// In en, this message translates to:
+  /// **'Coming Soon'**
+  String get comingSoon;
+
+  /// Under maintenance message
+  ///
+  /// In en, this message translates to:
+  /// **'Under Maintenance'**
+  String get underMaintenance;
+
+  /// App update available title
+  ///
+  /// In en, this message translates to:
+  /// **'Update Available'**
+  String get updateAvailable;
+
+  /// Update now action label
+  ///
+  /// In en, this message translates to:
+  /// **'Update Now'**
+  String get updateNow;
+
+  /// Later/dismiss action label
+  ///
+  /// In en, this message translates to:
+  /// **'Later'**
+  String get later;
+
+  /// Welcome back greeting
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome Back'**
+  String get welcomeBack;
+
+  /// Welcome greeting
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome'**
+  String get welcome;
+
+  /// Goodbye message
+  ///
+  /// In en, this message translates to:
+  /// **'Goodbye'**
+  String get goodbye;
+
+  /// Thank you message
+  ///
+  /// In en, this message translates to:
+  /// **'Thank You'**
+  String get thankYou;
+
+  /// Congratulations message
+  ///
+  /// In en, this message translates to:
+  /// **'Congratulations!'**
+  String get congratulations;
+
+  /// Save success message
+  ///
+  /// In en, this message translates to:
+  /// **'Saved successfully'**
+  String get savedSuccessfully;
+
+  /// Delete success message
+  ///
+  /// In en, this message translates to:
+  /// **'Deleted successfully'**
+  String get deletedSuccessfully;
+
+  /// Update success message
+  ///
+  /// In en, this message translates to:
+  /// **'Updated successfully'**
+  String get updatedSuccessfully;
+
+  /// Send success message
+  ///
+  /// In en, this message translates to:
+  /// **'Sent successfully'**
+  String get sentSuccessfully;
+
+  /// Upload success message
+  ///
+  /// In en, this message translates to:
+  /// **'Uploaded successfully'**
+  String get uploadedSuccessfully;
+
+  /// Download complete message
+  ///
+  /// In en, this message translates to:
+  /// **'Download complete'**
+  String get downloadComplete;
+
+  /// Operation failure message
+  ///
+  /// In en, this message translates to:
+  /// **'Operation failed'**
+  String get operationFailed;
+
+  /// Session expired message
+  ///
+  /// In en, this message translates to:
+  /// **'Session expired'**
+  String get sessionExpired;
+
+  /// Session expired detail message
+  ///
+  /// In en, this message translates to:
+  /// **'Your session has expired. Please log in again.'**
+  String get sessionExpiredMessage;
+
+  /// Timeout error message
+  ///
+  /// In en, this message translates to:
+  /// **'Request timed out'**
+  String get timeout;
+
+  /// Server error message
+  ///
+  /// In en, this message translates to:
+  /// **'Server error'**
+  String get serverError;
+
+  /// Network error message
+  ///
+  /// In en, this message translates to:
+  /// **'Network error'**
+  String get networkError;
+
+  /// Unknown error message
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown error'**
+  String get unknownError;
+
+  /// Pull to refresh hint
+  ///
+  /// In en, this message translates to:
+  /// **'Pull to refresh'**
+  String get pullToRefresh;
+
+  /// Release to refresh hint
+  ///
+  /// In en, this message translates to:
+  /// **'Release to refresh'**
+  String get releaseToRefresh;
+
+  /// Loading more items message
+  ///
+  /// In en, this message translates to:
+  /// **'Loading more...'**
+  String get loadingMore;
+
+  /// End of list message
+  ///
+  /// In en, this message translates to:
+  /// **'No more items'**
+  String get noMoreItems;
+
+  /// Empty state title
+  ///
+  /// In en, this message translates to:
+  /// **'It\'s empty here'**
+  String get emptyHere;
+
+  /// Nothing to display message
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing to show'**
+  String get nothingToShow;
+
+  /// Empty state call to action
+  ///
+  /// In en, this message translates to:
+  /// **'Get started by adding your first item'**
+  String get getStartedMessage;
+
+  /// Tap to retry hint
+  ///
+  /// In en, this message translates to:
+  /// **'Tap to retry'**
+  String get tapToRetry;
+
+  /// Swipe to delete hint
+  ///
+  /// In en, this message translates to:
+  /// **'Swipe to delete'**
+  String get swipeToDelete;
+
+  /// Logout confirmation dialog title
+  ///
+  /// In en, this message translates to:
+  /// **'Log Out'**
+  String get logoutConfirmTitle;
+
+  /// Logout confirmation dialog message
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to log out?'**
+  String get logoutConfirmMessage;
+
+  /// Delete account confirmation message
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete your account? This action is permanent and cannot be undone.'**
+  String get deleteAccountConfirmMessage;
+
+  /// Terms agreement text
+  ///
+  /// In en, this message translates to:
+  /// **'By continuing, you agree to our Terms of Service and Privacy Policy.'**
+  String get termsAgreement;
+
+  /// Powered by attribution
+  ///
+  /// In en, this message translates to:
+  /// **'Powered by {name}'**
+  String poweredBy(String name);
+
+  /// Version info display
+  ///
+  /// In en, this message translates to:
+  /// **'Version {version}'**
+  String version_info(String version);
+
+  /// Last updated timestamp
+  ///
+  /// In en, this message translates to:
+  /// **'Last updated: {date}'**
+  String lastUpdated(String date);
+
+  /// Created by attribution
+  ///
+  /// In en, this message translates to:
+  /// **'Created by {name}'**
+  String createdBy(String name);
+
   /// Generic OK/Confirm button label
   ///
   /// In en, this message translates to:
@@ -970,6 +1618,18 @@ abstract class UiKitLocalizations {
   /// **'Go Back'**
   String get goBack;
 
+  /// Label shown on pinned posts
+  ///
+  /// In en, this message translates to:
+  /// **'Notice'**
+  String get noticePinned;
+
+  /// Comment count label in post view
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 Comment} other{{count} Comments}}'**
+  String noticeCommentsCount(int count);
+
   /// Settings screen title
   ///
   /// In en, this message translates to:
@@ -1233,828 +1893,6 @@ abstract class UiKitLocalizations {
   /// In en, this message translates to:
   /// **'Auto Lock'**
   String get settingsAutoLock;
-
-  /// Generic confirmation question
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure?'**
-  String get areYouSure;
-
-  /// Delete confirmation dialog title
-  ///
-  /// In en, this message translates to:
-  /// **'Delete'**
-  String get deleteConfirmTitle;
-
-  /// Delete confirmation dialog message
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure you want to delete this? This action cannot be undone.'**
-  String get deleteConfirmMessage;
-
-  /// Unsaved changes warning title
-  ///
-  /// In en, this message translates to:
-  /// **'You have unsaved changes'**
-  String get unsavedChanges;
-
-  /// Unsaved changes warning message
-  ///
-  /// In en, this message translates to:
-  /// **'Do you want to save your changes before leaving?'**
-  String get unsavedChangesMessage;
-
-  /// Discard changes action label
-  ///
-  /// In en, this message translates to:
-  /// **'Discard Changes'**
-  String get discardChanges;
-
-  /// Save changes action label
-  ///
-  /// In en, this message translates to:
-  /// **'Save Changes'**
-  String get saveChanges;
-
-  /// Clipboard copy success message
-  ///
-  /// In en, this message translates to:
-  /// **'Copied to clipboard'**
-  String get copiedToClipboard;
-
-  /// No internet connection message
-  ///
-  /// In en, this message translates to:
-  /// **'No internet connection'**
-  String get noInternetConnection;
-
-  /// Check connection suggestion message
-  ///
-  /// In en, this message translates to:
-  /// **'Please check your internet connection and try again.'**
-  String get checkConnection;
-
-  /// Try again later message
-  ///
-  /// In en, this message translates to:
-  /// **'Please try again later'**
-  String get tryAgainLater;
-
-  /// Generic error message
-  ///
-  /// In en, this message translates to:
-  /// **'Something went wrong'**
-  String get somethingWentWrong;
-
-  /// Permission denied message
-  ///
-  /// In en, this message translates to:
-  /// **'Permission denied'**
-  String get permissionDenied;
-
-  /// Access denied message
-  ///
-  /// In en, this message translates to:
-  /// **'Access denied'**
-  String get accessDenied;
-
-  /// Not found message
-  ///
-  /// In en, this message translates to:
-  /// **'Not found'**
-  String get notFound;
-
-  /// 404 page not found message
-  ///
-  /// In en, this message translates to:
-  /// **'Page not found'**
-  String get pageNotFound;
-
-  /// Coming soon placeholder
-  ///
-  /// In en, this message translates to:
-  /// **'Coming Soon'**
-  String get comingSoon;
-
-  /// Under maintenance message
-  ///
-  /// In en, this message translates to:
-  /// **'Under Maintenance'**
-  String get underMaintenance;
-
-  /// App update available title
-  ///
-  /// In en, this message translates to:
-  /// **'Update Available'**
-  String get updateAvailable;
-
-  /// Update now action label
-  ///
-  /// In en, this message translates to:
-  /// **'Update Now'**
-  String get updateNow;
-
-  /// Later/dismiss action label
-  ///
-  /// In en, this message translates to:
-  /// **'Later'**
-  String get later;
-
-  /// Welcome back greeting
-  ///
-  /// In en, this message translates to:
-  /// **'Welcome Back'**
-  String get welcomeBack;
-
-  /// Welcome greeting
-  ///
-  /// In en, this message translates to:
-  /// **'Welcome'**
-  String get welcome;
-
-  /// Goodbye message
-  ///
-  /// In en, this message translates to:
-  /// **'Goodbye'**
-  String get goodbye;
-
-  /// Thank you message
-  ///
-  /// In en, this message translates to:
-  /// **'Thank You'**
-  String get thankYou;
-
-  /// Congratulations message
-  ///
-  /// In en, this message translates to:
-  /// **'Congratulations!'**
-  String get congratulations;
-
-  /// Save success message
-  ///
-  /// In en, this message translates to:
-  /// **'Saved successfully'**
-  String get savedSuccessfully;
-
-  /// Delete success message
-  ///
-  /// In en, this message translates to:
-  /// **'Deleted successfully'**
-  String get deletedSuccessfully;
-
-  /// Update success message
-  ///
-  /// In en, this message translates to:
-  /// **'Updated successfully'**
-  String get updatedSuccessfully;
-
-  /// Send success message
-  ///
-  /// In en, this message translates to:
-  /// **'Sent successfully'**
-  String get sentSuccessfully;
-
-  /// Upload success message
-  ///
-  /// In en, this message translates to:
-  /// **'Uploaded successfully'**
-  String get uploadedSuccessfully;
-
-  /// Download complete message
-  ///
-  /// In en, this message translates to:
-  /// **'Download complete'**
-  String get downloadComplete;
-
-  /// Operation failure message
-  ///
-  /// In en, this message translates to:
-  /// **'Operation failed'**
-  String get operationFailed;
-
-  /// Session expired message
-  ///
-  /// In en, this message translates to:
-  /// **'Session expired'**
-  String get sessionExpired;
-
-  /// Session expired detail message
-  ///
-  /// In en, this message translates to:
-  /// **'Your session has expired. Please log in again.'**
-  String get sessionExpiredMessage;
-
-  /// Timeout error message
-  ///
-  /// In en, this message translates to:
-  /// **'Request timed out'**
-  String get timeout;
-
-  /// Server error message
-  ///
-  /// In en, this message translates to:
-  /// **'Server error'**
-  String get serverError;
-
-  /// Network error message
-  ///
-  /// In en, this message translates to:
-  /// **'Network error'**
-  String get networkError;
-
-  /// Unknown error message
-  ///
-  /// In en, this message translates to:
-  /// **'Unknown error'**
-  String get unknownError;
-
-  /// Pull to refresh hint
-  ///
-  /// In en, this message translates to:
-  /// **'Pull to refresh'**
-  String get pullToRefresh;
-
-  /// Release to refresh hint
-  ///
-  /// In en, this message translates to:
-  /// **'Release to refresh'**
-  String get releaseToRefresh;
-
-  /// Loading more items message
-  ///
-  /// In en, this message translates to:
-  /// **'Loading more...'**
-  String get loadingMore;
-
-  /// End of list message
-  ///
-  /// In en, this message translates to:
-  /// **'No more items'**
-  String get noMoreItems;
-
-  /// Empty state title
-  ///
-  /// In en, this message translates to:
-  /// **'It\'s empty here'**
-  String get emptyHere;
-
-  /// Nothing to display message
-  ///
-  /// In en, this message translates to:
-  /// **'Nothing to show'**
-  String get nothingToShow;
-
-  /// Empty state call to action
-  ///
-  /// In en, this message translates to:
-  /// **'Get started by adding your first item'**
-  String get getStartedMessage;
-
-  /// Tap to retry hint
-  ///
-  /// In en, this message translates to:
-  /// **'Tap to retry'**
-  String get tapToRetry;
-
-  /// Swipe to delete hint
-  ///
-  /// In en, this message translates to:
-  /// **'Swipe to delete'**
-  String get swipeToDelete;
-
-  /// Logout confirmation dialog title
-  ///
-  /// In en, this message translates to:
-  /// **'Log Out'**
-  String get logoutConfirmTitle;
-
-  /// Logout confirmation dialog message
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure you want to log out?'**
-  String get logoutConfirmMessage;
-
-  /// Delete account confirmation message
-  ///
-  /// In en, this message translates to:
-  /// **'Are you sure you want to delete your account? This action is permanent and cannot be undone.'**
-  String get deleteAccountConfirmMessage;
-
-  /// Terms agreement text
-  ///
-  /// In en, this message translates to:
-  /// **'By continuing, you agree to our Terms of Service and Privacy Policy.'**
-  String get termsAgreement;
-
-  /// Powered by attribution
-  ///
-  /// In en, this message translates to:
-  /// **'Powered by {name}'**
-  String poweredBy(String name);
-
-  /// Version info display
-  ///
-  /// In en, this message translates to:
-  /// **'Version {version}'**
-  String version_info(String version);
-
-  /// Last updated timestamp
-  ///
-  /// In en, this message translates to:
-  /// **'Last updated: {date}'**
-  String lastUpdated(String date);
-
-  /// Created by attribution
-  ///
-  /// In en, this message translates to:
-  /// **'Created by {name}'**
-  String createdBy(String name);
-
-  /// Login action label
-  ///
-  /// In en, this message translates to:
-  /// **'Log In'**
-  String get login;
-
-  /// Logout action label
-  ///
-  /// In en, this message translates to:
-  /// **'Log Out'**
-  String get logout;
-
-  /// Sign up action label
-  ///
-  /// In en, this message translates to:
-  /// **'Sign Up'**
-  String get signUp;
-
-  /// Sign in action label
-  ///
-  /// In en, this message translates to:
-  /// **'Sign In'**
-  String get signIn;
-
-  /// Sign out action label
-  ///
-  /// In en, this message translates to:
-  /// **'Sign Out'**
-  String get signOut;
-
-  /// Register action label
-  ///
-  /// In en, this message translates to:
-  /// **'Register'**
-  String get register;
-
-  /// Email field label
-  ///
-  /// In en, this message translates to:
-  /// **'Email'**
-  String get email;
-
-  /// Password field label
-  ///
-  /// In en, this message translates to:
-  /// **'Password'**
-  String get password;
-
-  /// Confirm password field label
-  ///
-  /// In en, this message translates to:
-  /// **'Confirm Password'**
-  String get confirmPassword;
-
-  /// Current password field label
-  ///
-  /// In en, this message translates to:
-  /// **'Current Password'**
-  String get currentPassword;
-
-  /// New password field label
-  ///
-  /// In en, this message translates to:
-  /// **'New Password'**
-  String get newPassword;
-
-  /// Username field label
-  ///
-  /// In en, this message translates to:
-  /// **'Username'**
-  String get username;
-
-  /// Phone number field label
-  ///
-  /// In en, this message translates to:
-  /// **'Phone Number'**
-  String get phoneNumber;
-
-  /// Forgot password link label
-  ///
-  /// In en, this message translates to:
-  /// **'Forgot Password?'**
-  String get forgotPassword;
-
-  /// Reset password action label
-  ///
-  /// In en, this message translates to:
-  /// **'Reset Password'**
-  String get resetPassword;
-
-  /// Change password action label
-  ///
-  /// In en, this message translates to:
-  /// **'Change Password'**
-  String get changePassword;
-
-  /// Remember me checkbox label
-  ///
-  /// In en, this message translates to:
-  /// **'Remember Me'**
-  String get rememberMe;
-
-  /// Stay signed in checkbox label
-  ///
-  /// In en, this message translates to:
-  /// **'Stay Signed In'**
-  String get staySignedIn;
-
-  /// Social login separator text
-  ///
-  /// In en, this message translates to:
-  /// **'Or continue with'**
-  String get orContinueWith;
-
-  /// Google sign in button label
-  ///
-  /// In en, this message translates to:
-  /// **'Sign in with Google'**
-  String get signInWithGoogle;
-
-  /// Apple sign in button label
-  ///
-  /// In en, this message translates to:
-  /// **'Sign in with Apple'**
-  String get signInWithApple;
-
-  /// Facebook sign in button label
-  ///
-  /// In en, this message translates to:
-  /// **'Sign in with Facebook'**
-  String get signInWithFacebook;
-
-  /// Create account action label
-  ///
-  /// In en, this message translates to:
-  /// **'Create Account'**
-  String get createAccount;
-
-  /// Already have account text
-  ///
-  /// In en, this message translates to:
-  /// **'Already have an account?'**
-  String get alreadyHaveAccount;
-
-  /// Don't have account text
-  ///
-  /// In en, this message translates to:
-  /// **'Don\'t have an account?'**
-  String get dontHaveAccount;
-
-  /// Verification code field label
-  ///
-  /// In en, this message translates to:
-  /// **'Verification Code'**
-  String get verificationCode;
-
-  /// Send verification code action
-  ///
-  /// In en, this message translates to:
-  /// **'Send Code'**
-  String get sendCode;
-
-  /// Resend verification code action
-  ///
-  /// In en, this message translates to:
-  /// **'Resend Code'**
-  String get resendCode;
-
-  /// Verify email action label
-  ///
-  /// In en, this message translates to:
-  /// **'Verify Email'**
-  String get verifyEmail;
-
-  /// Verify phone action label
-  ///
-  /// In en, this message translates to:
-  /// **'Verify Phone'**
-  String get verifyPhone;
-
-  /// Password reset email sent message
-  ///
-  /// In en, this message translates to:
-  /// **'Password reset email sent'**
-  String get resetPasswordSent;
-
-  /// Password reset instruction text
-  ///
-  /// In en, this message translates to:
-  /// **'Enter your email and we\'ll send you a link to reset your password.'**
-  String get resetPasswordInstruction;
-
-  /// Account creation success message
-  ///
-  /// In en, this message translates to:
-  /// **'Account created successfully'**
-  String get accountCreated;
-
-  /// Login failure message
-  ///
-  /// In en, this message translates to:
-  /// **'Login failed'**
-  String get loginFailed;
-
-  /// Invalid credentials message
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid email or password'**
-  String get invalidCredentials;
-
-  /// Account locked message
-  ///
-  /// In en, this message translates to:
-  /// **'Account locked'**
-  String get accountLocked;
-
-  /// Account deactivated message
-  ///
-  /// In en, this message translates to:
-  /// **'Account deactivated'**
-  String get accountDeactivated;
-
-  /// Password change success message
-  ///
-  /// In en, this message translates to:
-  /// **'Password changed successfully'**
-  String get passwordChanged;
-
-  /// Profile update success message
-  ///
-  /// In en, this message translates to:
-  /// **'Profile updated'**
-  String get profileUpdated;
-
-  /// First name field label
-  ///
-  /// In en, this message translates to:
-  /// **'First Name'**
-  String get firstName;
-
-  /// Last name field label
-  ///
-  /// In en, this message translates to:
-  /// **'Last Name'**
-  String get lastName;
-
-  /// Display name field label
-  ///
-  /// In en, this message translates to:
-  /// **'Display Name'**
-  String get displayName;
-
-  /// Bio/about me field label
-  ///
-  /// In en, this message translates to:
-  /// **'Bio'**
-  String get bio;
-
-  /// Birthday field label
-  ///
-  /// In en, this message translates to:
-  /// **'Birthday'**
-  String get birthday;
-
-  /// Gender field label
-  ///
-  /// In en, this message translates to:
-  /// **'Gender'**
-  String get gender;
-
-  /// Male gender option
-  ///
-  /// In en, this message translates to:
-  /// **'Male'**
-  String get male;
-
-  /// Female gender option
-  ///
-  /// In en, this message translates to:
-  /// **'Female'**
-  String get female;
-
-  /// Other gender option
-  ///
-  /// In en, this message translates to:
-  /// **'Other'**
-  String get other;
-
-  /// Prefer not to say option
-  ///
-  /// In en, this message translates to:
-  /// **'Prefer not to say'**
-  String get preferNotToSay;
-
-  /// Edit profile action label
-  ///
-  /// In en, this message translates to:
-  /// **'Edit Profile'**
-  String get editProfile;
-
-  /// Change profile photo action
-  ///
-  /// In en, this message translates to:
-  /// **'Change Profile Photo'**
-  String get changeProfilePhoto;
-
-  /// Delete account action label
-  ///
-  /// In en, this message translates to:
-  /// **'Delete Account'**
-  String get deleteAccount;
-
-  /// Required field validation error
-  ///
-  /// In en, this message translates to:
-  /// **'This field is required'**
-  String get fieldRequired;
-
-  /// Named required field validation error
-  ///
-  /// In en, this message translates to:
-  /// **'{field} is required'**
-  String fieldRequiredNamed(String field);
-
-  /// Invalid email validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid email address'**
-  String get invalidEmail;
-
-  /// Invalid phone validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid phone number'**
-  String get invalidPhone;
-
-  /// Invalid URL validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid URL'**
-  String get invalidUrl;
-
-  /// Password too short validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Password must be at least {min} characters'**
-  String passwordTooShort(int min);
-
-  /// Weak password validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Password is too weak'**
-  String get passwordTooWeak;
-
-  /// Password requirements text
-  ///
-  /// In en, this message translates to:
-  /// **'Password must contain at least one uppercase letter, one lowercase letter, and one number'**
-  String get passwordRequirements;
-
-  /// Password mismatch validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Passwords do not match'**
-  String get passwordsDoNotMatch;
-
-  /// Generic invalid input error
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid input'**
-  String get invalidInput;
-
-  /// Minimum length validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Must be at least {min} characters'**
-  String tooShort(int min);
-
-  /// Maximum length validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Must be at most {max} characters'**
-  String tooLong(int max);
-
-  /// Character count display
-  ///
-  /// In en, this message translates to:
-  /// **'{current}/{max}'**
-  String characterCount(int current, int max);
-
-  /// Minimum value validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Must be at least {min}'**
-  String minValue(String min);
-
-  /// Maximum value validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Must be at most {max}'**
-  String maxValue(String max);
-
-  /// Invalid format validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Invalid format'**
-  String get invalidFormat;
-
-  /// Numbers only validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Only numbers are allowed'**
-  String get onlyNumbers;
-
-  /// Letters only validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Only letters are allowed'**
-  String get onlyLetters;
-
-  /// No special characters validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Special characters are not allowed'**
-  String get noSpecialCharacters;
-
-  /// Already exists validation error
-  ///
-  /// In en, this message translates to:
-  /// **'{field} already exists'**
-  String alreadyExists(String field);
-
-  /// Not available validation error
-  ///
-  /// In en, this message translates to:
-  /// **'{field} is not available'**
-  String notAvailable(String field);
-
-  /// Invalid date validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid date'**
-  String get invalidDate;
-
-  /// Date too early validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Date must be after {date}'**
-  String dateTooEarly(String date);
-
-  /// Date too late validation error
-  ///
-  /// In en, this message translates to:
-  /// **'Date must be before {date}'**
-  String dateTooLate(String date);
-
-  /// File too large validation error
-  ///
-  /// In en, this message translates to:
-  /// **'File size must be less than {size}'**
-  String fileTooLarge(String size);
-
-  /// Unsupported file type error
-  ///
-  /// In en, this message translates to:
-  /// **'This file type is not supported'**
-  String get unsupportedFileType;
-
-  /// Maximum items reached error
-  ///
-  /// In en, this message translates to:
-  /// **'Maximum of {max} items allowed'**
-  String maxItemsReached(int max);
-
-  /// Fix form errors message
-  ///
-  /// In en, this message translates to:
-  /// **'Please fix the errors above'**
-  String get pleaseFixErrors;
-
-  /// All fields required message
-  ///
-  /// In en, this message translates to:
-  /// **'All fields are required'**
-  String get allFieldsRequired;
 
   /// Today label
   ///
@@ -2397,6 +2235,180 @@ abstract class UiKitLocalizations {
   /// In en, this message translates to:
   /// **'Events'**
   String get events;
+
+  /// Required field validation error
+  ///
+  /// In en, this message translates to:
+  /// **'This field is required'**
+  String get fieldRequired;
+
+  /// Named required field validation error
+  ///
+  /// In en, this message translates to:
+  /// **'{field} is required'**
+  String fieldRequiredNamed(String field);
+
+  /// Invalid email validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid email address'**
+  String get invalidEmail;
+
+  /// Invalid phone validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid phone number'**
+  String get invalidPhone;
+
+  /// Invalid URL validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid URL'**
+  String get invalidUrl;
+
+  /// Password too short validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Password must be at least {min} characters'**
+  String passwordTooShort(int min);
+
+  /// Weak password validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Password is too weak'**
+  String get passwordTooWeak;
+
+  /// Password requirements text
+  ///
+  /// In en, this message translates to:
+  /// **'Password must contain at least one uppercase letter, one lowercase letter, and one number'**
+  String get passwordRequirements;
+
+  /// Password mismatch validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords do not match'**
+  String get passwordsDoNotMatch;
+
+  /// Generic invalid input error
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid input'**
+  String get invalidInput;
+
+  /// Minimum length validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Must be at least {min} characters'**
+  String tooShort(int min);
+
+  /// Maximum length validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Must be at most {max} characters'**
+  String tooLong(int max);
+
+  /// Character count display
+  ///
+  /// In en, this message translates to:
+  /// **'{current}/{max}'**
+  String characterCount(int current, int max);
+
+  /// Minimum value validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Must be at least {min}'**
+  String minValue(String min);
+
+  /// Maximum value validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Must be at most {max}'**
+  String maxValue(String max);
+
+  /// Invalid format validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid format'**
+  String get invalidFormat;
+
+  /// Numbers only validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Only numbers are allowed'**
+  String get onlyNumbers;
+
+  /// Letters only validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Only letters are allowed'**
+  String get onlyLetters;
+
+  /// No special characters validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Special characters are not allowed'**
+  String get noSpecialCharacters;
+
+  /// Already exists validation error
+  ///
+  /// In en, this message translates to:
+  /// **'{field} already exists'**
+  String alreadyExists(String field);
+
+  /// Not available validation error
+  ///
+  /// In en, this message translates to:
+  /// **'{field} is not available'**
+  String notAvailable(String field);
+
+  /// Invalid date validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid date'**
+  String get invalidDate;
+
+  /// Date too early validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Date must be after {date}'**
+  String dateTooEarly(String date);
+
+  /// Date too late validation error
+  ///
+  /// In en, this message translates to:
+  /// **'Date must be before {date}'**
+  String dateTooLate(String date);
+
+  /// File too large validation error
+  ///
+  /// In en, this message translates to:
+  /// **'File size must be less than {size}'**
+  String fileTooLarge(String size);
+
+  /// Unsupported file type error
+  ///
+  /// In en, this message translates to:
+  /// **'This file type is not supported'**
+  String get unsupportedFileType;
+
+  /// Maximum items reached error
+  ///
+  /// In en, this message translates to:
+  /// **'Maximum of {max} items allowed'**
+  String maxItemsReached(int max);
+
+  /// Fix form errors message
+  ///
+  /// In en, this message translates to:
+  /// **'Please fix the errors above'**
+  String get pleaseFixErrors;
+
+  /// All fields required message
+  ///
+  /// In en, this message translates to:
+  /// **'All fields are required'**
+  String get allFieldsRequired;
 }
 
 class _UiKitLocalizationsDelegate

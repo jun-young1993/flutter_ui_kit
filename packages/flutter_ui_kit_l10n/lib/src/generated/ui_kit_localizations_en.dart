@@ -9,6 +9,345 @@ class UiKitLocalizationsEn extends UiKitLocalizations {
   UiKitLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
+  String get login => 'Log In';
+
+  @override
+  String get logout => 'Log Out';
+
+  @override
+  String get signUp => 'Sign Up';
+
+  @override
+  String get signIn => 'Sign In';
+
+  @override
+  String get signOut => 'Sign Out';
+
+  @override
+  String get register => 'Register';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get confirmPassword => 'Confirm Password';
+
+  @override
+  String get currentPassword => 'Current Password';
+
+  @override
+  String get newPassword => 'New Password';
+
+  @override
+  String get username => 'Username';
+
+  @override
+  String get phoneNumber => 'Phone Number';
+
+  @override
+  String get forgotPassword => 'Forgot Password?';
+
+  @override
+  String get resetPassword => 'Reset Password';
+
+  @override
+  String get changePassword => 'Change Password';
+
+  @override
+  String get rememberMe => 'Remember Me';
+
+  @override
+  String get staySignedIn => 'Stay Signed In';
+
+  @override
+  String get orContinueWith => 'Or continue with';
+
+  @override
+  String get signInWithGoogle => 'Sign in with Google';
+
+  @override
+  String get signInWithApple => 'Sign in with Apple';
+
+  @override
+  String get signInWithFacebook => 'Sign in with Facebook';
+
+  @override
+  String get createAccount => 'Create Account';
+
+  @override
+  String get alreadyHaveAccount => 'Already have an account?';
+
+  @override
+  String get dontHaveAccount => 'Don\'t have an account?';
+
+  @override
+  String get verificationCode => 'Verification Code';
+
+  @override
+  String get sendCode => 'Send Code';
+
+  @override
+  String get resendCode => 'Resend Code';
+
+  @override
+  String get verifyEmail => 'Verify Email';
+
+  @override
+  String get verifyPhone => 'Verify Phone';
+
+  @override
+  String get resetPasswordSent => 'Password reset email sent';
+
+  @override
+  String get resetPasswordInstruction =>
+      'Enter your email and we\'ll send you a link to reset your password.';
+
+  @override
+  String get accountCreated => 'Account created successfully';
+
+  @override
+  String get loginFailed => 'Login failed';
+
+  @override
+  String get invalidCredentials => 'Invalid email or password';
+
+  @override
+  String get accountLocked => 'Account locked';
+
+  @override
+  String get accountDeactivated => 'Account deactivated';
+
+  @override
+  String get passwordChanged => 'Password changed successfully';
+
+  @override
+  String get profileUpdated => 'Profile updated';
+
+  @override
+  String get firstName => 'First Name';
+
+  @override
+  String get lastName => 'Last Name';
+
+  @override
+  String get displayName => 'Display Name';
+
+  @override
+  String get bio => 'Bio';
+
+  @override
+  String get birthday => 'Birthday';
+
+  @override
+  String get gender => 'Gender';
+
+  @override
+  String get male => 'Male';
+
+  @override
+  String get female => 'Female';
+
+  @override
+  String get other => 'Other';
+
+  @override
+  String get preferNotToSay => 'Prefer not to say';
+
+  @override
+  String get editProfile => 'Edit Profile';
+
+  @override
+  String get changeProfilePhoto => 'Change Profile Photo';
+
+  @override
+  String get deleteAccount => 'Delete Account';
+
+  @override
+  String get areYouSure => 'Are you sure?';
+
+  @override
+  String get deleteConfirmTitle => 'Delete';
+
+  @override
+  String get deleteConfirmMessage =>
+      'Are you sure you want to delete this? This action cannot be undone.';
+
+  @override
+  String get unsavedChanges => 'You have unsaved changes';
+
+  @override
+  String get unsavedChangesMessage =>
+      'Do you want to save your changes before leaving?';
+
+  @override
+  String get discardChanges => 'Discard Changes';
+
+  @override
+  String get saveChanges => 'Save Changes';
+
+  @override
+  String get copiedToClipboard => 'Copied to clipboard';
+
+  @override
+  String get noInternetConnection => 'No internet connection';
+
+  @override
+  String get checkConnection =>
+      'Please check your internet connection and try again.';
+
+  @override
+  String get tryAgainLater => 'Please try again later';
+
+  @override
+  String get somethingWentWrong => 'Something went wrong';
+
+  @override
+  String get permissionDenied => 'Permission denied';
+
+  @override
+  String get accessDenied => 'Access denied';
+
+  @override
+  String get notFound => 'Not found';
+
+  @override
+  String get pageNotFound => 'Page not found';
+
+  @override
+  String get comingSoon => 'Coming Soon';
+
+  @override
+  String get underMaintenance => 'Under Maintenance';
+
+  @override
+  String get updateAvailable => 'Update Available';
+
+  @override
+  String get updateNow => 'Update Now';
+
+  @override
+  String get later => 'Later';
+
+  @override
+  String get welcomeBack => 'Welcome Back';
+
+  @override
+  String get welcome => 'Welcome';
+
+  @override
+  String get goodbye => 'Goodbye';
+
+  @override
+  String get thankYou => 'Thank You';
+
+  @override
+  String get congratulations => 'Congratulations!';
+
+  @override
+  String get savedSuccessfully => 'Saved successfully';
+
+  @override
+  String get deletedSuccessfully => 'Deleted successfully';
+
+  @override
+  String get updatedSuccessfully => 'Updated successfully';
+
+  @override
+  String get sentSuccessfully => 'Sent successfully';
+
+  @override
+  String get uploadedSuccessfully => 'Uploaded successfully';
+
+  @override
+  String get downloadComplete => 'Download complete';
+
+  @override
+  String get operationFailed => 'Operation failed';
+
+  @override
+  String get sessionExpired => 'Session expired';
+
+  @override
+  String get sessionExpiredMessage =>
+      'Your session has expired. Please log in again.';
+
+  @override
+  String get timeout => 'Request timed out';
+
+  @override
+  String get serverError => 'Server error';
+
+  @override
+  String get networkError => 'Network error';
+
+  @override
+  String get unknownError => 'Unknown error';
+
+  @override
+  String get pullToRefresh => 'Pull to refresh';
+
+  @override
+  String get releaseToRefresh => 'Release to refresh';
+
+  @override
+  String get loadingMore => 'Loading more...';
+
+  @override
+  String get noMoreItems => 'No more items';
+
+  @override
+  String get emptyHere => 'It\'s empty here';
+
+  @override
+  String get nothingToShow => 'Nothing to show';
+
+  @override
+  String get getStartedMessage => 'Get started by adding your first item';
+
+  @override
+  String get tapToRetry => 'Tap to retry';
+
+  @override
+  String get swipeToDelete => 'Swipe to delete';
+
+  @override
+  String get logoutConfirmTitle => 'Log Out';
+
+  @override
+  String get logoutConfirmMessage => 'Are you sure you want to log out?';
+
+  @override
+  String get deleteAccountConfirmMessage =>
+      'Are you sure you want to delete your account? This action is permanent and cannot be undone.';
+
+  @override
+  String get termsAgreement =>
+      'By continuing, you agree to our Terms of Service and Privacy Policy.';
+
+  @override
+  String poweredBy(String name) {
+    return 'Powered by $name';
+  }
+
+  @override
+  String version_info(String version) {
+    return 'Version $version';
+  }
+
+  @override
+  String lastUpdated(String date) {
+    return 'Last updated: $date';
+  }
+
+  @override
+  String createdBy(String name) {
+    return 'Created by $name';
+  }
+
+  @override
   String get ok => 'OK';
 
   @override
@@ -457,6 +796,20 @@ class UiKitLocalizationsEn extends UiKitLocalizations {
   String get goBack => 'Go Back';
 
   @override
+  String get noticePinned => 'Notice';
+
+  @override
+  String noticeCommentsCount(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count Comments',
+      one: '1 Comment',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String get settings => 'Settings';
 
   @override
@@ -587,459 +940,6 @@ class UiKitLocalizationsEn extends UiKitLocalizations {
 
   @override
   String get settingsAutoLock => 'Auto Lock';
-
-  @override
-  String get areYouSure => 'Are you sure?';
-
-  @override
-  String get deleteConfirmTitle => 'Delete';
-
-  @override
-  String get deleteConfirmMessage =>
-      'Are you sure you want to delete this? This action cannot be undone.';
-
-  @override
-  String get unsavedChanges => 'You have unsaved changes';
-
-  @override
-  String get unsavedChangesMessage =>
-      'Do you want to save your changes before leaving?';
-
-  @override
-  String get discardChanges => 'Discard Changes';
-
-  @override
-  String get saveChanges => 'Save Changes';
-
-  @override
-  String get copiedToClipboard => 'Copied to clipboard';
-
-  @override
-  String get noInternetConnection => 'No internet connection';
-
-  @override
-  String get checkConnection =>
-      'Please check your internet connection and try again.';
-
-  @override
-  String get tryAgainLater => 'Please try again later';
-
-  @override
-  String get somethingWentWrong => 'Something went wrong';
-
-  @override
-  String get permissionDenied => 'Permission denied';
-
-  @override
-  String get accessDenied => 'Access denied';
-
-  @override
-  String get notFound => 'Not found';
-
-  @override
-  String get pageNotFound => 'Page not found';
-
-  @override
-  String get comingSoon => 'Coming Soon';
-
-  @override
-  String get underMaintenance => 'Under Maintenance';
-
-  @override
-  String get updateAvailable => 'Update Available';
-
-  @override
-  String get updateNow => 'Update Now';
-
-  @override
-  String get later => 'Later';
-
-  @override
-  String get welcomeBack => 'Welcome Back';
-
-  @override
-  String get welcome => 'Welcome';
-
-  @override
-  String get goodbye => 'Goodbye';
-
-  @override
-  String get thankYou => 'Thank You';
-
-  @override
-  String get congratulations => 'Congratulations!';
-
-  @override
-  String get savedSuccessfully => 'Saved successfully';
-
-  @override
-  String get deletedSuccessfully => 'Deleted successfully';
-
-  @override
-  String get updatedSuccessfully => 'Updated successfully';
-
-  @override
-  String get sentSuccessfully => 'Sent successfully';
-
-  @override
-  String get uploadedSuccessfully => 'Uploaded successfully';
-
-  @override
-  String get downloadComplete => 'Download complete';
-
-  @override
-  String get operationFailed => 'Operation failed';
-
-  @override
-  String get sessionExpired => 'Session expired';
-
-  @override
-  String get sessionExpiredMessage =>
-      'Your session has expired. Please log in again.';
-
-  @override
-  String get timeout => 'Request timed out';
-
-  @override
-  String get serverError => 'Server error';
-
-  @override
-  String get networkError => 'Network error';
-
-  @override
-  String get unknownError => 'Unknown error';
-
-  @override
-  String get pullToRefresh => 'Pull to refresh';
-
-  @override
-  String get releaseToRefresh => 'Release to refresh';
-
-  @override
-  String get loadingMore => 'Loading more...';
-
-  @override
-  String get noMoreItems => 'No more items';
-
-  @override
-  String get emptyHere => 'It\'s empty here';
-
-  @override
-  String get nothingToShow => 'Nothing to show';
-
-  @override
-  String get getStartedMessage => 'Get started by adding your first item';
-
-  @override
-  String get tapToRetry => 'Tap to retry';
-
-  @override
-  String get swipeToDelete => 'Swipe to delete';
-
-  @override
-  String get logoutConfirmTitle => 'Log Out';
-
-  @override
-  String get logoutConfirmMessage => 'Are you sure you want to log out?';
-
-  @override
-  String get deleteAccountConfirmMessage =>
-      'Are you sure you want to delete your account? This action is permanent and cannot be undone.';
-
-  @override
-  String get termsAgreement =>
-      'By continuing, you agree to our Terms of Service and Privacy Policy.';
-
-  @override
-  String poweredBy(String name) {
-    return 'Powered by $name';
-  }
-
-  @override
-  String version_info(String version) {
-    return 'Version $version';
-  }
-
-  @override
-  String lastUpdated(String date) {
-    return 'Last updated: $date';
-  }
-
-  @override
-  String createdBy(String name) {
-    return 'Created by $name';
-  }
-
-  @override
-  String get login => 'Log In';
-
-  @override
-  String get logout => 'Log Out';
-
-  @override
-  String get signUp => 'Sign Up';
-
-  @override
-  String get signIn => 'Sign In';
-
-  @override
-  String get signOut => 'Sign Out';
-
-  @override
-  String get register => 'Register';
-
-  @override
-  String get email => 'Email';
-
-  @override
-  String get password => 'Password';
-
-  @override
-  String get confirmPassword => 'Confirm Password';
-
-  @override
-  String get currentPassword => 'Current Password';
-
-  @override
-  String get newPassword => 'New Password';
-
-  @override
-  String get username => 'Username';
-
-  @override
-  String get phoneNumber => 'Phone Number';
-
-  @override
-  String get forgotPassword => 'Forgot Password?';
-
-  @override
-  String get resetPassword => 'Reset Password';
-
-  @override
-  String get changePassword => 'Change Password';
-
-  @override
-  String get rememberMe => 'Remember Me';
-
-  @override
-  String get staySignedIn => 'Stay Signed In';
-
-  @override
-  String get orContinueWith => 'Or continue with';
-
-  @override
-  String get signInWithGoogle => 'Sign in with Google';
-
-  @override
-  String get signInWithApple => 'Sign in with Apple';
-
-  @override
-  String get signInWithFacebook => 'Sign in with Facebook';
-
-  @override
-  String get createAccount => 'Create Account';
-
-  @override
-  String get alreadyHaveAccount => 'Already have an account?';
-
-  @override
-  String get dontHaveAccount => 'Don\'t have an account?';
-
-  @override
-  String get verificationCode => 'Verification Code';
-
-  @override
-  String get sendCode => 'Send Code';
-
-  @override
-  String get resendCode => 'Resend Code';
-
-  @override
-  String get verifyEmail => 'Verify Email';
-
-  @override
-  String get verifyPhone => 'Verify Phone';
-
-  @override
-  String get resetPasswordSent => 'Password reset email sent';
-
-  @override
-  String get resetPasswordInstruction =>
-      'Enter your email and we\'ll send you a link to reset your password.';
-
-  @override
-  String get accountCreated => 'Account created successfully';
-
-  @override
-  String get loginFailed => 'Login failed';
-
-  @override
-  String get invalidCredentials => 'Invalid email or password';
-
-  @override
-  String get accountLocked => 'Account locked';
-
-  @override
-  String get accountDeactivated => 'Account deactivated';
-
-  @override
-  String get passwordChanged => 'Password changed successfully';
-
-  @override
-  String get profileUpdated => 'Profile updated';
-
-  @override
-  String get firstName => 'First Name';
-
-  @override
-  String get lastName => 'Last Name';
-
-  @override
-  String get displayName => 'Display Name';
-
-  @override
-  String get bio => 'Bio';
-
-  @override
-  String get birthday => 'Birthday';
-
-  @override
-  String get gender => 'Gender';
-
-  @override
-  String get male => 'Male';
-
-  @override
-  String get female => 'Female';
-
-  @override
-  String get other => 'Other';
-
-  @override
-  String get preferNotToSay => 'Prefer not to say';
-
-  @override
-  String get editProfile => 'Edit Profile';
-
-  @override
-  String get changeProfilePhoto => 'Change Profile Photo';
-
-  @override
-  String get deleteAccount => 'Delete Account';
-
-  @override
-  String get fieldRequired => 'This field is required';
-
-  @override
-  String fieldRequiredNamed(String field) {
-    return '$field is required';
-  }
-
-  @override
-  String get invalidEmail => 'Please enter a valid email address';
-
-  @override
-  String get invalidPhone => 'Please enter a valid phone number';
-
-  @override
-  String get invalidUrl => 'Please enter a valid URL';
-
-  @override
-  String passwordTooShort(int min) {
-    return 'Password must be at least $min characters';
-  }
-
-  @override
-  String get passwordTooWeak => 'Password is too weak';
-
-  @override
-  String get passwordRequirements =>
-      'Password must contain at least one uppercase letter, one lowercase letter, and one number';
-
-  @override
-  String get passwordsDoNotMatch => 'Passwords do not match';
-
-  @override
-  String get invalidInput => 'Invalid input';
-
-  @override
-  String tooShort(int min) {
-    return 'Must be at least $min characters';
-  }
-
-  @override
-  String tooLong(int max) {
-    return 'Must be at most $max characters';
-  }
-
-  @override
-  String characterCount(int current, int max) {
-    return '$current/$max';
-  }
-
-  @override
-  String minValue(String min) {
-    return 'Must be at least $min';
-  }
-
-  @override
-  String maxValue(String max) {
-    return 'Must be at most $max';
-  }
-
-  @override
-  String get invalidFormat => 'Invalid format';
-
-  @override
-  String get onlyNumbers => 'Only numbers are allowed';
-
-  @override
-  String get onlyLetters => 'Only letters are allowed';
-
-  @override
-  String get noSpecialCharacters => 'Special characters are not allowed';
-
-  @override
-  String alreadyExists(String field) {
-    return '$field already exists';
-  }
-
-  @override
-  String notAvailable(String field) {
-    return '$field is not available';
-  }
-
-  @override
-  String get invalidDate => 'Please enter a valid date';
-
-  @override
-  String dateTooEarly(String date) {
-    return 'Date must be after $date';
-  }
-
-  @override
-  String dateTooLate(String date) {
-    return 'Date must be before $date';
-  }
-
-  @override
-  String fileTooLarge(String size) {
-    return 'File size must be less than $size';
-  }
-
-  @override
-  String get unsupportedFileType => 'This file type is not supported';
-
-  @override
-  String maxItemsReached(int max) {
-    return 'Maximum of $max items allowed';
-  }
-
-  @override
-  String get pleaseFixErrors => 'Please fix the errors above';
-
-  @override
-  String get allFieldsRequired => 'All fields are required';
 
   @override
   String get today => 'Today';
@@ -1283,4 +1183,118 @@ class UiKitLocalizationsEn extends UiKitLocalizations {
 
   @override
   String get events => 'Events';
+
+  @override
+  String get fieldRequired => 'This field is required';
+
+  @override
+  String fieldRequiredNamed(String field) {
+    return '$field is required';
+  }
+
+  @override
+  String get invalidEmail => 'Please enter a valid email address';
+
+  @override
+  String get invalidPhone => 'Please enter a valid phone number';
+
+  @override
+  String get invalidUrl => 'Please enter a valid URL';
+
+  @override
+  String passwordTooShort(int min) {
+    return 'Password must be at least $min characters';
+  }
+
+  @override
+  String get passwordTooWeak => 'Password is too weak';
+
+  @override
+  String get passwordRequirements =>
+      'Password must contain at least one uppercase letter, one lowercase letter, and one number';
+
+  @override
+  String get passwordsDoNotMatch => 'Passwords do not match';
+
+  @override
+  String get invalidInput => 'Invalid input';
+
+  @override
+  String tooShort(int min) {
+    return 'Must be at least $min characters';
+  }
+
+  @override
+  String tooLong(int max) {
+    return 'Must be at most $max characters';
+  }
+
+  @override
+  String characterCount(int current, int max) {
+    return '$current/$max';
+  }
+
+  @override
+  String minValue(String min) {
+    return 'Must be at least $min';
+  }
+
+  @override
+  String maxValue(String max) {
+    return 'Must be at most $max';
+  }
+
+  @override
+  String get invalidFormat => 'Invalid format';
+
+  @override
+  String get onlyNumbers => 'Only numbers are allowed';
+
+  @override
+  String get onlyLetters => 'Only letters are allowed';
+
+  @override
+  String get noSpecialCharacters => 'Special characters are not allowed';
+
+  @override
+  String alreadyExists(String field) {
+    return '$field already exists';
+  }
+
+  @override
+  String notAvailable(String field) {
+    return '$field is not available';
+  }
+
+  @override
+  String get invalidDate => 'Please enter a valid date';
+
+  @override
+  String dateTooEarly(String date) {
+    return 'Date must be after $date';
+  }
+
+  @override
+  String dateTooLate(String date) {
+    return 'Date must be before $date';
+  }
+
+  @override
+  String fileTooLarge(String size) {
+    return 'File size must be less than $size';
+  }
+
+  @override
+  String get unsupportedFileType => 'This file type is not supported';
+
+  @override
+  String maxItemsReached(int max) {
+    return 'Maximum of $max items allowed';
+  }
+
+  @override
+  String get pleaseFixErrors => 'Please fix the errors above';
+
+  @override
+  String get allFieldsRequired => 'All fields are required';
 }

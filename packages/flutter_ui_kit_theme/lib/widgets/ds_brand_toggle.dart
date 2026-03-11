@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_ui_kit_widget/flutter_ui_kit_widget.dart';
 
 import '../brand/brand_a_theme.dart';
 import '../brand/brand_b_theme.dart';
-import '../tokens/app_motion.dart';
 
 /// Brand identity used by [DsBrandToggle].
 ///
@@ -125,58 +125,14 @@ class DsBrandToggle extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final cs = Theme.of(context).colorScheme;
-
-    return Semantics(
-      button: true,
-      label: '${brand.label} is active. Tap to switch to ${brand.next.label}.',
-      excludeSemantics: true,
-      child: Tooltip(
-        message: brand.label,
-        child: Material(
-          color: cs.surfaceContainerHigh,
-          shape: const StadiumBorder(),
-          clipBehavior: Clip.antiAlias,
-          child: InkWell(
-            onTap: () => onChanged(brand.next),
-            customBorder: const StadiumBorder(),
-            child: SizedBox.square(
-              dimension: sizedBoxDimension,
-              child: AnimatedSwitcher(
-                duration: AppMotion.standard,
-                switchInCurve: AppMotion.emphasizedDecel,
-                switchOutCurve: AppMotion.emphasizedAccel,
-                transitionBuilder: _buildTransition,
-                child: Icon(
-                  brand.icon,
-                  // ValueKey forces AnimatedSwitcher to treat each brand as
-                  // a distinct child, triggering the transition animation.
-                  key: ValueKey(brand),
-                  color: cs.primary,
-                  size: iconSize,
-                ),
-              ),
-            ),
-          ),
-        ),
-      ),
-    );
-  }
-
-  // ─── Transition ───────────────────────────────────────────────────────────
-
-  /// Incoming icon: fades in + scales up + rotates from 90° to 0°.
-  /// Outgoing icon: fades out + scales down + rotates from 0° to 90°.
-  static Widget _buildTransition(Widget child, Animation<double> animation) {
-    return ScaleTransition(
-      scale: Tween<double>(begin: 0.5, end: 1.0).animate(animation),
-      child: RotationTransition(
-        turns: Tween<double>(begin: 0.25, end: 0.0).animate(animation),
-        child: FadeTransition(
-          opacity: animation,
-          child: child,
-        ),
-      ),
+    return DsIconToggle(
+      icon: brand.icon,
+      iconKey: ValueKey(brand),
+      onTap: () => onChanged(brand.next),
+      semanticLabel: '${brand.label} is active. Tap to switch to ${brand.next.label}.',
+      tooltipMessage: brand.label,
+      sizedBoxDimension: sizedBoxDimension,
+      iconSize: iconSize,
     );
   }
 }
