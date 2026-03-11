@@ -12,10 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_theme:
-    path: ../flutter_ui_kit_theme
-  flutter_ui_kit_l10n:
-    path: ../flutter_ui_kit_l10n
+  flutter_ui_kit_theme: ^0.1.12
+  flutter_ui_kit_l10n: ^0.0.8
 
 dev_dependencies:
   flutter_test:

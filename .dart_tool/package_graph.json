@@ -34,7 +34,7 @@
     },
     {
       "name": "flutter_ui_kit_chat",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "dependencies": [
         "flutter"
       ],
@@ -45,7 +45,7 @@
     },
     {
       "name": "flutter_ui_kit_theme",
-      "version": "0.1.10",
+      "version": "0.1.12",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_widget",
@@ -58,7 +58,7 @@
     },
     {
       "name": "flutter_ui_kit_setting",
-      "version": "0.1.11+3",
+      "version": "0.1.11+5",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_theme",
@@ -114,7 +114,7 @@
     },
     {
       "name": "flutter_ui_kit_notice",
-      "version": "0.0.4+2",
+      "version": "0.0.5",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_l10n",

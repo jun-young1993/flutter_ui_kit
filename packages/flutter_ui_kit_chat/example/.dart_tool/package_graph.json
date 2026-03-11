@@ -42,7 +42,7 @@
     },
     {
       "name": "flutter_ui_kit_chat",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "dependencies": [
         "flutter"
       ]
