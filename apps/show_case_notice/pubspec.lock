@@ -101,28 +101,37 @@ packages:
     description:
       path: "packages/flutter_ui_kit_l10n"
       ref: HEAD
-      resolved-ref: "0c74289cc9a911a765fb0c004814076a0014c699"
+      resolved-ref: bce665e63467dc4456cbcba0383e9c216d005aa8
       url: "https://github.com/jun-young1993/flutter_ui_kit.git"
     source: git
-    version: "0.0.7"
+    version: "0.0.8"
   flutter_ui_kit_notice:
     dependency: "direct main"
     description:
       path: "packages/flutter_ui_kit_notice"
       ref: HEAD
-      resolved-ref: "0c74289cc9a911a765fb0c004814076a0014c699"
+      resolved-ref: bce665e63467dc4456cbcba0383e9c216d005aa8
       url: "https://github.com/jun-young1993/flutter_ui_kit.git"
     source: git
-    version: "0.0.3"
+    version: "0.0.4"
   flutter_ui_kit_theme:
     dependency: "direct main"
     description:
       path: "packages/flutter_ui_kit_theme"
       ref: HEAD
-      resolved-ref: "0c74289cc9a911a765fb0c004814076a0014c699"
+      resolved-ref: bce665e63467dc4456cbcba0383e9c216d005aa8
       url: "https://github.com/jun-young1993/flutter_ui_kit.git"
     source: git
-    version: "0.1.7"
+    version: "0.1.8"
+  flutter_ui_kit_widget:
+    dependency: transitive
+    description:
+      path: "packages/flutter_ui_kit_widget"
+      ref: HEAD
+      resolved-ref: bce665e63467dc4456cbcba0383e9c216d005aa8
+      url: "https://github.com/jun-young1993/flutter_ui_kit.git"
+    source: git
+    version: "0.0.2"
   flutter_web_plugins:
     dependency: transitive
     description: flutter

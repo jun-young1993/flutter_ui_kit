@@ -27,11 +27,11 @@ abstract final class AppColorSchemes {
     surfaceContainerLow:       const Color(0xFF090D18),
     surfaceContainer:          const Color(0xFF0B1220),
     surfaceContainerHigh:      AppColors.ink800,        // #0D1F3C
-    surfaceContainerHighest:   const Color(0xFF162540),
-    onSurface:                 AppColors.ink100,
-    onSurfaceVariant:          AppColors.ink300,
-    outline:                   AppColors.ink400,
-    outlineVariant:            AppColors.ink600,
+    surfaceContainerHighest:   const Color(0xFF1A2D4A),  // 더 뚜렷한 최고 레벨 표면
+    onSurface:                 AppColors.ink50,          // #F8F9FB — 더 밝은 본문
+    onSurfaceVariant:          AppColors.ink200,         // #D8DCE6 — 보조 텍스트 가시성↑
+    outline:                   AppColors.ink300,         // #B4BAC8 — 선명한 경계선
+    outlineVariant:            AppColors.ink500,         // #606B84 — 구분선 가시성↑ (was ink600)
     scrim:                     AppColors.scrim,
   );
 
