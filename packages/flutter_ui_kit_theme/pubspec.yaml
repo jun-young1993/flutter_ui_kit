@@ -14,9 +14,7 @@ dependencies:
     sdk: flutter
   shared_preferences: ^2.3.0
   flutter_ui_kit_widget:
-    git:
-      url: https://github.com/jun-young1993/flutter_ui_kit.git
-      path: packages/flutter_ui_kit_widget
+    path: ../flutter_ui_kit_widget
 
 dev_dependencies:
   flutter_test:
