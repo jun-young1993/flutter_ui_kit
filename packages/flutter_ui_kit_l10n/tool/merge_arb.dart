@@ -15,7 +15,15 @@ library;
 import 'dart:convert';
 import 'dart:io';
 
-const _namespaces = ['core', 'settings', 'common', 'auth', 'validation', 'time'];
+const _namespaces = [
+  'auth',
+  'common',  
+  'core', 
+  'notice',
+  'settings', 
+  'time',
+  'validation', 
+];
 const _locales = ['en', 'ko', 'ja'];
 const _arbDir = 'l10n';
 const _namespaceDir = 'l10n/namespaces';
