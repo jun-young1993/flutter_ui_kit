@@ -1,3 +1,7 @@
+## 0.1.12
+
+ - **FEAT**: path dependenci.
+
 ## 0.1.11
 
  - **FEAT**: bootstrap.
