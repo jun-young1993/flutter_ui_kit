@@ -1,6 +1,6 @@
 name: flutter_ui_kit_theme
 description: "Production-ready Material 3 design system for multi-app Flutter ecosystems. Supports light/dark mode, multi-brand overrides, and a full design token system."
-version: 0.1.13
+version: 0.1.14
 homepage:
 
 environment:
@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   shared_preferences: ^2.3.0
-  flutter_ui_kit_widget: ^0.0.2
+  flutter_ui_kit_widget: ^0.0.3
 
 dev_dependencies:
   flutter_test:
