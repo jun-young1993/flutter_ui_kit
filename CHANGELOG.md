@@ -15,6 +15,56 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.16`](#flutter_ui_kit_chat---v0116)
+ - [`flutter_ui_kit_notice` - `v0.0.6`](#flutter_ui_kit_notice---v006)
+ - [`flutter_ui_kit_setting` - `v0.1.12`](#flutter_ui_kit_setting---v0112)
+ - [`show_case_setting` - `v1.1.0`](#show_case_setting---v110)
+ - [`show_case_theme` - `v1.2.0`](#show_case_theme---v120)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.16`
+
+ - **FEAT**: melos 구조 변경.
+
+#### `flutter_ui_kit_notice` - `v0.0.6`
+
+ - **FEAT**: melos 구조 변경.
+
+#### `flutter_ui_kit_setting` - `v0.1.12`
+
+ - **FEAT**: melos 구조 변경.
+
+#### `show_case_setting` - `v1.1.0`
+
+ - **FEAT**: melos 구조 변경.
+ - **FEAT**: flutter ui kit Initial Release.
+ - **FEAT**: theme 저장 기능.
+ - **FEAT**: theme 추가.
+ - **FEAT**: setting 라이브러리 기능 위젯 추가.
+ - **FEAT**: 세팅 라이브러리에 브랜드 테마 추가.
+ - **FEAT**: setting initialize.
+
+#### `show_case_theme` - `v1.2.0`
+
+ - **FEAT**: dsBuilder brand 추가.
+ - **FEAT**: theme 저장 기능.
+ - **FEAT**: theme 추가.
+ - **FEAT**: setting initialize.
+
+
+## 2026-03-11
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_notice` - `v0.0.5`](#flutter_ui_kit_notice---v005)
  - [`flutter_ui_kit_theme` - `v0.1.12`](#flutter_ui_kit_theme---v0112)
  - [`flutter_ui_kit_setting` - `v0.1.11+5`](#flutter_ui_kit_setting---v01115)

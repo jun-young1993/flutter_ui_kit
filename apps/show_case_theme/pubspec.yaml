@@ -2,7 +2,7 @@ name: show_case_theme
 description: "Design system showcase app for flutter_ui_kit_theme."
 publish_to: 'none'
 
-version: 1.1.0
+version: 1.2.0
 
 environment:
   sdk: ^3.10.7

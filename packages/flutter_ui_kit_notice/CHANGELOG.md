@@ -1,3 +1,7 @@
+## 0.0.6
+
+ - **FEAT**: melos 구조 변경.
+
 ## 0.0.5
 
  - **FEAT**: path dependenci.

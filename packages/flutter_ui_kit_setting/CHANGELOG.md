@@ -1,3 +1,7 @@
+## 0.1.12
+
+ - **FEAT**: melos 구조 변경.
+
 ## 0.1.11+5
 
  - Update a dependency to the latest release.
