@@ -15,6 +15,45 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.17`](#flutter_ui_kit_chat---v0117)
+ - [`flutter_ui_kit_theme` - `v0.1.13`](#flutter_ui_kit_theme---v0113)
+ - [`flutter_ui_kit_setting` - `v0.1.12+1`](#flutter_ui_kit_setting---v01121)
+ - [`show_case_theme` - `v1.2.1`](#show_case_theme---v121)
+ - [`show_case_setting` - `v1.1.1`](#show_case_setting---v111)
+ - [`flutter_ui_kit_notice` - `v0.0.6+1`](#flutter_ui_kit_notice---v0061)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flutter_ui_kit_setting` - `v0.1.12+1`
+ - `show_case_theme` - `v1.2.1`
+ - `show_case_setting` - `v1.1.1`
+ - `flutter_ui_kit_notice` - `v0.0.6+1`
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.17`
+
+ - **FEAT**: thmem 가시성 수정.
+
+#### `flutter_ui_kit_theme` - `v0.1.13`
+
+ - **FEAT**: thmem 가시성 수정.
+
+
+## 2026-03-11
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.16`](#flutter_ui_kit_chat---v0116)
  - [`flutter_ui_kit_notice` - `v0.0.6`](#flutter_ui_kit_notice---v006)
  - [`flutter_ui_kit_setting` - `v0.1.12`](#flutter_ui_kit_setting---v0112)

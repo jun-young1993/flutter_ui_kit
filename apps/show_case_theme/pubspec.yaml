@@ -2,7 +2,7 @@ name: show_case_theme
 description: "Design system showcase app for flutter_ui_kit_theme."
 publish_to: 'none'
 
-version: 1.2.0
+version: 1.2.1
 
 environment:
   sdk: ^3.10.7
@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_ui_kit_theme: ^0.1.12
+  flutter_ui_kit_theme: ^0.1.13
 
 dev_dependencies:
   flutter_test:

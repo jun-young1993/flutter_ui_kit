@@ -1,3 +1,7 @@
+## 0.1.13
+
+ - **FEAT**: thmem 가시성 수정.
+
 ## 0.1.12
 
  - **FEAT**: path dependenci.
