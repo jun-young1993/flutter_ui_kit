@@ -7,6 +7,7 @@
     "flutter_ui_kit_notice",
     "flutter_ui_kit_setting",
     "flutter_ui_kit_theme",
+    "flutter_ui_kit_widget",
     "show_case_setting",
     "show_case_theme"
   ],
@@ -33,7 +34,7 @@
     },
     {
       "name": "flutter_ui_kit_chat",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "dependencies": [
         "flutter"
       ],
@@ -47,6 +48,7 @@
       "version": "0.1.7",
       "dependencies": [
         "flutter",
+        "flutter_ui_kit_widget",
         "shared_preferences"
       ],
       "devDependencies": [
@@ -71,7 +73,7 @@
     },
     {
       "name": "flutter_ui_kit_l10n",
-      "version": "0.0.5",
+      "version": "0.0.7",
       "dependencies": [
         "flutter",
         "flutter_localizations",
@@ -115,7 +117,19 @@
       "version": "0.0.3",
       "dependencies": [
         "flutter",
+        "flutter_ui_kit_l10n",
         "flutter_ui_kit_theme"
+      ],
+      "devDependencies": [
+        "flutter_lints",
+        "flutter_test"
+      ]
+    },
+    {
+      "name": "flutter_ui_kit_widget",
+      "version": "0.0.1",
+      "dependencies": [
+        "flutter"
       ],
       "devDependencies": [
         "flutter_lints",

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ui_kit_theme/flutter_ui_kit_theme.dart';
 import 'package:flutter_ui_kit_notice/flutter_ui_kit_notice.dart';
+import 'package:flutter_ui_kit_l10n/flutter_ui_kit_l10n.dart';
 
 import 'data/sample_data.dart';
 import 'screens/post_detail_screen.dart';
@@ -26,6 +27,8 @@ class MyApp extends StatelessWidget {
         theme: themeController.lightTheme,
         darkTheme: themeController.darkTheme,
         themeMode: themeController.themeMode,
+        localizationsDelegates: UiKitLocalizations.localizationsDelegates,
+        supportedLocales: UiKitLocalizations.supportedLocales,
         home: BoardScreen(themeController: themeController),
       ),
     );

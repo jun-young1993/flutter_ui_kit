@@ -672,6 +672,12 @@
       "rootUri": "../packages/flutter_ui_kit_notice",
       "packageUri": "lib/",
       "languageVersion": "3.5"
+    },
+    {
+      "name": "flutter_ui_kit_widget",
+      "rootUri": "../packages/flutter_ui_kit_widget",
+      "packageUri": "lib/",
+      "languageVersion": "3.5"
     }
   ],
   "generator": "pub",

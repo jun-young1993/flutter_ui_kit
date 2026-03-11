@@ -7,7 +7,14 @@
       "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && melos l10n 2>&1)",
       "Bash(dart pub:*)",
       "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && dart run melos l10n 2>&1)",
-      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && /c/Users/junyoung/AppData/Local/Pub/Cache/bin/melos.bat run l10n 2>&1)"
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && /c/Users/junyoung/AppData/Local/Pub/Cache/bin/melos.bat run l10n 2>&1)",
+      "Read(//c/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_l10n/**)",
+      "Bash(flutter gen-l10n:*)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_notice && flutter pub get 2>&1)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_notice && flutter analyze 2>&1)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && flutter pub get 2>&1)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_widget && flutter analyze 2>&1)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_theme && flutter analyze lib/widgets/ds_brand_toggle.dart lib/widgets/ds_theme_toggle.dart 2>&1)"
     ]
   }
 }
