@@ -15,6 +15,27 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_l10n` - `v0.0.7`](#flutter_ui_kit_l10n---v007)
+
+---
+
+#### `flutter_ui_kit_l10n` - `v0.0.7`
+
+ - **FEAT**: notice lan pack.
+
+
+## 2026-03-11
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.11`](#flutter_ui_kit_chat---v0111)
  - [`flutter_ui_kit_l10n` - `v0.0.6`](#flutter_ui_kit_l10n---v006)
 

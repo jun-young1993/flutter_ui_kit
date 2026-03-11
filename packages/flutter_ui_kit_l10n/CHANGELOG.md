@@ -1,3 +1,7 @@
+## 0.0.7
+
+ - **FEAT**: notice lan pack.
+
 ## 0.0.6
 
  - **FEAT**: notice l10n.
