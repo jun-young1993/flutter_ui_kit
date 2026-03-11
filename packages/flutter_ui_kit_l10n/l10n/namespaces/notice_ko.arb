@@ -1,0 +1,13 @@
+{
+  "@@locale": "ko",
+  "@@description": "Notice board specific strings",
+
+  "noticePinned": "공지",
+  "@noticePinned": { "description": "고정 게시글에 표시되는 레이블" },
+
+  "noticeCommentsCount": "댓글 {count}",
+  "@noticeCommentsCount": {
+    "description": "게시글 뷰의 댓글 수 레이블",
+    "placeholders": { "count": { "type": "int" } }
+  }
+}

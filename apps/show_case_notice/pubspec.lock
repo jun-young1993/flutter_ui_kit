@@ -91,6 +91,15 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_ui_kit_notice:
+    dependency: "direct main"
+    description:
+      path: "packages/flutter_ui_kit_notice"
+      ref: HEAD
+      resolved-ref: "369787d585469b83a18d73f110205b2f19a852ec"
+      url: "https://github.com/jun-young1993/flutter_ui_kit.git"
+    source: git
+    version: "0.0.3"
   flutter_ui_kit_theme:
     dependency: "direct main"
     description:

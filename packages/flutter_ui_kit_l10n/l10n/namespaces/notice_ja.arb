@@ -1,0 +1,13 @@
+{
+  "@@locale": "ja",
+  "@@description": "Notice board specific strings",
+
+  "noticePinned": "お知らせ",
+  "@noticePinned": { "description": "固定投稿に表示するラベル" },
+
+  "noticeCommentsCount": "コメント {count}件",
+  "@noticeCommentsCount": {
+    "description": "投稿ビューのコメント数ラベル",
+    "placeholders": { "count": { "type": "int" } }
+  }
+}

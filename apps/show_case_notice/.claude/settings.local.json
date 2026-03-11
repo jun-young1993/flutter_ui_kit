@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(find \"C:\\\\Users\\\\junyoung\\\\junyoung\\\\source\\\\flutter_ui_kit\\\\apps\\\\show_case_notice\" -type f -name \"*.dart\" -o -name \"*.yaml\" -o -name \"*.yml\" | grep -E \"\\\\.\\(dart|yaml|yml\\)$\" | sort)",
-      "Bash(grep -E \"\\\\.\\(dart|yaml|yml\\)$\")"
+      "Bash(grep -E \"\\\\.\\(dart|yaml|yml\\)$\")",
+      "Bash(find C:/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_notice/lib/src -name \"*.dart\" | xargs grep -l \"String\\\\|label\\\\|text\\\\|title\" 2>/dev/null | head -10)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && melos l10n 2>&1)",
+      "Bash(dart pub:*)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && dart run melos l10n 2>&1)",
+      "Bash(cd C:/Users/junyoung/junyoung/source/flutter_ui_kit && /c/Users/junyoung/AppData/Local/Pub/Cache/bin/melos.bat run l10n 2>&1)"
     ]
   }
 }

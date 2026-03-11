@@ -1,0 +1,13 @@
+{
+  "@@locale": "en",
+  "@@description": "Notice board specific strings",
+
+  "noticePinned": "Notice",
+  "@noticePinned": { "description": "Label shown on pinned posts" },
+
+  "noticeCommentsCount": "{count, plural, =1{1 Comment} other{{count} Comments}}",
+  "@noticeCommentsCount": {
+    "description": "Comment count label in post view",
+    "placeholders": { "count": { "type": "int" } }
+  }
+}
