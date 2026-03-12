@@ -15,6 +15,41 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.22`](#flutter_ui_kit_chat---v0122)
+ - [`flutter_ui_kit_setting` - `v0.1.15`](#flutter_ui_kit_setting---v0115)
+ - [`show_case_chat` - `v0.1.1+4`](#show_case_chat---v0114)
+ - [`show_case_setting` - `v1.1.6`](#show_case_setting---v116)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `show_case_chat` - `v0.1.1+4`
+ - `show_case_setting` - `v1.1.6`
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.22`
+
+ - **FEAT**: melos.
+
+#### `flutter_ui_kit_setting` - `v0.1.15`
+
+ - **FEAT**: melos.
+
+
+## 2026-03-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.21`](#flutter_ui_kit_chat---v0121)
  - [`flutter_ui_kit_setting` - `v0.1.14`](#flutter_ui_kit_setting---v0114)
  - [`show_case_chat` - `v0.1.1+3`](#show_case_chat---v0113)
