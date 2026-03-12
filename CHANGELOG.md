@@ -15,6 +15,45 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.20`](#flutter_ui_kit_chat---v0120)
+ - [`flutter_ui_kit_l10n` - `v0.0.11`](#flutter_ui_kit_l10n---v0011)
+ - [`show_case_chat` - `v0.1.1+2`](#show_case_chat---v0112)
+ - [`flutter_ui_kit_notice` - `v0.0.7+2`](#flutter_ui_kit_notice---v0072)
+ - [`show_case_notice` - `v1.2.1`](#show_case_notice---v121)
+ - [`show_case_setting` - `v1.1.4`](#show_case_setting---v114)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `show_case_chat` - `v0.1.1+2`
+ - `flutter_ui_kit_notice` - `v0.0.7+2`
+ - `show_case_notice` - `v1.2.1`
+ - `show_case_setting` - `v1.1.4`
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.20`
+
+ - **FEAT**: 이름 버그 픽스.
+
+#### `flutter_ui_kit_l10n` - `v0.0.11`
+
+ - **FEAT**: 이름 버그 픽스.
+
+
+## 2026-03-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.19`](#flutter_ui_kit_chat---v0119)
  - [`flutter_ui_kit_l10n` - `v0.0.10`](#flutter_ui_kit_l10n---v0010)
  - [`show_case_notice` - `v1.2.0`](#show_case_notice---v120)
