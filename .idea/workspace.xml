@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.claude/settings.local.json" beforeDir="false" afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/melos_flutter_ui_kit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/melos_flutter_ui_kit.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_chat/melos_flutter_ui_kit_chat.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_l10n/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_l10n/pubspec.yaml" afterDir="false" />

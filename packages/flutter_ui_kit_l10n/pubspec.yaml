@@ -21,7 +21,7 @@ dependencies:
   flutter_ui_kit_widget:
     git:
       url: https://github.com/jun-young1993/flutter_ui_kit.git
-      path: packages/flutter_ui_kit_l10n
+      path: packages/flutter_ui_kit_widget
       ref: flutter_ui_kit_widget-v0.0.3
 
 dev_dependencies:
