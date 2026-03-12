@@ -1,7 +1,7 @@
 name: show_case_notice
 description: "Showcase app for flutter_ui_kit_notice package."
 publish_to: none
-version: 1.2.1
+version: 1.2.2
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
@@ -12,9 +12,9 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  flutter_ui_kit_notice: ^0.0.7+2
-  flutter_ui_kit_theme: ^0.1.14
-  flutter_ui_kit_l10n: ^0.0.11
+  flutter_ui_kit_notice: ^0.0.7+3
+  flutter_ui_kit_theme: ^0.1.15
+  flutter_ui_kit_l10n: ^0.0.12
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,6 @@
 name: flutter_ui_kit_theme
 description: "Production-ready Material 3 design system for multi-app Flutter ecosystems. Supports light/dark mode, multi-brand overrides, and a full design token system."
-version: 0.1.14
+version: 0.1.15
 homepage:
 
 environment:
