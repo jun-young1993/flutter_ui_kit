@@ -18,7 +18,11 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   intl: any
-  flutter_ui_kit_widget: ^0.0.3
+  flutter_ui_kit_widget:
+    git:
+      url: https://github.com/jun-young1993/flutter_ui_kit.git
+      path: packages/flutter_ui_kit_l10n
+      ref: flutter_ui_kit_widget-v0.0.3
 
 dev_dependencies:
   flutter_test:

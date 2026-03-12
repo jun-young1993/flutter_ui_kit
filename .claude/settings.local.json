@@ -9,7 +9,8 @@
       "Bash(do echo \"=== $lang ===\")",
       "Read(//c/Users/junyoung/junyoung/source/flutter_ui_kit/packages/flutter_ui_kit_l10n/lib/src/generated/**)",
       "Bash(done)",
-      "Bash(dart analyze:*)"
+      "Bash(dart analyze:*)",
+      "Bash(git ls-remote:*)"
     ]
   }
 }
