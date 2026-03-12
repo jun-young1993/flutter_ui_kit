@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4233097-f084-4bf9-b0cd-bc52d8345aca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/flutter_ui_kit_l10n/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/packages/flutter_ui_kit_l10n/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
