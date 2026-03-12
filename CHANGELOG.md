@@ -3,6 +3,53 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-12
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_chat` - `v0.1.19`](#flutter_ui_kit_chat---v0119)
+ - [`flutter_ui_kit_l10n` - `v0.0.10`](#flutter_ui_kit_l10n---v0010)
+ - [`show_case_notice` - `v1.2.0`](#show_case_notice---v120)
+ - [`show_case_theme` - `v1.3.0`](#show_case_theme---v130)
+ - [`show_case_chat` - `v0.1.1+1`](#show_case_chat---v0111)
+ - [`flutter_ui_kit_notice` - `v0.0.7+1`](#flutter_ui_kit_notice---v0071)
+ - [`show_case_setting` - `v1.1.3`](#show_case_setting---v113)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `show_case_chat` - `v0.1.1+1`
+ - `flutter_ui_kit_notice` - `v0.0.7+1`
+ - `show_case_setting` - `v1.1.3`
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.19`
+
+ - **FEAT**: 버전 변경.
+
+#### `flutter_ui_kit_l10n` - `v0.0.10`
+
+ - **FEAT**: 버전 변경.
+
+#### `show_case_notice` - `v1.2.0`
+
+ - **FEAT**: 버전 변경.
+
+#### `show_case_theme` - `v1.3.0`
+
+ - **FEAT**: 버전 변경.
+
+
 ## 2026-03-11
 
 ### Changes

@@ -1,3 +1,7 @@
+## 1.3.0
+
+ - **FEAT**: 버전 변경.
+
 ## 1.2.2
 
  - Update a dependency to the latest release.
