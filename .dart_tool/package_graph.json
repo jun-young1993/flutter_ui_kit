@@ -24,7 +24,7 @@
     },
     {
       "name": "flutter_ui_kit_google_mobile_ads",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "dependencies": [
         "flutter",
         "google_mobile_ads"
@@ -36,7 +36,7 @@
     },
     {
       "name": "flutter_ui_kit_chat",
-      "version": "0.1.22",
+      "version": "0.1.23",
       "dependencies": [
         "flutter"
       ],
@@ -47,7 +47,7 @@
     },
     {
       "name": "flutter_ui_kit_theme",
-      "version": "0.1.14",
+      "version": "0.1.15",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_widget",
@@ -60,7 +60,7 @@
     },
     {
       "name": "flutter_ui_kit_setting",
-      "version": "0.1.15",
+      "version": "0.1.15+1",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_theme",
@@ -75,7 +75,7 @@
     },
     {
       "name": "flutter_ui_kit_l10n",
-      "version": "0.0.11",
+      "version": "0.0.12",
       "dependencies": [
         "flutter",
         "flutter_localizations",
@@ -89,7 +89,7 @@
     },
     {
       "name": "flutter_ui_kit_notice",
-      "version": "0.0.7+2",
+      "version": "0.0.7+3",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_l10n",
@@ -113,7 +113,7 @@
     },
     {
       "name": "show_case_chat",
-      "version": "0.1.1+4",
+      "version": "0.1.1+5",
       "dependencies": [
         "flutter",
         "flutter_ui_kit_chat"
@@ -125,7 +125,7 @@
     },
     {
       "name": "show_case_notice",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "dependencies": [
         "cupertino_icons",
         "flutter",
@@ -140,7 +140,7 @@
     },
     {
       "name": "show_case_setting",
-      "version": "1.1.6",
+      "version": "1.1.7",
       "dependencies": [
         "cupertino_icons",
         "flutter",
@@ -155,7 +155,7 @@
     },
     {
       "name": "show_case_theme",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "dependencies": [
         "cupertino_icons",
         "flutter",
@@ -559,7 +559,7 @@
     },
     {
       "name": "matcher",
-      "version": "0.12.18",
+      "version": "0.12.17",
       "dependencies": [
         "async",
         "meta",
@@ -570,7 +570,7 @@
     },
     {
       "name": "test_api",
-      "version": "0.7.9",
+      "version": "0.7.7",
       "dependencies": [
         "async",
         "boolean_selector",
@@ -590,14 +590,14 @@
     },
     {
       "name": "material_color_utilities",
-      "version": "0.13.0",
+      "version": "0.11.1",
       "dependencies": [
         "collection"
       ]
     },
     {
       "name": "characters",
-      "version": "1.4.1",
+      "version": "1.4.0",
       "dependencies": []
     },
     {

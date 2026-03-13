@@ -1,7 +1,9 @@
 name: flutter_ui_kit_widget
 description: "Reusable UI widget components for the flutter_ui_kit ecosystem."
 version: 0.0.3
-homepage:
+homepage: https://github.com/jun-young1993/flutter_ui_kit
+repository: https://github.com/jun-young1993/flutter_ui_kit
+issue_tracker: https://github.com/jun-young1993/flutter_ui_kit/issues
 
 environment:
   sdk: ">=3.5.0 <4.0.0"
