@@ -1,5 +1,5 @@
 name: flutter_ui_kit_setting
-description: "A reusable Flutter UI kit for application settings screens."
+description: "Flutter UI kit for settings screens. Composable tiles for theme/brand toggle, app version, email, sharing, and store links."
 version: 0.1.16
 
 homepage: https://github.com/jun-young1993/flutter_ui_kit

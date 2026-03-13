@@ -1,5 +1,5 @@
 name: flutter_ui_kit_google_mobile_ads
-description: "A new Flutter package project."
+description: "Flutter UI kit for Google Mobile Ads. Provides BannerAdWidget and AppOpenAdManager with global show/hide control."
 version: 0.1.15
 homepage: https://github.com/jun-young1993/flutter_ui_kit
 repository: https://github.com/jun-young1993/flutter_ui_kit
