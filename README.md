@@ -52,3 +52,11 @@ flutter pub upgrade flutter_ui_kit_google_mobile_ads
 ```shell
 flutter pub upgrade flutter_ui_kit_theme
 ```
+
+
+
+# Melos 명령어들
+
+melos bootstrap
+
+> 그러면 melos가 모든 로컬 패키지를 연결하고 종속성을 자동으로 업데이트 합니다. 터미널에서 다음과 같이 출력이 됩니다.
