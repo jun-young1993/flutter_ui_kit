@@ -60,3 +60,8 @@ flutter pub upgrade flutter_ui_kit_theme
 melos bootstrap
 
 > 그러면 melos가 모든 로컬 패키지를 연결하고 종속성을 자동으로 업데이트 합니다. 터미널에서 다음과 같이 출력이 됩니다.
+
+
+```shell
+melos publish --no-dry-run --git-tag-version --yes
+```
