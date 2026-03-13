@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 2026-03-13
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
+ - [`flutter_ui_kit_google_mobile_ads` - `v0.1.15`](#flutter_ui_kit_google_mobile_ads---v0115)
+
+---
+
+#### `flutter_ui_kit_google_mobile_ads` - `v0.1.15`
+
+ - **FEAT**: 구글 광고 쿨다운 추가.
+
+
 ## 2026-03-12
 
 ### Changes
