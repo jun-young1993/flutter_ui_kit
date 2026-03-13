@@ -12,6 +12,7 @@ import '../utils/global_ad_config.dart';
 /// - 앱 포그라운드 복귀 시 자동으로 광고를 표시한다.
 /// - 광고는 로드 후 4시간이 지나면 만료 처리되어 재로드된다.
 /// - 이미 광고가 표시 중이면 중복 노출하지 않는다.
+/// - 마지막 광고 표시로부터 [cooldown] 이내에는 재표시하지 않는다 (기본 1시간).
 class AppOpenAdManager with WidgetsBindingObserver {
   AppOpenAdManager._();
   static final AppOpenAdManager instance = AppOpenAdManager._();
@@ -19,7 +20,11 @@ class AppOpenAdManager with WidgetsBindingObserver {
   AppOpenAd? _ad;
   bool _isShowingAd = false;
   DateTime? _loadTime;
+  DateTime? _lastShownTime;
   bool _isConfigured = false;
+
+  /// 포그라운드 복귀 시 광고를 다시 표시하기까지 최소 대기 시간 (기본 1시간).
+  Duration cooldown = const Duration(hours: 1);
 
   String? _androidAdUnitId;
   String? _iosAdUnitId;
@@ -85,11 +90,17 @@ class AppOpenAdManager with WidgetsBindingObserver {
     );
   }
 
+  bool get _isCoolingDown =>
+      _lastShownTime != null &&
+      DateTime.now().difference(_lastShownTime!) < cooldown;
+
   /// 유효한 광고가 있으면 표시한다.
   /// 광고가 없거나 만료됐으면 새로 로드하고 이번 기회는 넘어간다.
+  /// 마지막 표시로부터 [cooldown] 이내이면 표시하지 않는다.
   void showAdIfAvailable() {
     if (_isShowingAd) return;
     if (!GlobalAdConfig().isShowAds.value) return;
+    if (_isCoolingDown) return;
 
     if (!_isAdAvailable) {
       loadAd();
@@ -97,7 +108,10 @@ class AppOpenAdManager with WidgetsBindingObserver {
     }
 
     _ad!.fullScreenContentCallback = FullScreenContentCallback(
-      onAdShowedFullScreenContent: (_) => _isShowingAd = true,
+      onAdShowedFullScreenContent: (_) {
+        _isShowingAd = true;
+        _lastShownTime = DateTime.now();
+      },
       onAdFailedToShowFullScreenContent: (ad, _) {
         _isShowingAd = false;
         ad.dispose();
