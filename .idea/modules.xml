@@ -9,6 +9,8 @@
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_setting/melos_flutter_ui_kit_setting.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_setting/melos_flutter_ui_kit_setting.iml"/>
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_theme/melos_flutter_ui_kit_theme.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_theme/melos_flutter_ui_kit_theme.iml"/>
 <module fileurl="file://$PROJECT_DIR$/packages/flutter_ui_kit_widget/melos_flutter_ui_kit_widget.iml" filepath="$PROJECT_DIR$/packages/flutter_ui_kit_widget/melos_flutter_ui_kit_widget.iml"/>
+<module fileurl="file://$PROJECT_DIR$/apps/show_case_chat/melos_show_case_chat.iml" filepath="$PROJECT_DIR$/apps/show_case_chat/melos_show_case_chat.iml"/>
+<module fileurl="file://$PROJECT_DIR$/apps/show_case_notice/melos_show_case_notice.iml" filepath="$PROJECT_DIR$/apps/show_case_notice/melos_show_case_notice.iml"/>
 <module fileurl="file://$PROJECT_DIR$/apps/show_case_setting/melos_show_case_setting.iml" filepath="$PROJECT_DIR$/apps/show_case_setting/melos_show_case_setting.iml"/>
 <module fileurl="file://$PROJECT_DIR$/apps/show_case_theme/melos_show_case_theme.iml" filepath="$PROJECT_DIR$/apps/show_case_theme/melos_show_case_theme.iml"/>
 <module fileurl="file://$PROJECT_DIR$/melos_flutter_ui_kit.iml" filepath="$PROJECT_DIR$/melos_flutter_ui_kit.iml"/>

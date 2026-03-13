@@ -1,3 +1,15 @@
+## 1.2.2
+
+ - Update a dependency to the latest release.
+
+## 1.2.1
+
+ - Update a dependency to the latest release.
+
+## 1.2.0
+
+ - **FEAT**: 버전 변경.
+
 ## 1.1.0
 
  - **FEAT**: 다듬기.
