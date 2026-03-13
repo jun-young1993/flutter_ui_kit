@@ -15,6 +15,49 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.24`](#flutter_ui_kit_chat---v0124)
+ - [`flutter_ui_kit_l10n` - `v0.0.13`](#flutter_ui_kit_l10n---v0013)
+ - [`flutter_ui_kit_notice` - `v0.0.8`](#flutter_ui_kit_notice---v008)
+ - [`flutter_ui_kit_setting` - `v0.1.16`](#flutter_ui_kit_setting---v0116)
+ - [`flutter_ui_kit_theme` - `v0.1.16`](#flutter_ui_kit_theme---v0116)
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.24`
+
+ - **FEAT**: 버전 수정.
+ - **FEAT**: theme 에서 종속중인 widget 버전 변경.
+
+#### `flutter_ui_kit_l10n` - `v0.0.13`
+
+ - **FEAT**: l10n intl 버전변경.
+ - **FEAT**: 버전 수정.
+
+#### `flutter_ui_kit_notice` - `v0.0.8`
+
+ - **FEAT**: 버전 수정.
+
+#### `flutter_ui_kit_setting` - `v0.1.16`
+
+ - **FEAT**: 버전 수정.
+
+#### `flutter_ui_kit_theme` - `v0.1.16`
+
+ - **FEAT**: theme 에서 종속중인 widget 버전 변경.
+
+
+## 2026-03-13
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_google_mobile_ads` - `v0.1.15`](#flutter_ui_kit_google_mobile_ads---v0115)
 
 ---
