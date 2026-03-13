@@ -98,34 +98,40 @@ class AppOpenAdManager with WidgetsBindingObserver {
   /// 광고가 없거나 만료됐으면 새로 로드하고 이번 기회는 넘어간다.
   /// 마지막 표시로부터 [cooldown] 이내이면 표시하지 않는다.
   void showAdIfAvailable() {
-    if (_isShowingAd) return;
-    if (!GlobalAdConfig().isShowAds.value) return;
-    if (_isCoolingDown) return;
+    try{
+      if (_isShowingAd) return;
+      if (!GlobalAdConfig().isShowAds.value) return;
+      if (_isCoolingDown) return;
 
-    if (!_isAdAvailable) {
-      loadAd();
-      return;
-    }
-
-    _ad!.fullScreenContentCallback = FullScreenContentCallback(
-      onAdShowedFullScreenContent: (_) {
-        _isShowingAd = true;
-        _lastShownTime = DateTime.now();
-      },
-      onAdFailedToShowFullScreenContent: (ad, _) {
-        _isShowingAd = false;
-        ad.dispose();
-        _ad = null;
+      if (!_isAdAvailable) {
         loadAd();
-      },
-      onAdDismissedFullScreenContent: (ad) {
-        _isShowingAd = false;
-        ad.dispose();
-        _ad = null;
-        loadAd(); // 다음 포그라운드를 위해 미리 로드
-      },
-    );
+        return;
+      }
 
-    _ad!.show();
+      _ad!.fullScreenContentCallback = FullScreenContentCallback(
+        onAdShowedFullScreenContent: (_) {
+          _isShowingAd = true;
+          _lastShownTime = DateTime.now();
+        },
+        onAdFailedToShowFullScreenContent: (ad, _) {
+          _isShowingAd = false;
+          ad.dispose();
+          _ad = null;
+          loadAd();
+        },
+        onAdDismissedFullScreenContent: (ad) {
+          _isShowingAd = false;
+          ad.dispose();
+          _ad = null;
+          loadAd(); // 다음 포그라운드를 위해 미리 로드
+        },
+      );
+
+      _ad!.show();
+    }catch(error){
+      debugPrint('[flutter_ui_kit_google_mobile_ads][오프닝광고][Exception]');
+      debugPrint(error.toString());
+    }
+    
   }
 }
