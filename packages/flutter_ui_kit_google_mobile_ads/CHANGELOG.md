@@ -1,3 +1,9 @@
+## 0.1.16
+
+ - **FEAT**: 구글 모바일 오프닝 광고 show Ad If avaliable 예외처리.
+ - **FEAT**: package description 추가.
+ - **FEAT**: 라이센스 추가.
+
 ## 0.1.15
 
  - **FEAT**: 구글 광고 쿨다운 추가.

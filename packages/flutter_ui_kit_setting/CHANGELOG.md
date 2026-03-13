@@ -1,3 +1,10 @@
+## 0.1.17
+
+ - **FEAT**: package description 추가.
+ - **FEAT**: README 추가.
+ - **FEAT**: 라이센스 추가.
+ - **FEAT**: Rename the top-level docs directory to doc.
+
 ## 0.1.16
 
  - **FEAT**: 버전 수정.

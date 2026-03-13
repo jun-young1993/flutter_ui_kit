@@ -1,3 +1,7 @@
+## 0.0.13+1
+
+ - Update a dependency to the latest release.
+
 ## 0.0.13
 
  - **FEAT**: l10n intl 버전변경.

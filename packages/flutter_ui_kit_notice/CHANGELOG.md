@@ -1,3 +1,8 @@
+## 0.0.9
+
+ - **FEAT**: 라이센스 추가.
+ - **FEAT**: Rename the top-level docs directory to doc.
+
 ## 0.0.8
 
  - **FEAT**: 버전 수정.

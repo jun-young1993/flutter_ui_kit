@@ -15,6 +15,66 @@ Packages with breaking changes:
 
 Packages with other changes:
 
+ - [`flutter_ui_kit_chat` - `v0.1.25`](#flutter_ui_kit_chat---v0125)
+ - [`flutter_ui_kit_google_mobile_ads` - `v0.1.16`](#flutter_ui_kit_google_mobile_ads---v0116)
+ - [`flutter_ui_kit_notice` - `v0.0.9`](#flutter_ui_kit_notice---v009)
+ - [`flutter_ui_kit_setting` - `v0.1.17`](#flutter_ui_kit_setting---v0117)
+ - [`flutter_ui_kit_theme` - `v0.1.17`](#flutter_ui_kit_theme---v0117)
+ - [`flutter_ui_kit_widget` - `v0.0.4`](#flutter_ui_kit_widget---v004)
+ - [`flutter_ui_kit_l10n` - `v0.0.13+1`](#flutter_ui_kit_l10n---v00131)
+
+Packages with dependency updates only:
+
+> Packages listed below depend on other packages in this workspace that have had changes. Their versions have been incremented to bump the minimum dependency versions of the packages they depend upon in this project.
+
+ - `flutter_ui_kit_l10n` - `v0.0.13+1`
+
+---
+
+#### `flutter_ui_kit_chat` - `v0.1.25`
+
+ - **FEAT**: melos 설정변경.
+
+#### `flutter_ui_kit_google_mobile_ads` - `v0.1.16`
+
+ - **FEAT**: 구글 모바일 오프닝 광고 show Ad If avaliable 예외처리.
+ - **FEAT**: package description 추가.
+ - **FEAT**: 라이센스 추가.
+
+#### `flutter_ui_kit_notice` - `v0.0.9`
+
+ - **FEAT**: 라이센스 추가.
+ - **FEAT**: Rename the top-level docs directory to doc.
+
+#### `flutter_ui_kit_setting` - `v0.1.17`
+
+ - **FEAT**: package description 추가.
+ - **FEAT**: README 추가.
+ - **FEAT**: 라이센스 추가.
+ - **FEAT**: Rename the top-level docs directory to doc.
+
+#### `flutter_ui_kit_theme` - `v0.1.17`
+
+ - **FEAT**: README 추가.
+ - **FEAT**: 라이센스 추가.
+
+#### `flutter_ui_kit_widget` - `v0.0.4`
+
+ - **FEAT**: 라이센스 추가.
+
+
+## 2026-03-13
+
+### Changes
+
+---
+
+Packages with breaking changes:
+
+ - There are no breaking changes in this release.
+
+Packages with other changes:
+
  - [`flutter_ui_kit_chat` - `v0.1.24`](#flutter_ui_kit_chat---v0124)
  - [`flutter_ui_kit_l10n` - `v0.0.13`](#flutter_ui_kit_l10n---v0013)
  - [`flutter_ui_kit_notice` - `v0.0.8`](#flutter_ui_kit_notice---v008)

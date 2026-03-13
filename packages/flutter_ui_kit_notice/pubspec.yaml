@@ -1,6 +1,6 @@
 name: flutter_ui_kit_notice
 description: "Premium Glassmorphism Notice Board UI Kit for Flutter. Reusable forum and community components."
-version: 0.0.8
+version: 0.0.9
 homepage: https://github.com/jun-young1993/flutter_ui_kit
 repository: https://github.com/jun-young1993/flutter_ui_kit
 issue_tracker: https://github.com/jun-young1993/flutter_ui_kit/issues
@@ -14,8 +14,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_theme: ^0.1.16
-  flutter_ui_kit_l10n: ^0.0.13
+  flutter_ui_kit_theme: ^0.1.17
+  flutter_ui_kit_l10n: ^0.0.13+1
 
 dev_dependencies:
   flutter_test:

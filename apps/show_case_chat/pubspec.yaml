@@ -11,7 +11,7 @@ resolution: workspace
 dependencies:
   flutter:
     sdk: flutter
-  flutter_ui_kit_chat: ^0.1.24
+  flutter_ui_kit_chat: ^0.1.25
 
 dev_dependencies:
   flutter_test:
